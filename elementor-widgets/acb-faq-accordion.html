@@ -296,8 +296,8 @@
 
 <script>
 (function () {
-    if (window.acbFaqAccordionInit) return;
-    window.acbFaqAccordionInit = true;
+    if (window.__acbFaqInlineBound) return;
+    window.__acbFaqInlineBound = true;
 
     function setAnswerHeight(wrap, open) {
         wrap.style.maxHeight = open ? wrap.scrollHeight + 'px' : '0px';
