@@ -1,0 +1,25 @@
+{
+  "created_categories": [
+    "cosmetics",
+    "food",
+    "product-boxes",
+    "pod-boxes",
+    "pharmaceutical-boxes"
+  ],
+  "deployed_doc_categories": [
+    "bakery-boxes",
+    "candle-boxes",
+    "cosmetics",
+    "event-boxes",
+    "food",
+    "mailer-boxes",
+    "pet-boxes",
+    "pharmaceutical-boxes",
+    "pod-boxes",
+    "popcorn-boxes",
+    "product-boxes",
+    "tuck-boxes"
+  ],
+  "skipped": [],
+  "doc_total": 12
+}

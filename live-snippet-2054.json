@@ -1,0 +1,72 @@
+﻿{
+    "id":  2054,
+    "date":  "2026-07-29T16:56:04",
+    "date_gmt":  "2026-07-29T16:56:04",
+    "guid":  {
+                 "rendered":  "https://americacustomboxes.com/?elementor_snippet=acb-single-product-mobile-css"
+             },
+    "modified":  "2026-07-29T16:58:28",
+    "modified_gmt":  "2026-07-29T16:58:28",
+    "slug":  "acb-single-product-mobile-css",
+    "status":  "publish",
+    "type":  "elementor_snippet",
+    "link":  "https://americacustomboxes.com/?elementor_snippet=acb-single-product-mobile-css",
+    "title":  {
+                  "rendered":  "ACB Single Product Mobile CSS"
+              },
+    "author":  1,
+    "template":  "",
+    "meta":  {
+                 "_acf_changed":  false,
+                 "_elementor_location":  "elementor_head",
+                 "_elementor_priority":  100,
+                 "_elementor_code":  ""
+             },
+    "acf":  [
+
+            ],
+    "_links":  {
+                   "self":  [
+                                {
+                                    "href":  "https://americacustomboxes.com/wp-json/wp/v2/elementor_snippet/2054",
+                                    "targetHints":  {
+                                                        "allow":  [
+                                                                      "GET",
+                                                                      "POST",
+                                                                      "PUT",
+                                                                      "PATCH",
+                                                                      "DELETE"
+                                                                  ]
+                                                    }
+                                }
+                            ],
+                   "collection":  [
+                                      {
+                                          "href":  "https://americacustomboxes.com/wp-json/wp/v2/elementor_snippet"
+                                      }
+                                  ],
+                   "about":  [
+                                 {
+                                     "href":  "https://americacustomboxes.com/wp-json/wp/v2/types/elementor_snippet"
+                                 }
+                             ],
+                   "author":  [
+                                  {
+                                      "embeddable":  true,
+                                      "href":  "https://americacustomboxes.com/wp-json/wp/v2/users/1"
+                                  }
+                              ],
+                   "wp:attachment":  [
+                                         {
+                                             "href":  "https://americacustomboxes.com/wp-json/wp/v2/media?parent=2054"
+                                         }
+                                     ],
+                   "curies":  [
+                                  {
+                                      "name":  "wp",
+                                      "href":  "https://api.w.org/{rel}",
+                                      "templated":  true
+                                  }
+                              ]
+               }
+}

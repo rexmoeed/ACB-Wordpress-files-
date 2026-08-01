@@ -1,0 +1,18 @@
+/*
+ * America Custom Boxes — Brand Palette
+ * Use these CSS variables in Elementor widgets and custom HTML blocks.
+ */
+
+:root {
+    /* Red */
+    --acb-red: #FF2E2E;
+    --acb-red-light: #FF5757;
+
+    /* Blue */
+    --acb-blue: #0049E9;
+    --acb-blue-light: #4A83FF;
+
+    /* Common */
+    --acb-white: #FFFFFF;
+    --acb-font: 'Titillium Web', sans-serif;
+}

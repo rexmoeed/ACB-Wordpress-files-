@@ -1,0 +1,192 @@
+<style>
+.acb-boxes-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+.acb-boxes-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+}
+.acb-boxes-card {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    border: 2px solid #ffffff;
+}
+.acb-boxes-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+.acb-boxes-card:hover img {
+    transform: scale(1.08);
+}
+.acb-boxes-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px 10px 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.acb-boxes-title {
+    margin: 0;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    font-family: 'Titillium Web', sans-serif;
+}
+.acb-boxes-quote-btn {
+    display: inline-block;
+    background-color: #FF2E2E;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    padding: 7px 18px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-family: 'Titillium Web', sans-serif;
+}
+.acb-boxes-quote-btn:hover {
+    background-color: #FF5757;
+    transform: translateY(-3px);
+    color: #ffffff;
+}
+
+@media (max-width: 991px) {
+    .acb-boxes-grid {
+        gap: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    .acb-boxes-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+    .acb-boxes-overlay {
+        padding: 8px;
+        gap: 4px;
+    }
+    .acb-boxes-title {
+        font-size: 12px;
+    }
+    .acb-boxes-quote-btn {
+        font-size: 11px;
+        padding: 6px 14px;
+    }
+}
+</style>
+
+<div class="acb-boxes-wrapper">
+    <div class="acb-boxes-grid">
+
+        <div class="acb-boxes-card">
+            <img src="http://localhost:10004/wp-content/uploads/2026/07/ChatGPT-Image-Jul-15-2026-04_59_18-PM.webp" alt="Christmas Boxes">
+            <div class="acb-boxes-overlay">
+                <h3 class="acb-boxes-title">Christmas Boxes</h3>
+                <a href="http://localhost:10004/get-quote/" class="acb-boxes-quote-btn">Get Quote</a>
+            </div>
+        </div>
+
+        <div class="acb-boxes-card">
+            <img src="http://localhost:10004/wp-content/uploads/2026/07/ChatGPT-Image-Jul-15-2026-04_51_10-PM.webp" alt="Mailer Boxes">
+            <div class="acb-boxes-overlay">
+                <h3 class="acb-boxes-title">Mailer Boxes</h3>
+                <a href="http://localhost:10004/get-quote/" class="acb-boxes-quote-btn">Get Quote</a>
+            </div>
+        </div>
+
+        <div class="acb-boxes-card">
+            <img src="http://localhost:10004/wp-content/uploads/2026/07/ChatGPT-Image-Jul-15-2026-02_51_12-AM.webp" alt="Pet Boxes">
+            <div class="acb-boxes-overlay">
+                <h3 class="acb-boxes-title">Pet Boxes</h3>
+                <a href="http://localhost:10004/get-quote/" class="acb-boxes-quote-btn">Get Quote</a>
+            </div>
+        </div>
+
+        <div class="acb-boxes-card">
+            <img src="http://localhost:10004/wp-content/uploads/2026/07/ChatGPT-Image-Jul-15-2026-01_44_16-AM.webp" alt="Pizza Boxes">
+            <div class="acb-boxes-overlay">
+                <h3 class="acb-boxes-title">Pizza Boxes</h3>
+                <a href="http://localhost:10004/get-quote/" class="acb-boxes-quote-btn">Get Quote</a>
+            </div>
+        </div>
+
+        <div class="acb-boxes-card">
+            <img src="http://localhost:10004/wp-content/uploads/2026/07/ChatGPT-Image-Jul-15-2026-01_11_30-AM.webp" alt="PopCorn Boxes">
+            <div class="acb-boxes-overlay">
+                <h3 class="acb-boxes-title">PopCorn Boxes</h3>
+                <a href="http://localhost:10004/get-quote/" class="acb-boxes-quote-btn">Get Quote</a>
+            </div>
+        </div>
+
+        <div class="acb-boxes-card">
+            <img src="http://localhost:10004/wp-content/uploads/2026/07/ChatGPT-Image-Jul-13-2026-08_13_26-PM.webp" alt="Rigid Boxes">
+            <div class="acb-boxes-overlay">
+                <h3 class="acb-boxes-title">Rigid Boxes</h3>
+                <a href="http://localhost:10004/get-quote/" class="acb-boxes-quote-btn">Get Quote</a>
+            </div>
+        </div>
+
+        <div class="acb-boxes-card">
+            <img src="http://localhost:10004/wp-content/uploads/2026/07/ChatGPT-Image-Jul-13-2026-05_58_13-PM.webp" alt="Stand Up Pouches">
+            <div class="acb-boxes-overlay">
+                <h3 class="acb-boxes-title">Stand Up Pouches</h3>
+                <a href="http://localhost:10004/get-quote/" class="acb-boxes-quote-btn">Get Quote</a>
+            </div>
+        </div>
+
+        <div class="acb-boxes-card">
+            <img src="http://localhost:10004/wp-content/uploads/2026/07/c8c373f1-80cc-4092-ae21-3c3ec3275558.webp" alt="Wine Packaging">
+            <div class="acb-boxes-overlay">
+                <h3 class="acb-boxes-title">Wine Packaging</h3>
+                <a href="http://localhost:10004/get-quote/" class="acb-boxes-quote-btn">Get Quote</a>
+            </div>
+        </div>
+
+        <div class="acb-boxes-card">
+            <img src="http://localhost:10004/wp-content/uploads/2026/07/ChatGPT-Image-Jul-15-2026-08_56_09-PM.webp" alt="Custom Kraft Boxes">
+            <div class="acb-boxes-overlay">
+                <h3 class="acb-boxes-title">Custom Kraft Boxes</h3>
+                <a href="http://localhost:10004/get-quote/" class="acb-boxes-quote-btn">Get Quote</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+if (!window.acbBoxesQuoteBtnInit) {
+    window.acbBoxesQuoteBtnInit = true;
+    document.addEventListener('click', function (e) {
+        var btn = e.target.closest('.acb-boxes-quote-btn');
+        if (btn) {
+            var target = document.getElementById('quote-form');
+            if (target) {
+                e.preventDefault();
+                target.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    });
+}
+</script>

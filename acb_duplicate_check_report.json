@@ -1,0 +1,666 @@
+{
+  "summary": {
+    "source_image_folders": 125,
+    "converted_webp_folders": 206,
+    "converted_total_webp_files": 1107,
+    "hot_products_in_wp": 83,
+    "total_wp_products": 83,
+    "hot_duplicate_titles_count": 0,
+    "hot_duplicate_slugs_count": 0,
+    "site_duplicate_titles_count": 0,
+    "site_duplicate_slugs_count": 0,
+    "duplicate_source_folder_names_count": 13,
+    "folder_to_product_matched": 34,
+    "folder_to_product_unmatched": 89,
+    "folder_multi_product_matches": 2,
+    "products_with_multiple_source_folders": 12,
+    "verdict": "DUPLICATION / OVERLAP FOUND",
+    "issues": [
+      "12 product(s) linked to multiple source folders"
+    ]
+  },
+  "hot_duplicate_titles": {},
+  "hot_duplicate_slugs": {},
+  "duplicate_source_folder_names": {
+    "muffinboxes": [
+      "Bakery\\ACB Muffin Boxes",
+      "Bakery\\Muffin Boxes"
+    ],
+    "pastryboxes": [
+      "Bakery\\ACB Pastry Boxes",
+      "Bakery\\Pastry Boxes"
+    ],
+    "pieboxes": [
+      "Bakery\\ACB Pie Boxes",
+      "Bakery\\Pie Boxes"
+    ],
+    "candleboxwithinsert": [
+      "candles\\ACB Candle Box With Insert",
+      "candles\\CANDLE BOX WITH INSERT"
+    ],
+    "cbdcandlepackaging": [
+      "candles\\ACB CBD Candle Packaging",
+      "candles\\CBD CANDLE PACKAGING"
+    ],
+    "luxurycandlepackaging": [
+      "candles\\ACB Luxury Candle packaging",
+      "candles\\Luxury Candle Packaging"
+    ],
+    "cbdstarterkitboxes": [
+      "CBD\\ACB Cbd Starter Kit bOXES",
+      "CBD\\CBD STARTER KIT BOXES"
+    ],
+    "cbdwindowdisplayboxes": [
+      "CBD\\ACB CBD Window  Display Boxes",
+      "CBD\\CBD WINDOW DISPLAY BOXES"
+    ],
+    "cbdcandydisplayboxes": [
+      "CBD\\ACB GUmies Edible\\ACB CBD Candy Display Boxes",
+      "CBD\\Gummies & Edibles\\CBD Candy Display Boxes"
+    ],
+    "customcbdcandyboxes": [
+      "CBD\\ACB GUmies Edible\\ACB Custom CBD Candy Boxes",
+      "CBD\\Gummies & Edibles\\Custom CBD Candy Boxes"
+    ],
+    "magneticclosurecbdboxes": [
+      "CBD\\ACB Magnetic Closure CBD Boxes",
+      "CBD\\Magnetic Closure CBD Boxes"
+    ],
+    "cbdlotionboxes": [
+      "CBD\\ACB Skincare & Tropicle\\ACB CBD Lotion Boxes",
+      "CBD\\Skincare & tropicles\\CBD LOTION BOXES"
+    ],
+    "customcbdbalmboxes": [
+      "CBD\\ACB Skincare & Tropicle\\ACB Custom CBD Balm Boxes",
+      "CBD\\Skincare & tropicles\\Custom CBD Balm Boxes"
+    ]
+  },
+  "unmatched_source_folders": [
+    "Bakery\\ACB Cinammon Roll",
+    "Bakery\\ACB Cupcack Box",
+    "Bakery\\ACB Custom 2 piece",
+    "Bakery\\ACB Custom Sweet Box",
+    "Bakery\\ACB Desert Box",
+    "Bakery\\ACB Drawer Slide Bakery",
+    "Bakery\\ACB Gable Bakery",
+    "Bakery\\ACB Handle Cake",
+    "Bakery\\ACB Luxury Bakery Gift",
+    "Bakery\\ACB Mini Cupcake",
+    "Bakery\\ACB Muffin Boxes",
+    "Bakery\\ACB Pastry Boxes",
+    "Bakery\\ACB Pie Boxes",
+    "Bakery\\ACB POP packaging",
+    "Bakery\\ACB Round Cake",
+    "Bakery\\ACB Shortbread",
+    "Bakery\\ACB SOS Caks bakery",
+    "Bakery\\ACB Window Cokies box",
+    "Bakery\\Cake Pop Packaging",
+    "Bakery\\Cinnamon Roll Packaging",
+    "Bakery\\Custom 2 Piece Truffle Boxes",
+    "Bakery\\Custom Sweet Boxes",
+    "Bakery\\Dessert Boxes",
+    "Bakery\\Drawer Slide Bakery Boxes",
+    "Bakery\\Gable Bakery Boxes",
+    "Bakery\\Handle Cake Boxes",
+    "Bakery\\luxury Bakery Gift Boxes",
+    "Bakery\\Mini Cupcake Boxes",
+    "Bakery\\Muffin Boxes",
+    "Bakery\\Pastry Boxes",
+    "Bakery\\Pie Boxes",
+    "Bakery\\Round Cake Boxes",
+    "Bakery\\Shortbread Packaging",
+    "Bakery\\SOS Bakery Bags",
+    "candles\\ACB Candle Box With Insert",
+    "candles\\ACB CBD candle display",
+    "candles\\ACB CBD Candle Packaging",
+    "candles\\ACB Custom 16 Wishes Candle",
+    "candles\\ACB Custom Votice",
+    "candles\\ACB Drawer (Sliding )Candle",
+    "candles\\ACB Tealight Canle",
+    "candles\\ACB Window Candle",
+    "candles\\CANDLE BOX WITH INSERT",
+    "candles\\candle display boxes",
+    "candles\\CANDLE TRAY AND SLEEVE BOXES",
+    "candles\\CBD CANDLE PACKAGING",
+    "candles\\Custom 16 Wishes Candle Boxes",
+    "candles\\CUSTOM SQUARE CANDLE BOXES",
+    "candles\\CUSTOM TWO PIECE CANDLE BOXES",
+    "candles\\Custom Votive Candle Boxes"
+  ],
+  "folder_multi_product_matches": [
+    {
+      "folder": "Bakery\\ACB  Cookie Box",
+      "candidates": [
+        {
+          "id": 342,
+          "title": "Cookie Boxes",
+          "slug": "cookie-boxes"
+        },
+        {
+          "id": 344,
+          "title": "Window Cookie Boxes",
+          "slug": "window-cookie-boxes"
+        }
+      ]
+    },
+    {
+      "folder": "candles\\ACB MAgnetic Closure",
+      "candidates": [
+        {
+          "id": 300,
+          "title": "Magnetic Closure Candle Boxes",
+          "slug": "magnetic-closure-candle-boxes"
+        },
+        {
+          "id": 386,
+          "title": "Magnetic Closure Rigid Boxes",
+          "slug": "magnetic-closure-rigid-boxes"
+        }
+      ]
+    }
+  ],
+  "products_with_multiple_source_folders": {
+    "346": {
+      "product": "Brownie Boxes",
+      "folders": [
+        "Bakery\\ACB Brownie Box",
+        "Bakery\\Brownie Boxes",
+        "CBD\\Gummies & Edibles\\Custom CBD Brownie Boxes"
+      ]
+    },
+    "336": {
+      "product": "Custom Cake Boxes",
+      "folders": [
+        "Bakery\\ACB Custom cake box",
+        "Bakery\\CUSTOM CAKE BOXES"
+      ]
+    },
+    "348": {
+      "product": "Donut Boxes",
+      "folders": [
+        "Bakery\\ACB Donut Box",
+        "Bakery\\Donut Boxes"
+      ]
+    },
+    "338": {
+      "product": "Window Cake Boxes (6-inch &amp; Standard)",
+      "folders": [
+        "Bakery\\ACB Window Cake Box",
+        "Bakery\\Window Cake Boxes"
+      ]
+    },
+    "304": {
+      "product": "Candle Mailer Boxes",
+      "folders": [
+        "candles\\ACB Candle Mailer",
+        "candles\\Candle Mailer Boxes"
+      ]
+    },
+    "298": {
+      "product": "Luxury Candle Packaging",
+      "folders": [
+        "candles\\ACB Luxury Candle packaging",
+        "candles\\Luxury Candle Packaging"
+      ]
+    },
+    "302": {
+      "product": "Candle Jar Boxes",
+      "folders": [
+        "candles\\Candle Jar Box",
+        "candles\\CANDLE JAR BOXES"
+      ]
+    },
+    "402": {
+      "product": "Chocolate Bar Boxes",
+      "folders": [
+        "CBD\\ACB GUmies Edible\\ACB Chocolate Bar",
+        "CBD\\Gummies & Edibles\\Chocolate bar boxes"
+      ]
+    },
+    "312": {
+      "product": "Custom CBD Gummies Boxes",
+      "folders": [
+        "CBD\\ACB GUmies Edible\\ACB Custom CBD Gummies",
+        "CBD\\Gummies & Edibles\\Custom CBD Gummies Boxes"
+      ]
+    },
+    "306": {
+      "product": "Custom CBD Oil Boxes",
+      "folders": [
+        "CBD\\ACB Oil & Tincture\\ACB Custom CBD Oil",
+        "CBD\\Oil & Tincture\\Custom CBD Oil Boxes"
+      ]
+    },
+    "308": {
+      "product": "Custom CBD Tincture Bottle Boxes",
+      "folders": [
+        "CBD\\ACB Oil & Tincture\\ACB Custom CBD Tincture",
+        "CBD\\Oil & Tincture\\Custom CBD Tincture Bottle Boxes"
+      ]
+    },
+    "310": {
+      "product": "Dropper Bottle Carrier Boxes",
+      "folders": [
+        "CBD\\ACB Oil & Tincture\\ACB Dropper Bottle Carrier",
+        "CBD\\Oil & Tincture\\Dropper Bottle Carrier Boxes"
+      ]
+    }
+  },
+  "hot_product_list": [
+    {
+      "id": 346,
+      "title": "Brownie Boxes",
+      "slug": "brownie-boxes"
+    },
+    {
+      "id": 302,
+      "title": "Candle Jar Boxes",
+      "slug": "candle-jar-boxes"
+    },
+    {
+      "id": 304,
+      "title": "Candle Mailer Boxes",
+      "slug": "candle-mailer-boxes"
+    },
+    {
+      "id": 462,
+      "title": "Cardboard Gift Boxes",
+      "slug": "cardboard-gift-boxes"
+    },
+    {
+      "id": 314,
+      "title": "CBD Vape &amp; Cartridge Boxes",
+      "slug": "cbd-vape-cartridge-boxes"
+    },
+    {
+      "id": 322,
+      "title": "Child-Resistant CBD Packaging",
+      "slug": "child-resistant-cbd-packaging"
+    },
+    {
+      "id": 382,
+      "title": "Child-Resistant Mylar Bags",
+      "slug": "child-resistant-mylar-bags"
+    },
+    {
+      "id": 376,
+      "title": "Child-Resistant Stand-Up Pouch",
+      "slug": "child-resistant-stand-up-pouch"
+    },
+    {
+      "id": 402,
+      "title": "Chocolate Bar Boxes",
+      "slug": "chocolate-bar-boxes"
+    },
+    {
+      "id": 404,
+      "title": "Chocolate Gift Boxes",
+      "slug": "chocolate-gift-boxes"
+    },
+    {
+      "id": 368,
+      "title": "Clear Stand-Up Pouch with Zipper",
+      "slug": "clear-stand-up-pouch-with-zipper"
+    },
+    {
+      "id": 342,
+      "title": "Cookie Boxes",
+      "slug": "cookie-boxes"
+    },
+    {
+      "id": 456,
+      "title": "Corporate Welcome Kits",
+      "slug": "corporate-welcome-kits"
+    },
+    {
+      "id": 458,
+      "title": "Corrugated Cardboard Mailer Boxes",
+      "slug": "corrugated-cardboard-mailer-boxes"
+    },
+    {
+      "id": 460,
+      "title": "Corrugated Cardboard PR Boxes",
+      "slug": "corrugated-cardboard-pr-boxes"
+    },
+    {
+      "id": 326,
+      "title": "Corrugated Mailer Boxes",
+      "slug": "corrugated-mailer-boxes"
+    },
+    {
+      "id": 422,
+      "title": "Corrugated Pizza Boxes",
+      "slug": "corrugated-pizza-boxes"
+    },
+    {
+      "id": 412,
+      "title": "Cosmetic Labels",
+      "slug": "cosmetic-labels"
+    },
+    {
+      "id": 390,
+      "title": "Cosmetic Rigid Boxes",
+      "slug": "cosmetic-rigid-boxes"
+    },
+    {
+      "id": 358,
+      "title": "Counter Display Boxes (PDQ)",
+      "slug": "counter-display-boxes"
+    },
+    {
+      "id": 340,
+      "title": "Cupcake Boxes with Inserts",
+      "slug": "cupcake-boxes-with-inserts"
+    },
+    {
+      "id": 416,
+      "title": "Custom Barcode Labels",
+      "slug": "custom-barcode-labels"
+    },
+    {
+      "id": 408,
+      "title": "Custom Bottle Labels",
+      "slug": "custom-bottle-labels"
+    },
+    {
+      "id": 336,
+      "title": "Custom Cake Boxes",
+      "slug": "custom-cake-boxes"
+    },
+    {
+      "id": 320,
+      "title": "Custom CBD Cream Boxes",
+      "slug": "custom-cbd-cream-boxes"
+    },
+    {
+      "id": 312,
+      "title": "Custom CBD Gummies Boxes",
+      "slug": "custom-cbd-gummies-boxes"
+    },
+    {
+      "id": 306,
+      "title": "Custom CBD Oil Boxes",
+      "slug": "custom-cbd-oil-boxes"
+    },
+    {
+      "id": 308,
+      "title": "Custom CBD Tincture Bottle Boxes",
+      "slug": "custom-cbd-tincture-bottle-boxes"
+    },
+    {
+      "id": 392,
+      "title": "Custom Gift Rigid Boxes",
+      "slug": "custom-gift-rigid-boxes"
+    },
+    {
+      "id": 410,
+      "title": "Custom Jar Labels",
+      "slug": "custom-jar-labels"
+    },
+    {
+      "id": 432,
+      "title": "Custom Printed Popcorn Boxes",
+      "slug": "custom-printed-popcorn-boxes"
+    },
+    {
+      "id": 406,
+      "title": "Custom Product Labels",
+      "slug": "custom-product-labels"
+    },
+    {
+      "id": 418,
+      "title": "Custom QR Code Stickers",
+      "slug": "custom-qr-code-stickers"
+    },
+    {
+      "id": 414,
+      "title": "Custom Shipping Labels",
+      "slug": "custom-shipping-labels"
+    },
+    {
+      "id": 318,
+      "title": "Disposable Vape Pen Boxes",
+      "slug": "disposable-vape-pen-boxes"
+    },
+    {
+      "id": 348,
+      "title": "Donut Boxes",
+      "slug": "donut-boxes"
+    },
+    {
+      "id": 388,
+      "title": "Drawer (Sliding) Rigid Boxes",
+      "slug": "drawer-rigid-boxes"
+    },
+    {
+      "id": 310,
+      "title": "Dropper Bottle Carrier Boxes",
+      "slug": "dropper-bottle-carrier-boxes"
+    },
+    {
+      "id": 328,
+      "title": "Ecommerce Mailer Boxes",
+      "slug": "ecommerce-mailer-boxes"
+    },
+    {
+      "id": 444,
+      "title": "Essential Oil Tuck Boxes",
+      "slug": "essential-oil-tuck-boxes"
+    },
+    {
+      "id": 362,
+      "title": "Floor Stand CBD Displays",
+      "slug": "floor-stand-cbd-displays"
+    },
+    {
+      "id": 424,
+      "title": "Frozen Pizza Cartons",
+      "slug": "frozen-pizza-cartons"
+    },
+    {
+      "id": 448,
+      "title": "Hair Extension Tuck Boxes",
+      "slug": "hair-extension-tuck-boxes"
+    },
+    {
+      "id": 354,
+      "title": "Kraft Coffee Bags",
+      "slug": "kraft-coffee-bags"
+    },
+    {
+      "id": 352,
+      "title": "Kraft Food Boxes",
+      "slug": "kraft-food-boxes"
+    },
+    {
+      "id": 330,
+      "title": "Kraft Mailer Boxes",
+      "slug": "kraft-mailer-boxes"
+    },
+    {
+      "id": 370,
+      "title": "Kraft Paper Window Stand-Up Pouch",
+      "slug": "kraft-paper-window-stand-up-pouch"
+    },
+    {
+      "id": 356,
+      "title": "Kraft Soap Boxes",
+      "slug": "kraft-soap-boxes"
+    },
+    {
+      "id": 350,
+      "title": "Kraft Subscription Boxes",
+      "slug": "kraft-subscription-boxes"
+    },
+    {
+      "id": 440,
+      "title": "Lipstick Tuck Boxes",
+      "slug": "lipstick-tuck-boxes"
+    },
+    {
+      "id": 298,
+      "title": "Luxury Candle Packaging",
+      "slug": "luxury-candle-packaging"
+    },
+    {
+      "id": 300,
+      "title": "Magnetic Closure Candle Boxes",
+      "slug": "magnetic-closure-candle-boxes"
+    },
+    {
+      "id": 386,
+      "title": "Magnetic Closure Rigid Boxes",
+      "slug": "magnetic-closure-rigid-boxes"
+    },
+    {
+      "id": 372,
+      "title": "Matte Black Stand-Up Pouch",
+      "slug": "matte-black-stand-up-pouch"
+    },
+    {
+      "id": 450,
+      "title": "Medicine Vial Tuck Boxes",
+      "slug": "medicine-vial-tuck-boxes"
+    },
+    {
+      "id": 334,
+      "title": "Monthly Subscription Boxes",
+      "slug": "monthly-subscription-boxes"
+    },
+    {
+      "id": 430,
+      "title": "Movie Theater Popcorn Boxes",
+      "slug": "movie-theater-popcorn-boxes"
+    },
+    {
+      "id": 452,
+      "title": "Personalized Favor Boxes",
+      "slug": "personalized-favor-boxes"
+    },
+    {
+      "id": 394,
+      "title": "Pet Food Boxes",
+      "slug": "pet-food-boxes"
+    },
+    {
+      "id": 400,
+      "title": "Pet Subscription Boxes",
+      "slug": "pet-subscription-boxes"
+    },
+    {
+      "id": 398,
+      "title": "Pet Supplement Boxes",
+      "slug": "pet-supplement-boxes"
+    },
+    {
+      "id": 396,
+      "title": "Pet Treat Boxes",
+      "slug": "pet-treat-boxes"
+    },
+    {
+      "id": 360,
+      "title": "POP Display Boxes",
+      "slug": "pop-display-boxes"
+    },
+    {
+      "id": 364,
+      "title": "Retail Ready Packaging",
+      "slug": "retail-ready-packaging"
+    },
+    {
+      "id": 436,
+      "title": "Reverse Tuck End (RTE) Boxes",
+      "slug": "reverse-tuck-end-boxes"
+    },
+    {
+      "id": 442,
+      "title": "Serum Bottle Boxes with Inserts",
+      "slug": "serum-bottle-boxes-with-inserts"
+    },
+    {
+      "id": 366,
+      "title": "Shelf Ready Packaging (SRP)",
+      "slug": "shelf-ready-packaging"
+    },
+    {
+      "id": 384,
+      "title": "Smell-Proof Mylar Bags",
+      "slug": "smell-proof-mylar-bags"
+    },
+    {
+      "id": 378,
+      "title": "Smell-Proof Mylar Zipper Bag",
+      "slug": "smell-proof-mylar-zipper-bag"
+    },
+    {
+      "id": 446,
+      "title": "Soap Wrap Tuck Boxes",
+      "slug": "soap-wrap-tuck-boxes"
+    },
+    {
+      "id": 374,
+      "title": "Stand-Up Pouch with Valve (Coffee)",
+      "slug": "stand-up-pouch-with-valve"
+    },
+    {
+      "id": 380,
+      "title": "Stand-Up Ziplock Mylar Pouches",
+      "slug": "stand-up-ziplock-mylar-pouches"
+    },
+    {
+      "id": 434,
+      "title": "Straight Tuck End (STE) Boxes",
+      "slug": "straight-tuck-end-boxes"
+    },
+    {
+      "id": 332,
+      "title": "Subscription Mailer Boxes",
+      "slug": "subscription-mailer-boxes"
+    },
+    {
+      "id": 324,
+      "title": "Tamper-Evident CBD Seals",
+      "slug": "tamper-evident-cbd-seals"
+    },
+    {
+      "id": 420,
+      "title": "Tamper-Proof Seal Stickers",
+      "slug": "tamper-proof-seal-stickers"
+    },
+    {
+      "id": 426,
+      "title": "Two Bottle Wine Gift Box",
+      "slug": "two-bottle-wine-gift-box"
+    },
+    {
+      "id": 316,
+      "title": "Vape Cartridge Window Boxes",
+      "slug": "vape-cartridge-window-boxes"
+    },
+    {
+      "id": 454,
+      "title": "Wedding Invitation Boxes",
+      "slug": "wedding-invitation-boxes"
+    },
+    {
+      "id": 338,
+      "title": "Window Cake Boxes (6-inch &amp; Standard)",
+      "slug": "window-cake-boxes"
+    },
+    {
+      "id": 344,
+      "title": "Window Cookie Boxes",
+      "slug": "window-cookie-boxes"
+    },
+    {
+      "id": 438,
+      "title": "Window Tuck Boxes",
+      "slug": "window-tuck-boxes"
+    },
+    {
+      "id": 428,
+      "title": "Wine Carrier Box with Handle",
+      "slug": "wine-carrier-box-with-handle"
+    }
+  ]
+}

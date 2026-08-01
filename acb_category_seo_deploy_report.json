@@ -1,0 +1,33 @@
+{
+  "rest_meta_updated": [
+    "bakery-boxes",
+    "candle-boxes",
+    "cosmetics",
+    "event-boxes",
+    "food",
+    "mailer-boxes",
+    "pet-boxes",
+    "pharmaceutical-boxes",
+    "pod-boxes",
+    "popcorn-boxes",
+    "product-boxes",
+    "tuck-boxes"
+  ],
+  "rest_or_missing_fail": [],
+  "snippet_16": true,
+  "snippet_sync_id": 20,
+  "categories_in_docs": [
+    "bakery-boxes",
+    "candle-boxes",
+    "event-boxes",
+    "cosmetics",
+    "food",
+    "popcorn-boxes",
+    "pod-boxes",
+    "pharmaceutical-boxes",
+    "pet-boxes",
+    "mailer-boxes",
+    "product-boxes",
+    "tuck-boxes"
+  ]
+}

@@ -1,0 +1,655 @@
+{
+  "parent_category": {
+    "name": "By Industry",
+    "slug": "by-industry"
+  },
+  "subcategories": {
+    "Bakery": {
+      "name": "Bakery",
+      "slug": "bakery"
+    },
+    "candles": {
+      "name": "Candles",
+      "slug": "candles"
+    },
+    "CBD": {
+      "name": "CBD",
+      "slug": "cbd"
+    }
+  },
+  "folders_scanned": 112,
+  "created_count": 44,
+  "skipped_existing_count": 52,
+  "skipped_no_doc_count": 16,
+  "failed_count": 0,
+  "created": [
+    {
+      "id": 1532,
+      "slug": "custom-2-piece-truffle-boxes",
+      "title": "Custom 2 Piece Truffle Boxes",
+      "folder": "Bakery\\ACB Custom 2 piece",
+      "url": "http://localhost:10004/product/custom-2-piece-truffle-boxes/"
+    },
+    {
+      "id": 1538,
+      "slug": "custom-sweet-boxes",
+      "title": "Custom Sweet Boxes",
+      "folder": "Bakery\\ACB Custom Sweet Box",
+      "url": "http://localhost:10004/product/custom-sweet-boxes/"
+    },
+    {
+      "id": 1544,
+      "slug": "drawer-slide-bakery-boxes",
+      "title": "Drawer Slide Bakery Boxes",
+      "folder": "Bakery\\ACB Drawer Slide Bakery",
+      "url": "http://localhost:10004/product/drawer-slide-bakery-boxes/"
+    },
+    {
+      "id": 1550,
+      "slug": "gable-bakery-boxes",
+      "title": "Gable Bakery Boxes",
+      "folder": "Bakery\\ACB Gable Bakery",
+      "url": "http://localhost:10004/product/gable-bakery-boxes/"
+    },
+    {
+      "id": 1556,
+      "slug": "handle-cake-boxes",
+      "title": "Handle Cake Boxes",
+      "folder": "Bakery\\ACB Handle Cake",
+      "url": "http://localhost:10004/product/handle-cake-boxes/"
+    },
+    {
+      "id": 1562,
+      "slug": "luxury-bakery-gift-boxes",
+      "title": "Luxury Bakery Gift Boxes",
+      "folder": "Bakery\\ACB Luxury Bakery Gift",
+      "url": "http://localhost:10004/product/luxury-bakery-gift-boxes/"
+    },
+    {
+      "id": 1568,
+      "slug": "mini-cupcake-boxes",
+      "title": "Mini Cupcake Boxes",
+      "folder": "Bakery\\ACB Mini Cupcake",
+      "url": "http://localhost:10004/product/mini-cupcake-boxes/"
+    },
+    {
+      "id": 1574,
+      "slug": "cake-pop-packaging",
+      "title": "Cake Pop Packaging",
+      "folder": "Bakery\\ACB POP packaging",
+      "url": "http://localhost:10004/product/cake-pop-packaging/"
+    },
+    {
+      "id": 1583,
+      "slug": "round-cake-boxes",
+      "title": "Round Cake Boxes",
+      "folder": "Bakery\\ACB Round Cake",
+      "url": "http://localhost:10004/product/round-cake-boxes/"
+    },
+    {
+      "id": 1589,
+      "slug": "shortbread-packaging",
+      "title": "Shortbread Packaging",
+      "folder": "Bakery\\ACB Shortbread",
+      "url": "http://localhost:10004/product/shortbread-packaging/"
+    },
+    {
+      "id": 1595,
+      "slug": "cinnamon-roll-packaging",
+      "title": "Cinnamon Roll Packaging",
+      "folder": "Bakery\\Cinnamon Roll Packaging",
+      "url": "http://localhost:10004/product/cinnamon-roll-packaging/"
+    },
+    {
+      "id": 1601,
+      "slug": "dessert-boxes",
+      "title": "Dessert Boxes",
+      "folder": "Bakery\\Dessert Boxes",
+      "url": "http://localhost:10004/product/dessert-boxes/"
+    },
+    {
+      "id": 1608,
+      "slug": "muffin-boxes",
+      "title": "Muffin Boxes",
+      "folder": "Bakery\\Muffin Boxes",
+      "url": "http://localhost:10004/product/muffin-boxes/"
+    },
+    {
+      "id": 1615,
+      "slug": "pastry-boxes",
+      "title": "Pastry Boxes",
+      "folder": "Bakery\\Pastry Boxes",
+      "url": "http://localhost:10004/product/pastry-boxes/"
+    },
+    {
+      "id": 1622,
+      "slug": "pie-boxes",
+      "title": "Pie Boxes",
+      "folder": "Bakery\\Pie Boxes",
+      "url": "http://localhost:10004/product/pie-boxes/"
+    },
+    {
+      "id": 1629,
+      "slug": "sos-bakery-bags",
+      "title": "SOS Bakery Bags",
+      "folder": "Bakery\\SOS Bakery Bags",
+      "url": "http://localhost:10004/product/sos-bakery-bags/"
+    },
+    {
+      "id": 1635,
+      "slug": "drawer-candle-boxes",
+      "title": "Drawer (Sliding) Candle Boxes",
+      "folder": "candles\\ACB Drawer (Sliding )Candle",
+      "url": "http://localhost:10004/product/drawer-candle-boxes/"
+    },
+    {
+      "id": 1641,
+      "slug": "window-candle-boxes",
+      "title": "Window Candle Boxes",
+      "folder": "candles\\ACB Window Candle",
+      "url": "http://localhost:10004/product/window-candle-boxes/"
+    },
+    {
+      "id": 1646,
+      "slug": "candle-box-with-insert",
+      "title": "Candle Box with Insert",
+      "folder": "candles\\CANDLE BOX WITH INSERT",
+      "url": "http://localhost:10004/product/candle-box-with-insert/"
+    },
+    {
+      "id": 1653,
+      "slug": "candle-display-boxes",
+      "title": "Candle Display Boxes",
+      "folder": "candles\\candle display boxes",
+      "url": "http://localhost:10004/product/candle-display-boxes/"
+    },
+    {
+      "id": 1662,
+      "slug": "candle-tray-and-sleeve-boxes",
+      "title": "Candle Tray and Sleeve Boxes",
+      "folder": "candles\\CANDLE TRAY AND SLEEVE BOXES",
+      "url": "http://localhost:10004/product/candle-tray-and-sleeve-boxes/"
+    },
+    {
+      "id": 1669,
+      "slug": "cbd-candle-packaging",
+      "title": "CBD Candle Packaging",
+      "folder": "candles\\CBD CANDLE PACKAGING",
+      "url": "http://localhost:10004/product/cbd-candle-packaging/"
+    },
+    {
+      "id": 1676,
+      "slug": "custom-square-candle-boxes",
+      "title": "Custom Square Candle Boxes",
+      "folder": "candles\\CUSTOM SQUARE CANDLE BOXES",
+      "url": "http://localhost:10004/product/custom-square-candle-boxes/"
+    },
+    {
+      "id": 1683,
+      "slug": "custom-two-piece-candle-boxes",
+      "title": "Custom Two Piece Candle Boxes",
+      "folder": "candles\\CUSTOM TWO PIECE CANDLE BOXES",
+      "url": "http://localhost:10004/product/custom-two-piece-candle-boxes/"
+    },
+    {
+      "id": 1691,
+      "slug": "custom-votive-candle-boxes",
+      "title": "Custom Votive Candle Boxes",
+      "folder": "candles\\Custom Votive Candle Boxes",
+      "url": "http://localhost:10004/product/custom-votive-candle-boxes/"
+    },
+    {
+      "id": 1700,
+      "slug": "tealight-candle-packaging",
+      "title": "Tealight Candle Packaging",
+      "folder": "candles\\Tealight Candle Packaging",
+      "url": "http://localhost:10004/product/tealight-candle-packaging/"
+    },
+    {
+      "id": 1709,
+      "slug": "cbd-subscription-box-packaging",
+      "title": "CBD Subscription Box Packaging",
+      "folder": "CBD\\ACB CBD Subscription Box",
+      "url": "http://localhost:10004/product/cbd-subscription-box-packaging/"
+    },
+    {
+      "id": 1715,
+      "slug": "drawer-style-luxury-cbd-boxes",
+      "title": "Drawer Style Luxury CBD Boxes",
+      "folder": "CBD\\ACB Drawer Style Luxury CBD",
+      "url": "http://localhost:10004/product/drawer-style-luxury-cbd-boxes/"
+    },
+    {
+      "id": 1721,
+      "slug": "custom-cbd-brownie-boxes",
+      "title": "Custom CBD Brownie Boxes",
+      "folder": "CBD\\ACB GUmies Edible\\ACB Custom CBD Brownie",
+      "url": "http://localhost:10004/product/custom-cbd-brownie-boxes/"
+    },
+    {
+      "id": 1726,
+      "slug": "custom-cbd-chocolate-boxes",
+      "title": "Custom CBD Chocolate Boxes",
+      "folder": "CBD\\ACB GUmies Edible\\ACB Custom CBD Chocolate",
+      "url": "http://localhost:10004/product/custom-cbd-chocolate-boxes/"
+    },
+    {
+      "id": 1732,
+      "slug": "double-wall-tincture-boxes",
+      "title": "Double-Wall Tincture Boxes",
+      "folder": "CBD\\ACB Oil & Tincture\\ACB Double - Wall Tincture",
+      "url": "http://localhost:10004/product/double-wall-tincture-boxes/"
+    },
+    {
+      "id": 1737,
+      "slug": "cbd-bath-bomb-gift-boxes",
+      "title": "CBD Bath Bomb Gift Boxes",
+      "folder": "CBD\\ACB Skincare & Tropicle\\ACB CBD Bath Bomb Gift Boxes",
+      "url": "http://localhost:10004/product/cbd-bath-bomb-gift-boxes/"
+    },
+    {
+      "id": 1742,
+      "slug": "cbd-lip-balm-display-boxes",
+      "title": "CBD Lip Balm Display Boxes",
+      "folder": "CBD\\ACB Skincare & Tropicle\\ACB CBD Lip Balm Display",
+      "url": "http://localhost:10004/product/cbd-lip-balm-display-boxes/"
+    },
+    {
+      "id": 1747,
+      "slug": "cbd-serum-glass-bottle-boxes",
+      "title": "CBD Serum Glass Bottle Boxes",
+      "folder": "CBD\\ACB Skincare & Tropicle\\ACB CBD Serum Glass Bottle",
+      "url": "http://localhost:10004/product/cbd-serum-glass-bottle-boxes/"
+    },
+    {
+      "id": 1752,
+      "slug": "cbd-soap-bar-boxes",
+      "title": "CBD Soap Bar Boxes",
+      "folder": "CBD\\ACB Skincare & Tropicle\\ACB CBD Soap Bar",
+      "url": "http://localhost:10004/product/cbd-soap-bar-boxes/"
+    },
+    {
+      "id": 1758,
+      "slug": "cbd-corrugated-mailer-boxes",
+      "title": "CBD Corrugated Mailer Boxes",
+      "folder": "CBD\\CBD CORRUGATED MAILER BOXES",
+      "url": "http://localhost:10004/product/cbd-corrugated-mailer-boxes/"
+    },
+    {
+      "id": 1765,
+      "slug": "cbd-counter-display-boxes",
+      "title": "CBD Counter Display Boxes",
+      "folder": "CBD\\CBD COUNTER DISPLAY BOXES",
+      "url": "http://localhost:10004/product/cbd-counter-display-boxes/"
+    },
+    {
+      "id": 1771,
+      "slug": "cbd-starter-kit-boxes",
+      "title": "CBD Starter Kit Boxes",
+      "folder": "CBD\\CBD STARTER KIT BOXES",
+      "url": "http://localhost:10004/product/cbd-starter-kit-boxes/"
+    },
+    {
+      "id": 1776,
+      "slug": "cbd-window-display-boxes",
+      "title": "CBD Window Display Boxes",
+      "folder": "CBD\\CBD WINDOW DISPLAY BOXES",
+      "url": "http://localhost:10004/product/cbd-window-display-boxes/"
+    },
+    {
+      "id": 1783,
+      "slug": "cbd-candy-display-boxes",
+      "title": "CBD Candy Display Boxes",
+      "folder": "CBD\\Gummies & Edibles\\CBD Candy Display Boxes",
+      "url": "http://localhost:10004/product/cbd-candy-display-boxes/"
+    },
+    {
+      "id": 1790,
+      "slug": "custom-cbd-candy-boxes",
+      "title": "Custom CBD Candy Boxes",
+      "folder": "CBD\\Gummies & Edibles\\Custom CBD Candy Boxes",
+      "url": "http://localhost:10004/product/custom-cbd-candy-boxes/"
+    },
+    {
+      "id": 1796,
+      "slug": "magnetic-closure-cbd-boxes",
+      "title": "Magnetic Closure CBD Boxes",
+      "folder": "CBD\\Magnetic Closure CBD Boxes",
+      "url": "http://localhost:10004/product/magnetic-closure-cbd-boxes/"
+    },
+    {
+      "id": 1803,
+      "slug": "custom-cbd-lotion-boxes",
+      "title": "Custom CBD Lotion Boxes",
+      "folder": "CBD\\Skincare & tropicles\\CBD LOTION BOXES",
+      "url": "http://localhost:10004/product/custom-cbd-lotion-boxes/"
+    },
+    {
+      "id": 1809,
+      "slug": "custom-cbd-balm-boxes",
+      "title": "Custom CBD Balm Boxes",
+      "folder": "CBD\\Skincare & tropicles\\Custom CBD Balm Boxes",
+      "url": "http://localhost:10004/product/custom-cbd-balm-boxes/"
+    }
+  ],
+  "skipped_existing": [
+    {
+      "folder": "Bakery\\ACB  Cookie Box",
+      "slug": "cookie-boxes",
+      "title": "Cookie Boxes"
+    },
+    {
+      "folder": "Bakery\\ACB Brownie Box",
+      "slug": "brownie-boxes",
+      "title": "Brownie Boxes"
+    },
+    {
+      "folder": "Bakery\\ACB Custom cake box",
+      "slug": "custom-cake-boxes",
+      "title": "Custom Cake Boxes"
+    },
+    {
+      "folder": "Bakery\\ACB Donut Box",
+      "slug": "donut-boxes",
+      "title": "Donut Boxes"
+    },
+    {
+      "folder": "Bakery\\ACB Window Cake Box",
+      "slug": "window-cake-boxes",
+      "title": "Window Cake Boxes (6-inch & Standard)"
+    },
+    {
+      "folder": "Bakery\\Brownie Boxes",
+      "slug": "brownie-boxes",
+      "title": "Brownie Boxes"
+    },
+    {
+      "folder": "Bakery\\Cake Pop Packaging",
+      "slug": "cake-pop-packaging",
+      "title": "Cake Pop Packaging"
+    },
+    {
+      "folder": "Bakery\\Cookie Boxes",
+      "slug": "cookie-boxes",
+      "title": "Cookie Boxes"
+    },
+    {
+      "folder": "Bakery\\Cupcake Boxes with Inserts",
+      "slug": "cupcake-boxes-with-inserts",
+      "title": "Cupcake Boxes with Inserts"
+    },
+    {
+      "folder": "Bakery\\Custom 2 Piece Truffle Boxes",
+      "slug": "custom-2-piece-truffle-boxes",
+      "title": "Custom 2 Piece Truffle Boxes"
+    },
+    {
+      "folder": "Bakery\\CUSTOM CAKE BOXES",
+      "slug": "custom-cake-boxes",
+      "title": "Custom Cake Boxes"
+    },
+    {
+      "folder": "Bakery\\Custom Sweet Boxes",
+      "slug": "custom-sweet-boxes",
+      "title": "Custom Sweet Boxes"
+    },
+    {
+      "folder": "Bakery\\Donut Boxes",
+      "slug": "donut-boxes",
+      "title": "Donut Boxes"
+    },
+    {
+      "folder": "Bakery\\Drawer Slide Bakery Boxes",
+      "slug": "drawer-slide-bakery-boxes",
+      "title": "Drawer Slide Bakery Boxes"
+    },
+    {
+      "folder": "Bakery\\Gable Bakery Boxes",
+      "slug": "gable-bakery-boxes",
+      "title": "Gable Bakery Boxes"
+    },
+    {
+      "folder": "Bakery\\Handle Cake Boxes",
+      "slug": "handle-cake-boxes",
+      "title": "Handle Cake Boxes"
+    },
+    {
+      "folder": "Bakery\\luxury Bakery Gift Boxes",
+      "slug": "luxury-bakery-gift-boxes",
+      "title": "Luxury Bakery Gift Boxes"
+    },
+    {
+      "folder": "Bakery\\Mini Cupcake Boxes",
+      "slug": "mini-cupcake-boxes",
+      "title": "Mini Cupcake Boxes"
+    },
+    {
+      "folder": "Bakery\\Round Cake Boxes",
+      "slug": "round-cake-boxes",
+      "title": "Round Cake Boxes"
+    },
+    {
+      "folder": "Bakery\\Shortbread Packaging",
+      "slug": "shortbread-packaging",
+      "title": "Shortbread Packaging"
+    },
+    {
+      "folder": "Bakery\\Window Cake Boxes",
+      "slug": "window-cake-boxes",
+      "title": "Window Cake Boxes (6-inch & Standard)"
+    },
+    {
+      "folder": "Bakery\\Window Cookie Boxes",
+      "slug": "window-cookie-boxes",
+      "title": "Window Cookie Boxes"
+    },
+    {
+      "folder": "candles\\ACB Candle Mailer",
+      "slug": "candle-mailer-boxes",
+      "title": "Candle Mailer Boxes"
+    },
+    {
+      "folder": "candles\\ACB MAgnetic Closure",
+      "slug": "magnetic-closure-candle-boxes",
+      "title": "Magnetic Closure Candle Boxes"
+    },
+    {
+      "folder": "candles\\Candle Jar Box",
+      "slug": "candle-jar-boxes",
+      "title": "Candle Jar Boxes"
+    },
+    {
+      "folder": "candles\\CANDLE JAR BOXES",
+      "slug": "candle-jar-boxes",
+      "title": "Candle Jar Boxes"
+    },
+    {
+      "folder": "candles\\Candle Mailer Boxes",
+      "slug": "candle-mailer-boxes",
+      "title": "Candle Mailer Boxes"
+    },
+    {
+      "folder": "candles\\Drawer (Sliding) Candle Boxes",
+      "slug": "drawer-candle-boxes",
+      "title": "Drawer (Sliding) Candle Boxes"
+    },
+    {
+      "folder": "candles\\Luxury Candle Packaging",
+      "slug": "luxury-candle-packaging",
+      "title": "Luxury Candle Packaging"
+    },
+    {
+      "folder": "candles\\Magnetic Closure Candle Boxes",
+      "slug": "magnetic-closure-candle-boxes",
+      "title": "Magnetic Closure Candle Boxes"
+    },
+    {
+      "folder": "candles\\WINDOW CANDLE BOXES",
+      "slug": "window-candle-boxes",
+      "title": "Window Candle Boxes"
+    },
+    {
+      "folder": "CBD\\ACB GUmies Edible\\ACB Chocolate Bar",
+      "slug": "chocolate-bar-boxes",
+      "title": "Chocolate Bar Boxes"
+    },
+    {
+      "folder": "CBD\\ACB GUmies Edible\\ACB Custom CBD Gummies",
+      "slug": "custom-cbd-gummies-boxes",
+      "title": "Custom CBD Gummies Boxes"
+    },
+    {
+      "folder": "CBD\\ACB Oil & Tincture\\ACB Custom CBD Oil",
+      "slug": "custom-cbd-oil-boxes",
+      "title": "Custom CBD Oil Boxes"
+    },
+    {
+      "folder": "CBD\\ACB Oil & Tincture\\ACB Custom CBD Tincture",
+      "slug": "custom-cbd-tincture-bottle-boxes",
+      "title": "Custom CBD Tincture Bottle Boxes"
+    },
+    {
+      "folder": "CBD\\ACB Oil & Tincture\\ACB Dropper Bottle Carrier",
+      "slug": "dropper-bottle-carrier-boxes",
+      "title": "Dropper Bottle Carrier Boxes"
+    },
+    {
+      "folder": "CBD\\ACB Skincare & Tropicle\\ACB Custom CBD Cream Boxes",
+      "slug": "custom-cbd-cream-boxes",
+      "title": "Custom CBD Cream Boxes"
+    },
+    {
+      "folder": "CBD\\CBD SUBSCRIPTION BOX PACKAGING",
+      "slug": "cbd-subscription-box-packaging",
+      "title": "CBD Subscription Box Packaging"
+    },
+    {
+      "folder": "CBD\\CHILD-RESISTANT CBD PACKAGING",
+      "slug": "child-resistant-cbd-packaging",
+      "title": "Child-Resistant CBD Packaging"
+    },
+    {
+      "folder": "CBD\\Drawer Style Luxury CBD Boxes",
+      "slug": "drawer-style-luxury-cbd-boxes",
+      "title": "Drawer Style Luxury CBD Boxes"
+    },
+    {
+      "folder": "CBD\\Gummies & Edibles\\Chocolate bar boxes",
+      "slug": "chocolate-bar-boxes",
+      "title": "Chocolate Bar Boxes"
+    },
+    {
+      "folder": "CBD\\Gummies & Edibles\\Custom CBD Brownie Boxes",
+      "slug": "custom-cbd-brownie-boxes",
+      "title": "Custom CBD Brownie Boxes"
+    },
+    {
+      "folder": "CBD\\Gummies & Edibles\\Custom CBD Chocolate Boxes",
+      "slug": "custom-cbd-chocolate-boxes",
+      "title": "Custom CBD Chocolate Boxes"
+    },
+    {
+      "folder": "CBD\\Gummies & Edibles\\Custom CBD Gummies Boxes",
+      "slug": "custom-cbd-gummies-boxes",
+      "title": "Custom CBD Gummies Boxes"
+    },
+    {
+      "folder": "CBD\\Oil & Tincture\\Custom CBD Oil Boxes",
+      "slug": "custom-cbd-oil-boxes",
+      "title": "Custom CBD Oil Boxes"
+    },
+    {
+      "folder": "CBD\\Oil & Tincture\\Custom CBD Tincture Bottle Boxes",
+      "slug": "custom-cbd-tincture-bottle-boxes",
+      "title": "Custom CBD Tincture Bottle Boxes"
+    },
+    {
+      "folder": "CBD\\Oil & Tincture\\Double-Wall Tincture Boxes",
+      "slug": "double-wall-tincture-boxes",
+      "title": "Double-Wall Tincture Boxes"
+    },
+    {
+      "folder": "CBD\\Oil & Tincture\\Dropper Bottle Carrier Boxes",
+      "slug": "dropper-bottle-carrier-boxes",
+      "title": "Dropper Bottle Carrier Boxes"
+    },
+    {
+      "folder": "CBD\\Skincare & tropicles\\CBD Lip Balm Display Boxes",
+      "slug": "cbd-lip-balm-display-boxes",
+      "title": "CBD Lip Balm Display Boxes"
+    },
+    {
+      "folder": "CBD\\Skincare & tropicles\\CBD Serum Glass Bottle Boxes",
+      "slug": "cbd-serum-glass-bottle-boxes",
+      "title": "CBD Serum Glass Bottle Boxes"
+    }
+  ],
+  "skipped_no_doc": [
+    {
+      "folder": "Bakery\\ACB Cinammon Roll",
+      "leaf": "ACB Cinammon Roll"
+    },
+    {
+      "folder": "Bakery\\ACB Cupcack Box",
+      "leaf": "ACB Cupcack Box"
+    },
+    {
+      "folder": "Bakery\\ACB Desert Box",
+      "leaf": "ACB Desert Box"
+    },
+    {
+      "folder": "Bakery\\ACB SOS Caks bakery",
+      "leaf": "ACB SOS Caks bakery"
+    },
+    {
+      "folder": "Bakery\\ACB Window Cokies box",
+      "leaf": "ACB Window Cokies box"
+    },
+    {
+      "folder": "candles\\ACB CBD candle display",
+      "leaf": "ACB CBD candle display"
+    },
+    {
+      "folder": "candles\\ACB Custom 16 Wishes Candle",
+      "leaf": "ACB Custom 16 Wishes Candle"
+    },
+    {
+      "folder": "candles\\ACB Custom Votice",
+      "leaf": "ACB Custom Votice"
+    },
+    {
+      "folder": "candles\\ACB Tealight Canle",
+      "leaf": "ACB Tealight Canle"
+    },
+    {
+      "folder": "candles\\Custom 16 Wishes Candle Boxes",
+      "leaf": "Custom 16 Wishes Candle Boxes"
+    },
+    {
+      "folder": "CBD\\ACB CBD Countr Display",
+      "leaf": "ACB CBD Countr Display"
+    },
+    {
+      "folder": "CBD\\ACB CBD Crugeted",
+      "leaf": "ACB CBD Crugeted"
+    },
+    {
+      "folder": "CBD\\ACB Child- Resistant CBD Packaing",
+      "leaf": "ACB Child- Resistant CBD Packaing"
+    },
+    {
+      "folder": "CBD\\ACB Temper-Evident CBD",
+      "leaf": "ACB Temper-Evident CBD"
+    },
+    {
+      "folder": "CBD\\Skincare & tropicles\\CBD Bath Bomb Gift Boxes\\Magnetic Rigid Gift Set",
+      "leaf": "Magnetic Rigid Gift Set"
+    },
+    {
+      "folder": "CBD\\Skincare & tropicles\\Custome CBD Cream Boxes",
+      "leaf": "Custome CBD Cream Boxes"
+    }
+  ],
+  "failed": [],
+  "finished_at": "2026-07-27T17:40:58.075968+00:00"
+}

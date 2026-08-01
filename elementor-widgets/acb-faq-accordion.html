@@ -1,0 +1,351 @@
+<style>
+.acb-faq-section {
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+.acb-faq-section *,
+.acb-faq-section *::before,
+.acb-faq-section *::after {
+    box-sizing: border-box;
+}
+.acb-faq-layout {
+    display: grid;
+    grid-template-columns: minmax(260px, 40%) 1fr;
+    gap: 48px;
+    align-items: start;
+}
+.acb-faq-visual img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 16px;
+    box-shadow: 0 16px 48px rgba(0, 73, 233, 0.1);
+}
+.acb-faq-heading {
+    color: #FF2E2E;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.15;
+    margin: 0 0 8px;
+    letter-spacing: -0.3px;
+}
+.acb-faq-subheading {
+    margin: 0 0 28px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #6b7280;
+    font-weight: 400;
+}
+.acb-faq-list {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #e5e7eb;
+}
+.acb-faq-item {
+    border-bottom: 1px solid #e5e7eb;
+    background: transparent !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    overflow: visible;
+}
+.acb-faq-item.is-open {
+    border-bottom-color: #e5e7eb;
+    box-shadow: none !important;
+}
+.acb-faq-question {
+    all: unset;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 4px 20px 0;
+    cursor: pointer;
+    text-align: left;
+    font-family: 'Titillium Web', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    color: #111827 !important;
+    line-height: 1.45 !important;
+    background: transparent !important;
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    text-transform: none !important;
+    letter-spacing: 0 !important;
+    transition: color 0.25s ease;
+}
+.acb-faq-question:hover {
+    color: #0049E9 !important;
+    background: transparent !important;
+}
+.acb-faq-item.is-open .acb-faq-question {
+    color: #FF2E2E !important;
+    padding-bottom: 12px;
+}
+.acb-faq-q-text {
+    flex: 1;
+    padding-right: 8px;
+}
+.acb-faq-toggle {
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    position: relative;
+    display: block;
+}
+.acb-faq-toggle::before,
+.acb-faq-toggle::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #0049E9;
+    border-radius: 2px;
+    transition: transform 0.3s ease, background 0.3s ease, opacity 0.3s ease;
+}
+.acb-faq-toggle::before {
+    width: 14px;
+    height: 2px;
+    transform: translate(-50%, -50%);
+}
+.acb-faq-toggle::after {
+    width: 2px;
+    height: 14px;
+    transform: translate(-50%, -50%);
+}
+.acb-faq-item.is-open .acb-faq-toggle::before {
+    background: #FF2E2E;
+}
+.acb-faq-item.is-open .acb-faq-toggle::after {
+    opacity: 0;
+    transform: translate(-50%, -50%) scaleY(0);
+}
+.acb-faq-answer-wrap {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease;
+}
+.acb-faq-answer {
+    margin: 0;
+    padding: 0 36px 20px 16px;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #4b5563;
+    font-weight: 400;
+    border-left: 3px solid #FF2E2E;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+@media (max-width: 991px) {
+    .acb-faq-layout {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+    .acb-faq-content {
+        order: 1;
+        max-width: 680px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .acb-faq-visual {
+        order: 2;
+        max-width: 480px;
+        margin: 0 auto;
+    }
+    .acb-faq-heading {
+        font-size: 34px;
+        text-align: center;
+    }
+    .acb-faq-subheading {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 600px) {
+    .acb-faq-section {
+        padding: 0 10px;
+    }
+    .acb-faq-heading {
+        font-size: 28px;
+    }
+    .acb-faq-subheading {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .acb-faq-question {
+        padding: 16px 0 16px 0 !important;
+        font-size: 14px !important;
+        gap: 14px;
+    }
+    .acb-faq-item.is-open .acb-faq-question {
+        padding-bottom: 10px !important;
+    }
+    .acb-faq-answer {
+        padding: 0 28px 16px 12px;
+        font-size: 14px;
+    }
+    .acb-faq-toggle {
+        width: 20px;
+        height: 20px;
+    }
+    .acb-faq-toggle::before {
+        width: 12px;
+    }
+    .acb-faq-toggle::after {
+        height: 12px;
+    }
+}
+</style>
+
+<div class="acb-faq-section">
+    <div class="acb-faq-layout">
+
+        <div class="acb-faq-visual">
+            <img src="http://localhost:10004/wp-content/uploads/2026/07/FAQ.webp" alt="Frequently Asked Questions - America Custom Boxes">
+        </div>
+
+        <div class="acb-faq-content">
+            <h2 class="acb-faq-heading">Frequently Asked Questions</h2>
+            <p class="acb-faq-subheading">Quick answers about materials, samples, turnaround, and customization.</p>
+
+            <div class="acb-faq-list">
+
+                <div class="acb-faq-item">
+                    <button type="button" class="acb-faq-question" aria-expanded="false">
+                        <span class="acb-faq-q-text">What types of materials do you offer for custom packaging?</span>
+                        <span class="acb-faq-toggle" aria-hidden="true"></span>
+                    </button>
+                    <div class="acb-faq-answer-wrap">
+                        <p class="acb-faq-answer">We offer kraft, cardboard, corrugated, and rigid packaging materials, depending on your product needs.</p>
+                    </div>
+                </div>
+
+                <div class="acb-faq-item">
+                    <button type="button" class="acb-faq-question" aria-expanded="false">
+                        <span class="acb-faq-q-text">Can I get a sample before placing a bulk order?</span>
+                        <span class="acb-faq-toggle" aria-hidden="true"></span>
+                    </button>
+                    <div class="acb-faq-answer-wrap">
+                        <p class="acb-faq-answer">Yes! We provide sample proofs to ensure you are satisfied with the design and material before full production.</p>
+                    </div>
+                </div>
+
+                <div class="acb-faq-item">
+                    <button type="button" class="acb-faq-question" aria-expanded="false">
+                        <span class="acb-faq-q-text">Do you offer eco-friendly packaging options?</span>
+                        <span class="acb-faq-toggle" aria-hidden="true"></span>
+                    </button>
+                    <div class="acb-faq-answer-wrap">
+                        <p class="acb-faq-answer">Absolutely! We provide biodegradable, recyclable, and sustainable packaging solutions for environmentally conscious brands.</p>
+                    </div>
+                </div>
+
+                <div class="acb-faq-item">
+                    <button type="button" class="acb-faq-question" aria-expanded="false">
+                        <span class="acb-faq-q-text">How long does it take to receive my custom packaging?</span>
+                        <span class="acb-faq-toggle" aria-hidden="true"></span>
+                    </button>
+                    <div class="acb-faq-answer-wrap">
+                        <p class="acb-faq-answer">Our standard turnaround time is 10-12 business days, but we also offer expedited shipping options.</p>
+                    </div>
+                </div>
+
+                <div class="acb-faq-item">
+                    <button type="button" class="acb-faq-question" aria-expanded="false">
+                        <span class="acb-faq-q-text">Do you charge for die-cutting and plate setup?</span>
+                        <span class="acb-faq-toggle" aria-hidden="true"></span>
+                    </button>
+                    <div class="acb-faq-answer-wrap">
+                        <p class="acb-faq-answer">No! We offer free die and plate setup to keep your costs low.</p>
+                    </div>
+                </div>
+
+                <div class="acb-faq-item">
+                    <button type="button" class="acb-faq-question" aria-expanded="false">
+                        <span class="acb-faq-q-text">Can I customize the printing and design?</span>
+                        <span class="acb-faq-toggle" aria-hidden="true"></span>
+                    </button>
+                    <div class="acb-faq-answer-wrap">
+                        <p class="acb-faq-answer">Yes! We provide various printing techniques, including offset, digital, and screen printing, with full customization options.</p>
+                    </div>
+                </div>
+
+                <div class="acb-faq-item">
+                    <button type="button" class="acb-faq-question" aria-expanded="false">
+                        <span class="acb-faq-q-text">What industries do you serve?</span>
+                        <span class="acb-faq-toggle" aria-hidden="true"></span>
+                    </button>
+                    <div class="acb-faq-answer-wrap">
+                        <p class="acb-faq-answer">We cater to multiple industries, including food, cosmetics, retail, electronics, and e-commerce businesses.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+(function () {
+    if (window.acbFaqAccordionInit) return;
+    window.acbFaqAccordionInit = true;
+
+    function setAnswerHeight(wrap, open) {
+        wrap.style.maxHeight = open ? wrap.scrollHeight + 'px' : '0px';
+    }
+
+    function initFaqAccordion(root) {
+        var items = root.querySelectorAll('.acb-faq-item');
+
+        items.forEach(function (item) {
+            var btn = item.querySelector('.acb-faq-question');
+            var wrap = item.querySelector('.acb-faq-answer-wrap');
+            if (!btn || !wrap) return;
+
+            btn.addEventListener('click', function () {
+                var isOpen = item.classList.contains('is-open');
+
+                items.forEach(function (other) {
+                    if (other !== item) {
+                        other.classList.remove('is-open');
+                        var otherBtn = other.querySelector('.acb-faq-question');
+                        var otherWrap = other.querySelector('.acb-faq-answer-wrap');
+                        if (otherBtn) otherBtn.setAttribute('aria-expanded', 'false');
+                        if (otherWrap) setAnswerHeight(otherWrap, false);
+                    }
+                });
+
+                if (isOpen) {
+                    item.classList.remove('is-open');
+                    btn.setAttribute('aria-expanded', 'false');
+                    setAnswerHeight(wrap, false);
+                } else {
+                    item.classList.add('is-open');
+                    btn.setAttribute('aria-expanded', 'true');
+                    setAnswerHeight(wrap, true);
+                }
+            });
+        });
+
+        window.addEventListener('resize', function () {
+            items.forEach(function (item) {
+                if (item.classList.contains('is-open')) {
+                    var wrap = item.querySelector('.acb-faq-answer-wrap');
+                    if (wrap) setAnswerHeight(wrap, true);
+                }
+            });
+        });
+    }
+
+    document.querySelectorAll('.acb-faq-section').forEach(initFaqAccordion);
+})();
+</script>

@@ -1,0 +1,17 @@
+{
+  "migrated": 83,
+  "skipped": 0,
+  "elementor_template_id": 464,
+  "sample_urls": [
+    "http://localhost:10004/product/brownie-boxes/",
+    "http://localhost:10004/product/candle-jar-boxes/",
+    "http://localhost:10004/product/candle-mailer-boxes/",
+    "http://localhost:10004/product/cardboard-gift-boxes/",
+    "http://localhost:10004/product/cbd-vape-cartridge-boxes/",
+    "http://localhost:10004/product/child-resistant-cbd-packaging/",
+    "http://localhost:10004/product/child-resistant-mylar-bags/",
+    "http://localhost:10004/product/child-resistant-stand-up-pouch/",
+    "http://localhost:10004/product/chocolate-bar-boxes/",
+    "http://localhost:10004/product/chocolate-gift-boxes/"
+  ]
+}

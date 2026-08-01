@@ -1,0 +1,220 @@
+<style id="acb-detailed-quote-css">
+.acb-dqf-wrap,.acb-dqf-wrap *,.acb-dqf-wrap *::before,.acb-dqf-wrap *::after{box-sizing:border-box}
+.acb-dqf-wrap{max-width:1300px;margin:0 auto;padding:40px 20px 60px;font-family:'Titillium Web',Arial,sans-serif;color:#111;background:transparent}
+.acb-dqf-wrap .qf-header{text-align:center;margin-bottom:36px}
+.acb-dqf-wrap .qf-header h1{font-family:'Titillium Web',sans-serif;font-size:2rem;font-weight:700;color:#111;letter-spacing:-0.2px;text-transform:uppercase;margin:0;line-height:1.25}
+.acb-dqf-wrap .qf-header h1 span{color:#FF2E2E}
+.acb-dqf-wrap .qf-header p{color:#555;margin-top:10px;font-size:0.97rem;line-height:1.6}
+.acb-dqf-wrap .qf-header p strong{color:#FF2E2E}
+.acb-dqf-wrap .qf-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;margin-bottom:18px}
+.acb-dqf-wrap .qf-card{background:#fff;border:1.5px solid #FF2E2E;border-radius:12px;padding:22px 18px 18px}
+.acb-dqf-wrap .qf-card-title{display:flex;align-items:center;gap:8px;font-family:'Titillium Web',sans-serif;font-size:1.05rem;font-weight:700;color:#FF2E2E;text-transform:none;letter-spacing:-0.2px;margin-bottom:18px;padding-bottom:10px;border-bottom:1.5px solid #FF2E2E;line-height:1.3}
+.acb-dqf-wrap .qf-card-title svg{color:#FF2E2E;flex-shrink:0}
+.acb-dqf-wrap .qf-field{margin-bottom:14px}
+.acb-dqf-wrap .qf-field label{display:block;font-size:0.78rem;font-weight:700;color:#111;margin-bottom:5px}
+.acb-dqf-wrap .qf-field label .req{color:#FF2E2E;margin-left:2px}
+.acb-dqf-wrap .qf-field input[type="text"],.acb-dqf-wrap .qf-field input[type="email"],.acb-dqf-wrap .qf-field input[type="tel"],.acb-dqf-wrap .qf-field select,.acb-dqf-wrap .qf-field textarea{width:100%;padding:9px 12px;border:1.5px solid #FF2E2E;border-radius:7px;font-size:0.85rem;color:#111;background:#fafbfc;outline:none;font-family:inherit}
+.acb-dqf-wrap .qf-field input:focus,.acb-dqf-wrap .qf-field select:focus,.acb-dqf-wrap .qf-field textarea:focus{border-color:#FF2E2E;box-shadow:0 0 0 3px rgba(255,46,46,.12);background:#fff}
+.acb-dqf-wrap .qf-input-icon{position:relative}
+.acb-dqf-wrap .qf-input-icon svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:#aab0bb;pointer-events:none;z-index:1;width:15px;height:15px}
+.acb-dqf-wrap .qf-field .qf-input-icon input[type="text"],
+.acb-dqf-wrap .qf-field .qf-input-icon input[type="email"],
+.acb-dqf-wrap .qf-field .qf-input-icon input[type="tel"]{padding:9px 12px 9px 40px !important}
+.acb-dqf-wrap .qf-radio-group,.acb-dqf-wrap .qf-check-group{display:flex;flex-direction:column;gap:8px}
+.acb-dqf-wrap .qf-radio-item,.acb-dqf-wrap .qf-check-item{display:flex !important;align-items:center !important;gap:10px;cursor:pointer;font-size:0.84rem;color:#333;line-height:1.35;margin:0}
+.acb-dqf-wrap .qf-radio-item input,.acb-dqf-wrap .qf-check-item input{accent-color:#FF2E2E;width:16px;height:16px;min-width:16px;min-height:16px;margin:0 !important;padding:0;cursor:pointer;flex-shrink:0;position:relative;top:0;vertical-align:middle;align-self:center}
+.acb-dqf-wrap .qf-file-box{border:2px dashed #FF2E2E;border-radius:9px;padding:18px 12px;text-align:center;cursor:pointer;background:#fafbfc}
+.acb-dqf-wrap .qf-file-box:hover{border-color:#E02020;background:#FFF8F8}
+.acb-dqf-wrap .qf-file-box svg{color:#FF2E2E;margin-bottom:6px}
+.acb-dqf-wrap .qf-file-box p{font-size:0.75rem;font-weight:700;color:#FF2E2E;margin:0 0 2px}
+.acb-dqf-wrap .qf-file-box span{font-size:0.68rem;color:#999}
+.acb-dqf-wrap .qf-file-box input[type="file"]{display:none}
+.acb-dqf-wrap .qf-file-name{font-size:0.72rem;color:#FF2E2E;margin-top:5px;word-break:break-all}
+.acb-dqf-wrap .qf-bottom{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:24px}
+.acb-dqf-wrap .qf-notes,.acb-dqf-wrap .qf-why{background:#fff;border:1.5px solid #FF2E2E;border-radius:12px;padding:22px 18px 18px}
+.acb-dqf-wrap .qf-notes-title,.acb-dqf-wrap .qf-why h3{display:flex;align-items:center;gap:8px;font-family:'Titillium Web',sans-serif;font-size:1.05rem;font-weight:700;color:#FF2E2E;text-transform:none;letter-spacing:-0.2px;margin:0 0 14px;padding-bottom:10px;border-bottom:1.5px solid #FF2E2E;line-height:1.3}
+.acb-dqf-wrap .qf-notes-title svg{color:#FF2E2E}
+.acb-dqf-wrap .qf-notes textarea{width:100%;height:120px;resize:vertical;padding:10px 13px;border:1.5px solid #FF2E2E;border-radius:7px;font-size:0.85rem;color:#111;font-family:inherit;background:#fafbfc;outline:none}
+.acb-dqf-wrap .qf-notes textarea:focus{border-color:#FF2E2E;box-shadow:0 0 0 3px rgba(255,46,46,.12);background:#fff}
+.acb-dqf-wrap .qf-charcount{text-align:right;font-size:0.72rem;color:#aab0bb;margin-top:4px}
+.acb-dqf-wrap .qf-why{display:flex;flex-direction:column;justify-content:center}
+.acb-dqf-wrap .qf-why-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
+.acb-dqf-wrap .qf-why-item{text-align:center}
+.acb-dqf-wrap .qf-why-item svg{color:#FF2E2E;margin-bottom:6px}
+.acb-dqf-wrap .qf-why-item strong{display:block;font-size:0.72rem;font-weight:800;color:#111;text-transform:uppercase;letter-spacing:.3px;margin-bottom:3px}
+.acb-dqf-wrap .qf-why-item span{font-size:0.7rem;color:#777;line-height:1.4}
+.acb-dqf-wrap .qf-submit-wrap{text-align:center}
+.acb-dqf-wrap .qf-submit-btn{background:#FF2E2E;color:#fff;border:none;border-radius:8px;padding:16px 54px;font-size:1.05rem;font-weight:800;letter-spacing:1px;text-transform:uppercase;cursor:pointer;display:inline-flex;align-items:center;gap:10px;box-shadow:0 4px 18px rgba(255,46,46,.22)}
+.acb-dqf-wrap .qf-submit-btn:hover{background:#E02020}
+.acb-dqf-wrap .qf-privacy{text-align:center;margin-top:10px;font-size:0.75rem;color:#888;display:flex;align-items:center;justify-content:center;gap:5px}
+.acb-dqf-wrap .qf-privacy svg{color:#FF2E2E}
+.acb-dqf-wrap .qf-msg-success{display:none;background:#FFF5F5;border:1.5px solid #FF2E2E;border-radius:10px;padding:18px 24px;text-align:center;color:#9B1C1C;font-weight:700;margin-bottom:20px}
+.acb-dqf-wrap .qf-msg-error{display:none;background:#fff5f5;border:1.5px solid #e53e3e;border-radius:10px;padding:18px 24px;text-align:center;color:#c53030;font-weight:700;margin-bottom:20px}
+.acb-dqf-wrap .qf-field.error input,.acb-dqf-wrap .qf-field.error select,.acb-dqf-wrap .qf-field.error textarea{border-color:#e53e3e}
+.acb-dqf-wrap .qf-field .err-msg{font-size:0.72rem;color:#e53e3e;margin-top:3px;display:none}
+.acb-dqf-wrap .qf-field.error .err-msg{display:block}
+.acb-dqf-wrap .loading-spinner{display:none;width:20px;height:20px;border:2.5px solid rgba(255,255,255,.4);border-top-color:#fff;border-radius:50%;animation:acbDqfSpin .7s linear infinite}
+@keyframes acbDqfSpin{to{transform:rotate(360deg)}}
+@media(max-width:1100px){.acb-dqf-wrap .qf-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:750px){.acb-dqf-wrap .qf-grid{grid-template-columns:repeat(2,1fr)}.acb-dqf-wrap .qf-bottom{grid-template-columns:1fr}.acb-dqf-wrap .qf-why-grid{grid-template-columns:repeat(3,1fr)}.acb-dqf-wrap .qf-header h1{font-size:1.5rem}.acb-dqf-wrap .qf-submit-btn{padding:14px 32px;font-size:0.92rem}}
+@media(max-width:480px){.acb-dqf-wrap .qf-grid{grid-template-columns:1fr}.acb-dqf-wrap .qf-why-grid{grid-template-columns:repeat(2,1fr)}.acb-dqf-wrap{padding:20px 12px 40px}}
+</style>
+<div class="acb-dqf-wrap" id="acb-detailed-quote">
+  <div class="qf-header">
+    <h1>Request A <span>Detailed Quote</span></h1>
+    <p>Fill out the form below with your requirements and our packaging experts will get back to you<br>with a custom quote <strong>within 24 hours.</strong></p>
+  </div>
+  <div class="qf-msg-success" id="qfSuccess">Your quote request has been submitted! We'll get back to you within 24 hours.</div>
+  <div class="qf-msg-error" id="qfError">Something went wrong. Please try again or email us at sales@americacustomboxes.com</div>
+  <form id="quoteForm" enctype="multipart/form-data" novalidate>
+    <div class="qf-grid">
+      <div class="qf-card">
+        <div class="qf-card-title"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>1. Contact Information</div>
+        <div class="qf-field" id="f_name"><label>Full Name <span class="req">*</span></label><div class="qf-input-icon"><svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg><input type="text" name="full_name" placeholder="Enter your full name"></div><div class="err-msg">Please enter your full name.</div></div>
+        <div class="qf-field" id="f_company"><label>Company Name <span class="req">*</span></label><div class="qf-input-icon"><svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="14" rx="1"/><path d="M8 7V5a4 4 0 018 0v2"/></svg><input type="text" name="company_name" placeholder="Enter company name"></div><div class="err-msg">Please enter your company name.</div></div>
+        <div class="qf-field" id="f_email"><label>Email Address <span class="req">*</span></label><div class="qf-input-icon"><svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 8l10 7 10-7"/></svg><input type="email" name="email" placeholder="Enter your email"></div><div class="err-msg">Please enter a valid email.</div></div>
+        <div class="qf-field" id="f_phone"><label>Phone Number <span class="req">*</span></label><div class="qf-input-icon"><svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2A19.79 19.79 0 013.09 4.18 2 2 0 015.07 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L9.09 9.91a16 16 0 006.99 6.99l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg><input type="tel" name="phone" placeholder="(000) 000-0000"></div><div class="err-msg">Please enter your phone number.</div></div>
+        <div class="qf-field" id="f_country"><label>Country <span class="req">*</span></label><select name="country"><option value="">Select Country</option><option>United States</option><option>Canada</option><option>United Kingdom</option><option>Australia</option><option>Germany</option><option>France</option><option>India</option><option>Pakistan</option><option>Other</option></select><div class="err-msg">Please select your country.</div></div>
+      </div>
+      <div class="qf-card">
+        <div class="qf-card-title"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>2. Packaging Details</div>
+        <div class="qf-field" id="f_box_style"><label>Box Style / Type <span class="req">*</span></label><select name="box_style"><option value="">Select Box Style</option><option>Tuck End Box</option><option>Reverse Tuck End</option><option>Sleeve Box</option><option>Two-Piece Box</option><option>Mailer Box</option><option>Display Box</option><option>Gable Box</option><option>Custom Shape</option></select><div class="err-msg">Please select a box style.</div></div>
+        <div class="qf-field" id="f_length"><label>Length (inch) <span class="req">*</span></label><input type="text" name="length" placeholder="e.g. 6"><div class="err-msg">Please enter the length.</div></div>
+        <div class="qf-field" id="f_width"><label>Width (inch) <span class="req">*</span></label><input type="text" name="width" placeholder="e.g. 4"><div class="err-msg">Please enter the width.</div></div>
+        <div class="qf-field" id="f_height"><label>Height (inch) <span class="req">*</span></label><input type="text" name="height" placeholder="e.g. 2"><div class="err-msg">Please enter the height.</div></div>
+        <div class="qf-field" id="f_quantity"><label>Quantity (Boxes) <span class="req">*</span></label><select name="quantity"><option value="">Select Quantity</option><option>100 – 499</option><option>500 – 999</option><option>1,000 – 2,499</option><option>2,500 – 4,999</option><option>5,000 – 9,999</option><option>10,000+</option></select><div class="err-msg">Please select a quantity.</div></div>
+      </div>
+      <div class="qf-card">
+        <div class="qf-card-title"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>3. Material</div>
+        <div class="qf-field" id="f_material"><label>Select Material <span class="req">*</span></label><div class="qf-radio-group"><label class="qf-radio-item"><input type="radio" name="material" value="Cardboard"> Cardboard</label><label class="qf-radio-item"><input type="radio" name="material" value="Corrugated"> Corrugated</label><label class="qf-radio-item"><input type="radio" name="material" value="Kraft"> Kraft</label><label class="qf-radio-item"><input type="radio" name="material" value="Rigid Board"> Rigid Board</label><label class="qf-radio-item"><input type="radio" name="material" value="Other"> Other</label></div><div class="err-msg">Please select a material.</div></div>
+        <div class="qf-field" style="margin-top:14px"><label>Material Thickness</label><select name="thickness"><option value="">Select Thickness</option><option>10pt</option><option>12pt</option><option>14pt</option><option>16pt</option><option>18pt</option><option>24pt</option><option>Custom</option></select></div>
+      </div>
+      <div class="qf-card">
+        <div class="qf-card-title"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>4. Printing</div>
+        <div class="qf-field" id="f_printing"><label>Printing Option <span class="req">*</span></label><div class="qf-radio-group"><label class="qf-radio-item"><input type="radio" name="printing" value="1 Color Printing"> 1 Color Printing</label><label class="qf-radio-item"><input type="radio" name="printing" value="2 Color Printing"> 2 Color Printing</label><label class="qf-radio-item"><input type="radio" name="printing" value="4 Color (CMYK)"> 4 Color (CMYK)</label><label class="qf-radio-item"><input type="radio" name="printing" value="Pantone (PMS)"> Pantone (PMS)</label><label class="qf-radio-item"><input type="radio" name="printing" value="No Printing"> No Printing</label></div><div class="err-msg">Please select a printing option.</div></div>
+      </div>
+      <div class="qf-card">
+        <div class="qf-card-title"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>5. Finishing</div>
+        <div class="qf-field"><label>Finishing Options</label><div class="qf-check-group"><label class="qf-check-item"><input type="checkbox" name="finishing[]" value="Matte Lamination"> Matte Lamination</label><label class="qf-check-item"><input type="checkbox" name="finishing[]" value="Gloss Lamination"> Gloss Lamination</label><label class="qf-check-item"><input type="checkbox" name="finishing[]" value="Soft Touch Lamination"> Soft Touch Lamination</label><label class="qf-check-item"><input type="checkbox" name="finishing[]" value="Spot UV"> Spot UV</label><label class="qf-check-item"><input type="checkbox" name="finishing[]" value="Foil Stamping (Gold)"> Foil Stamping (Gold)</label><label class="qf-check-item"><input type="checkbox" name="finishing[]" value="Foil Stamping (Silver)"> Foil Stamping (Silver)</label><label class="qf-check-item"><input type="checkbox" name="finishing[]" value="Embossing"> Embossing</label><label class="qf-check-item"><input type="checkbox" name="finishing[]" value="Debossing"> Debossing</label><label class="qf-check-item"><input type="checkbox" name="finishing[]" value="Other"> Other</label></div></div>
+        <div class="qf-field" style="margin-top:10px"><input type="text" name="finishing_other" placeholder="Please Specify"></div>
+      </div>
+      <div class="qf-card">
+        <div class="qf-card-title"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>6. Upload Files</div>
+        <div class="qf-field"><label>Upload Logo</label><div class="qf-file-box" onclick="document.getElementById('logoFile').click()"><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg><p>Choose Image</p><span>JPG, PNG, WEBP or GIF · Max 5MB</span><input type="file" id="logoFile" name="logo_file" accept="image/jpeg,image/png,image/webp,image/gif,.jpg,.jpeg,.png,.webp,.gif"></div><div class="qf-file-name" id="logoFileName"></div></div>
+        <div class="qf-field"><label>Upload Artwork / Design</label><div class="qf-file-box" onclick="document.getElementById('artworkFile').click()"><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg><p>Choose Image</p><span>JPG, PNG, WEBP or GIF · Max 5MB</span><input type="file" id="artworkFile" name="artwork_file" accept="image/jpeg,image/png,image/webp,image/gif,.jpg,.jpeg,.png,.webp,.gif"></div><div class="qf-file-name" id="artworkFileName"></div></div>
+        <div class="qf-field"><label>Reference Image <em style="font-weight:400;color:#888;font-size:0.75rem">(Optional)</em></label><div class="qf-file-box" onclick="document.getElementById('refFile').click()"><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg><p>Choose Image</p><span>JPG, PNG, WEBP or GIF · Max 5MB</span><input type="file" id="refFile" name="reference_file" accept="image/jpeg,image/png,image/webp,image/gif,.jpg,.jpeg,.png,.webp,.gif"></div><div class="qf-file-name" id="refFileName"></div></div>
+      </div>
+    </div>
+    <div class="qf-bottom">
+      <div class="qf-notes">
+        <div class="qf-notes-title"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>7. Additional Notes</div>
+        <div class="qf-field"><label>Your Requirements / Notes</label><textarea name="notes" id="notesArea" placeholder="Please share any other details about your packaging requirements..." maxlength="1000"></textarea><div class="qf-charcount"><span id="charCount">0</span> / 1000</div></div>
+      </div>
+      <div class="qf-why">
+        <h3>Why Choose Us?</h3>
+        <div class="qf-why-grid">
+          <div class="qf-why-item"><svg width="28" height="28" fill="none" stroke="#FF2E2E" stroke-width="1.8" viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg><strong>Free Design Support</strong><span>Professional design assistance</span></div>
+          <div class="qf-why-item"><svg width="28" height="28" fill="none" stroke="#FF2E2E" stroke-width="1.8" viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg><strong>Free Shipping</strong><span>Across all 50 US states</span></div>
+          <div class="qf-why-item"><svg width="28" height="28" fill="none" stroke="#FF2E2E" stroke-width="1.8" viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg><strong>Low MOQ</strong><span>Minimum order 100 boxes</span></div>
+          <div class="qf-why-item"><svg width="28" height="28" fill="none" stroke="#FF2E2E" stroke-width="1.8" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2A19.79 19.79 0 013.09 4.18 2 2 0 015.07 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L9.09 9.91a16 16 0 006.99 6.99l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg><strong>24/7 Support</strong><span>We are always here to help you</span></div>
+          <div class="qf-why-item"><svg width="28" height="28" fill="none" stroke="#FF2E2E" stroke-width="1.8" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><strong>Premium Quality</strong><span>Top quality materials &amp; printing</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="qf-submit-wrap">
+      <div class="acb-hp-wrap" aria-hidden="true" style="position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden;opacity:0;pointer-events:none">
+        <label>Leave this field empty<input type="text" name="acb_hp_field" value="" tabindex="-1" autocomplete="off"></label>
+      </div>
+      <button type="submit" class="qf-submit-btn" id="submitBtn"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg><span id="btnText">Request Detailed Quote</span><div class="loading-spinner" id="spinner"></div></button>
+      <div class="qf-privacy"><svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>Your information is safe with us and will never be shared.</div>
+    </div>
+  </form>
+</div>
+<script>
+(function(){
+  var root=document.getElementById('acb-detailed-quote'); if(!root) return;
+  var form=document.getElementById('quoteForm');
+  var notesArea=document.getElementById('notesArea');
+  var charCount=document.getElementById('charCount');
+  var successMsg=document.getElementById('qfSuccess');
+  var errorMsg=document.getElementById('qfError');
+  var submitBtn=document.getElementById('submitBtn');
+  var btnText=document.getElementById('btnText');
+  var spinner=document.getElementById('spinner');
+  notesArea.addEventListener('input',function(){charCount.textContent=this.value.length;});
+  var MAX_IMAGE_BYTES=5*1024*1024;
+  var ALLOWED_IMAGE_TYPES={ 'image/jpeg':1,'image/png':1,'image/webp':1,'image/gif':1 };
+  var ALLOWED_IMAGE_EXT=/\.(jpe?g|png|webp|gif)$/i;
+  function validateImageFile(file){
+    if(!file) return '';
+    if(file.size>MAX_IMAGE_BYTES) return 'Each image must be 5MB or smaller.';
+    var typeOk=!!ALLOWED_IMAGE_TYPES[file.type];
+    var extOk=ALLOWED_IMAGE_EXT.test(file.name||'');
+    if(!typeOk && !extOk) return 'Only image files are allowed (JPG, PNG, WEBP, GIF). PDF and other files are not accepted.';
+    if(file.type && file.type.indexOf('image/')!==0) return 'Only image files are allowed (JPG, PNG, WEBP, GIF).';
+    return '';
+  }
+  function setFileLabel(inputId,labelId){
+    var input=document.getElementById(inputId),label=document.getElementById(labelId);
+    input.addEventListener('change',function(){
+      if(!this.files.length){ label.textContent=''; return; }
+      var err=validateImageFile(this.files[0]);
+      if(err){
+        label.textContent='';
+        this.value='';
+        errorMsg.textContent=err;
+        errorMsg.style.display='block';
+        return;
+      }
+      errorMsg.style.display='none';
+      label.textContent=this.files[0].name+' ('+Math.round(this.files[0].size/1024)+' KB)';
+    });
+  }
+  setFileLabel('logoFile','logoFileName'); setFileLabel('artworkFile','artworkFileName'); setFileLabel('refFile','refFileName');
+  function validateUploads(){
+    var ids=['logoFile','artworkFile','refFile'];
+    for(var i=0;i<ids.length;i++){
+      var el=document.getElementById(ids[i]);
+      if(el && el.files && el.files[0]){
+        var err=validateImageFile(el.files[0]);
+        if(err){ errorMsg.textContent=err; errorMsg.style.display='block'; return false; }
+      }
+    }
+    return true;
+  }
+  function validate(){
+    var valid=true;
+    var rules=[{id:'f_name',name:'full_name',type:'input'},{id:'f_company',name:'company_name',type:'input'},{id:'f_email',name:'email',type:'email'},{id:'f_phone',name:'phone',type:'input'},{id:'f_country',name:'country',type:'select'},{id:'f_box_style',name:'box_style',type:'select'},{id:'f_length',name:'length',type:'input'},{id:'f_width',name:'width',type:'input'},{id:'f_height',name:'height',type:'input'},{id:'f_quantity',name:'quantity',type:'select'},{id:'f_material',name:'material',type:'radio'},{id:'f_printing',name:'printing',type:'radio'}];
+    rules.forEach(function(r){
+      var field=document.getElementById(r.id); var ok=false;
+      if(r.type==='input'){var el=form.querySelector('[name="'+r.name+'"]'); ok=el&&el.value.trim()!=='';}
+      else if(r.type==='email'){var el=form.querySelector('[name="'+r.name+'"]'); ok=el&&/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(el.value.trim());}
+      else if(r.type==='select'){var el=form.querySelector('[name="'+r.name+'"]'); ok=el&&el.value!=='';}
+      else if(r.type==='radio'){form.querySelectorAll('[name="'+r.name+'"]').forEach(function(e){if(e.checked)ok=true;});}
+      if(!ok){field.classList.add('error'); valid=false;} else {field.classList.remove('error');}
+    });
+    return valid;
+  }
+  form.addEventListener('submit',function(e){
+    e.preventDefault(); successMsg.style.display='none'; errorMsg.style.display='none';
+    if(!validate()) return;
+    if(!validateUploads()) return;
+    submitBtn.disabled=true; btnText.textContent='Sending...'; spinner.style.display='inline-block';
+    var fd=new FormData(form);
+    fd.append('action','acb_submit_detailed_quote');
+    fd.append('quote_nonce', (typeof quoteFormNonce!=='undefined'?quoteFormNonce:(typeof acbDetailedQuoteNonce!=='undefined'?acbDetailedQuoteNonce:'')));
+    var endpoint=(typeof quoteFormAjax!=='undefined'?quoteFormAjax:(typeof acbDetailedQuoteAjax!=='undefined'?acbDetailedQuoteAjax:'/wp-admin/admin-ajax.php'));
+    fetch(endpoint,{method:'POST',body:fd,credentials:'same-origin'})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      if(data.success){successMsg.style.display='block'; form.reset(); charCount.textContent='0'; document.getElementById('logoFileName').textContent=''; document.getElementById('artworkFileName').textContent=''; document.getElementById('refFileName').textContent=''; window.scrollTo({top:successMsg.offsetTop-80,behavior:'smooth'});}
+      else {errorMsg.style.display='block'; if(data.data&&data.data.message) errorMsg.textContent=data.data.message;}
+    })
+    .catch(function(){errorMsg.style.display='block';})
+    .finally(function(){submitBtn.disabled=false; btnText.textContent='Request Detailed Quote'; spinner.style.display='none';});
+  });
+  ['f_name','f_company','f_email','f_phone','f_country','f_box_style','f_length','f_width','f_height','f_quantity'].forEach(function(id){
+    var field=document.getElementById(id); if(!field) return; var input=field.querySelector('input,select'); if(input) input.addEventListener('input',function(){field.classList.remove('error');});
+  });
+})();
+</script>

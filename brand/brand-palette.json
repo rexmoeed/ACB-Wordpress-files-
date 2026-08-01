@@ -1,0 +1,14 @@
+{
+  "brand": "America Custom Boxes",
+  "colors": {
+    "red": {
+      "original": "#FF2E2E",
+      "light": "#FF5757"
+    },
+    "blue": {
+      "original": "#0049E9",
+      "light": "#4A83FF"
+    }
+  },
+  "font": "Titillium Web"
+}

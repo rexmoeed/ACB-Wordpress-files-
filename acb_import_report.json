@@ -1,0 +1,757 @@
+{
+  "docs_found": 4,
+  "doc_counts": {
+    "ACB_Product_Copy_Master_Catalog.docx": 79,
+    "ACB_Remaining_Products_Catalogue.docx": 54,
+    "ACB_Remaining_Products_Catalogue (1).docx": 97,
+    "ACB_Remaining_Products_Catalogue (2).docx": 152
+  },
+  "unique_products_parsed": 229,
+  "db_products": 83,
+  "matched_updated": 83,
+  "unmatched_docs": [
+    {
+      "name": "Drawer (Sliding) Candle Boxes",
+      "slug": "drawer-candle-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Custom Two Piece Candle Boxes",
+      "slug": "custom-two-piece-candle-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Window Candle Boxes",
+      "slug": "window-candle-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Candle Box with Insert",
+      "slug": "candle-box-with-insert",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Custom Square Candle Boxes",
+      "slug": "custom-square-candle-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Candle Tray and Sleeve Boxes",
+      "slug": "candle-tray-and-sleeve-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Candle Display Boxes",
+      "slug": "candle-display-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "CBD Candle Packaging",
+      "slug": "cbd-candle-packaging",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Tealight Candle Packaging",
+      "slug": "tealight-candle-packaging",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Custom Votive Candle Boxes",
+      "slug": "custom-votive-candle-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Colored Mailer Boxes",
+      "slug": "colored-mailer-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Glossy Mailer Boxes",
+      "slug": "glossy-mailer-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Tear Strip Mailer Boxes",
+      "slug": "tear-strip-mailer-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Ear Lock Mailer Box",
+      "slug": "ear-lock-mailer-box",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Return-Friendly Mailer Boxes",
+      "slug": "return-friendly-mailer-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Sleeved Mailer Boxes",
+      "slug": "sleeved-mailer-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Compostable Mailer Boxes",
+      "slug": "compostable-mailer-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Custom Bubble Mailers",
+      "slug": "custom-bubble-mailers",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Christmas Holiday Mailer Boxes",
+      "slug": "christmas-holiday-mailer-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Shoulder Neck Rigid Boxes",
+      "slug": "shoulder-neck-rigid-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Collapsible Rigid Boxes",
+      "slug": "collapsible-rigid-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Chocolate Rigid Boxes",
+      "slug": "chocolate-rigid-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Luxury Candle Rigid Boxes",
+      "slug": "luxury-candle-rigid-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Book Style Rigid Boxes",
+      "slug": "book-style-rigid-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Pet Biscuit Window Boxes",
+      "slug": "pet-biscuit-window-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Pet Training Treat Boxes",
+      "slug": "pet-training-treat-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Pet Shampoo & Grooming Boxes",
+      "slug": "pet-shampoo-grooming-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Pet Dental Care Product Boxes",
+      "slug": "pet-dental-care-product-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Chocolate Truffle Boxes",
+      "slug": "chocolate-truffle-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Chocolate Box with Inserts",
+      "slug": "chocolate-box-with-inserts",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Assorted Chocolate Boxes",
+      "slug": "assorted-chocolate-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Window Chocolate Boxes",
+      "slug": "window-chocolate-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Chocolate Subscription Boxes",
+      "slug": "chocolate-subscription-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Mini Individual Popcorn Boxes",
+      "slug": "mini-individual-popcorn-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Window Popcorn Boxes",
+      "slug": "window-popcorn-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Gable Style Popcorn Boxes",
+      "slug": "gable-style-popcorn-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Microwave Popcorn Packaging",
+      "slug": "microwave-popcorn-packaging",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Eco-Friendly Popcorn Boxes",
+      "slug": "eco-friendly-popcorn-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Celebration Keepsake Boxes",
+      "slug": "celebration-keepsake-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Gable Favor Boxes",
+      "slug": "gable-favor-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Hexagonal Gift Event Boxes",
+      "slug": "hexagonal-gift-event-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Wine Box with Foam Insert",
+      "slug": "wine-box-with-foam-insert",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Magnetic Closure Wine Box",
+      "slug": "magnetic-closure-wine-box",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Sliding Drawer Wine Box",
+      "slug": "sliding-drawer-wine-box",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Flat Three-Side Seal Mylar Bags",
+      "slug": "flat-three-side-seal-mylar-bags",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Vacuum Sealed Mylar Pouches",
+      "slug": "vacuum-sealed-mylar-pouches",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Octagonal Pizza Boxes",
+      "slug": "octagonal-pizza-boxes",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "One-Slice Pizza with Sauce Compartment",
+      "slug": "one-slice-pizza-with-sauce-compartment",
+      "source": "ACB_Product_Copy_Master_Catalog.docx"
+    },
+    {
+      "name": "Waterproof Vinyl Labels",
+      "slug": "waterproof-vinyl-labels",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Custom Holographic Stickers",
+      "slug": "custom-holographic-stickers",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Custom Foil Stamp Stickers",
+      "slug": "custom-foil-stamp-stickers",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Custom Embossed 3D Labels",
+      "slug": "custom-embossed-3d-labels",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Custom Scratch-Off Stickers",
+      "slug": "custom-scratch-off-stickers",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Custom Die Cut Shape Stickers",
+      "slug": "custom-die-cut-shape-stickers",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Custom Security Hologram Stickers",
+      "slug": "custom-security-hologram-stickers",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Custom Clear Transparent Stickers",
+      "slug": "custom-clear-transparent-stickers",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Custom Fabric Labels",
+      "slug": "custom-fabric-labels",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Gravity Feed Dispenser Boxes",
+      "slug": "gravity-feed-dispenser-boxes",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Interlocking Counter Display",
+      "slug": "interlocking-counter-display",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Candy Display Boxes",
+      "slug": "candy-display-boxes",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Cosmetic Display Boxes",
+      "slug": "cosmetic-display-boxes",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Side Kick Display Boxes",
+      "slug": "side-kick-display-boxes",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "End Cap Display Boxes",
+      "slug": "end-cap-display-boxes",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Window Display Boxes",
+      "slug": "window-display-boxes",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Header Card Display Boxes",
+      "slug": "header-card-display-boxes",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Frosted Stand-Up Pouch",
+      "slug": "frosted-stand-up-pouch",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Reusable Slider Stand-Up Pouch",
+      "slug": "reusable-slider-stand-up-pouch",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Metallic Foil Stand-Up Pouch",
+      "slug": "metallic-foil-stand-up-pouch",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Holographic Stand-Up Pouch",
+      "slug": "holographic-stand-up-pouch",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Quad Seal Stand-Up Pouch",
+      "slug": "quad-seal-stand-up-pouch",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Box Bottom Stand-Up Pouch",
+      "slug": "box-bottom-stand-up-pouch",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Cardboard Boxes with Inserts",
+      "slug": "cardboard-boxes-with-inserts",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Corrugated Large Shipping Boxes",
+      "slug": "corrugated-large-shipping-boxes",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Cardboard Window Boxes",
+      "slug": "cardboard-window-boxes",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Cardboard Display Boxes",
+      "slug": "cardboard-display-boxes",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Cardboard Floor Displays",
+      "slug": "cardboard-floor-displays",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Presentation Boxes with Clear Lid",
+      "slug": "presentation-boxes-with-clear-lid",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Cardboard Boxes with Lid",
+      "slug": "cardboard-boxes-with-lid",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Corrugated Cardboard Gift Boxes",
+      "slug": "corrugated-cardboard-gift-boxes",
+      "source": "ACB_Remaining_Products_Catalogue.docx"
+    },
+    {
+      "name": "Kraft Apparel Boxes",
+      "slug": "kraft-apparel-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Kraft Bakery Boxes",
+      "slug": "kraft-bakery-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Kraft Cupcake Boxes with Inserts",
+      "slug": "kraft-cupcake-boxes-with-inserts",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Kraft Gable Boxes",
+      "slug": "kraft-gable-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Kraft Gift Boxes with Lid",
+      "slug": "kraft-gift-boxes-with-lid",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Kraft Candle Boxes",
+      "slug": "kraft-candle-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Kraft Window Boxes",
+      "slug": "kraft-window-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Kraft Hang Tab Boxes",
+      "slug": "kraft-hang-tab-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Eco Kraft Tuck Boxes",
+      "slug": "eco-kraft-tuck-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Recyclable Eco Kraft Boxes",
+      "slug": "recyclable-eco-kraft-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Organic CBD Kraft Boxes",
+      "slug": "organic-cbd-kraft-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Kraft Rigid Boxes",
+      "slug": "kraft-rigid-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Kraft Drawer Boxes",
+      "slug": "kraft-drawer-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Auto Lock Bottom Boxes",
+      "slug": "auto-lock-bottom-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Snap Lock Bottom Boxes",
+      "slug": "snap-lock-bottom-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Hang Tab Tuck Boxes",
+      "slug": "hang-tab-tuck-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Sleeve and Tray Boxes",
+      "slug": "sleeve-and-tray-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Palette Boxes (Eyeshadow/Contour)",
+      "slug": "palette-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Perfume / Fragrance Tuck Boxes",
+      "slug": "perfume-fragrance-tuck-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Skincare Jar Tuck Sleeves",
+      "slug": "skincare-jar-tuck-sleeves",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Burger and Sandwich Tuck Boxes",
+      "slug": "burger-and-sandwich-tuck-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Cupcake Tuck Boxes with Inserts",
+      "slug": "cupcake-tuck-boxes-with-inserts",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Cereal Tuck Boxes",
+      "slug": "cereal-tuck-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Wine and Liquor Bottle Tuck Boxes",
+      "slug": "wine-and-liquor-bottle-tuck-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Eye Drops Bottle Tuck Boxes",
+      "slug": "eye-drops-bottle-tuck-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "USB Cable Reverse Tuck Boxes",
+      "slug": "usb-cable-reverse-tuck-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Earbuds Window Tuck Boxes",
+      "slug": "earbuds-window-tuck-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Sleeve + Tuck Hybrid Boxes",
+      "slug": "sleeve-tuck-hybrid-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Tear Strip Tuck Boxes",
+      "slug": "tear-strip-tuck-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (1).docx"
+    },
+    {
+      "name": "Double-Wall Tincture Boxes",
+      "slug": "double-wall-tincture-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "Custom CBD Candy Boxes",
+      "slug": "custom-cbd-candy-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "Custom CBD Chocolate Boxes",
+      "slug": "custom-cbd-chocolate-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "CBD Chocolate Bar Boxes",
+      "slug": "cbd-chocolate-bar-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "Custom CBD Brownie Boxes",
+      "slug": "custom-cbd-brownie-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "CBD Candy Display Boxes",
+      "slug": "cbd-candy-display-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "Universal Vape Pen Boxes",
+      "slug": "universal-vape-pen-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "Slider Style Cartridge Packaging",
+      "slug": "slider-style-cartridge-packaging",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "Custom CBD Lotion Boxes",
+      "slug": "custom-cbd-lotion-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "Custom CBD Balm Boxes",
+      "slug": "custom-cbd-balm-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "CBD Lip Balm Display Boxes",
+      "slug": "cbd-lip-balm-display-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "CBD Serum Glass Bottle Boxes",
+      "slug": "cbd-serum-glass-bottle-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "CBD Bath Bomb Gift Boxes",
+      "slug": "cbd-bath-bomb-gift-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "CBD Soap Bar Boxes",
+      "slug": "cbd-soap-bar-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "Magnetic Closure CBD Boxes",
+      "slug": "magnetic-closure-cbd-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "Drawer Style Luxury CBD Boxes",
+      "slug": "drawer-style-luxury-cbd-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "CBD Counter Display Boxes",
+      "slug": "cbd-counter-display-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "CBD Floor Stand Displays",
+      "slug": "cbd-floor-stand-displays",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "CBD Window Display Boxes",
+      "slug": "cbd-window-display-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "CBD Corrugated Mailer Boxes",
+      "slug": "cbd-corrugated-mailer-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "CBD Subscription Box Packaging",
+      "slug": "cbd-subscription-box-packaging",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "CBD Starter Kit Boxes",
+      "slug": "cbd-starter-kit-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "Handle Cake Boxes",
+      "slug": "handle-cake-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "Round Cake Boxes",
+      "slug": "round-cake-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "Mini Cupcake Boxes",
+      "slug": "mini-cupcake-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "Muffin Boxes",
+      "slug": "muffin-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "Dessert Boxes",
+      "slug": "dessert-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "Custom Sweet Boxes",
+      "slug": "custom-sweet-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "Shortbread Packaging",
+      "slug": "shortbread-packaging",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "Cinnamon Roll Packaging",
+      "slug": "cinnamon-roll-packaging",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "Pastry Boxes",
+      "slug": "pastry-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "Cake Pop Packaging",
+      "slug": "cake-pop-packaging",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "Pie Boxes",
+      "slug": "pie-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "Luxury Bakery Gift Boxes",
+      "slug": "luxury-bakery-gift-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "Drawer Slide Bakery Boxes",
+      "slug": "drawer-slide-bakery-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "Custom 2 Piece Truffle Boxes",
+      "slug": "custom-2-piece-truffle-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "SOS Bakery Bags",
+      "slug": "sos-bakery-bags",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    },
+    {
+      "name": "Gable Bakery Boxes",
+      "slug": "gable-bakery-boxes",
+      "source": "ACB_Remaining_Products_Catalogue (2).docx"
+    }
+  ],
+  "unmatched_db": [],
+  "sample_urls": [
+    "http://localhost:10004/product/brownie-boxes/",
+    "http://localhost:10004/product/candle-jar-boxes/",
+    "http://localhost:10004/product/candle-mailer-boxes/",
+    "http://localhost:10004/product/cardboard-gift-boxes/",
+    "http://localhost:10004/product/cbd-vape-cartridge-boxes/",
+    "http://localhost:10004/product/child-resistant-cbd-packaging/",
+    "http://localhost:10004/product/child-resistant-mylar-bags/",
+    "http://localhost:10004/product/child-resistant-stand-up-pouch/",
+    "http://localhost:10004/product/chocolate-bar-boxes/",
+    "http://localhost:10004/product/chocolate-gift-boxes/"
+  ]
+}

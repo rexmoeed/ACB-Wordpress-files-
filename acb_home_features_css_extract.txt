@@ -1,0 +1,187 @@
+=== BEFORE FEATURES ===
+}
+    95%     { transform: translateX(-50%); }
+    100%    { transform: translateX(-75%); }
+}
+
+@media (max-width: 767px) {
+    .acb-banner-section {
+        aspect-ratio: 12 / 5;
+    }
+}
+</style>
+
+<section class="acb-banner-section">
+    <div class="acb-slider-track">
+        <img decoding="async" src="https://americacustomboxes.com/wp-content/uploads/2026/07/ACB-Banner-1.webp" alt="America Custom Boxes Banner 1">
+        <img decoding="async" src="https://americacustomboxes.com/wp-content/uploads/2026/07/ACB-Banner-2.webp" alt="America Custom Boxes Banner 2">
+        <img decoding="async" src="https://americacustomboxes.com/wp-content/uploads/2026/07/ACB-Banner-3.webp" alt="America Custom Boxes Banner 3">
+        <img decoding="async" src="https://americacustomboxes.com/wp-content/uploads/2026/07/ACB-Banner-1.webp" alt="America Custom Boxes Banner 1 repeat">
+    </div>
+</section>				</div>
+				</div>
+		<div class="elementor-element elementor-element-67255c0 e-con-full e-flex e-con e-parent" data-id="67255c0" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-cbbb7ef elementor-widget elementor-widget-html" data-id="cbbb7ef" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
+					<style>
+/* =========================
+   AMERICA CUSTOM BOXES FEATURES
+========================= */
+.acb-features{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:18px;
+    padding:20px 10px;
+    width:100%;
+    box-sizing:border-box;
+    flex-wrap:wrap;
+}
+.acb-feature-item{
+    text-align:center;
+    width:100px;
+}
+.acb-feature-item img{
+    width:90px;
+    height:auto;
+    display:block;
+    margin:0 auto;
+    transition:transform .3s ease;
+}
+.acb-feature-item:hover img{
+    transform:translateY(-3px);
+}
+/* Tablet */
+@media (max-width:1024px){
+    .acb-features{
+        gap:14px;
+    }
+    .acb-feature-item{
+        width:85px;
+    }
+    .acb-feature-item img{
+        width:75px;
+    }
+}
+/* Mobile */
+@media (max-width:767px){
+    .acb-features{
+        gap:10px;
+        padding:15px 8px;
+        flex-wrap:wrap;
+    }
+    .acb-feature-item{
+        width:30%;
+    }
+    .acb-feature-item img{
+        width:60px;
+    }
+}
+
+/* Extra small phones */
+@media (max-width:420px){
+    .acb-feature-item{
+        width:28%;
+    }
+    .acb-feature-item img{
+        width:52px;
+    }
+}
+</style>
+<div class="acb-features">
+    <div class="acb-feature-item">
+        <img decoding="async" src="https://americacustomboxes.com/wp-content/uploads/2026/07/6-free-support.webp" alt="Free Support">
+    </div>
+    <div class="acb-feature-item">
+        <img decoding="async" src="https://americacustomboxes.com/wp-content/uploads/2026/07/5-turn-around-time.webp" alt="Quick Turn Around">
+    </div>
+    <div class="acb-feature-item">
+        <img decoding="async" src="https://americacustomboxes.com/wp-content/uploads/2026/07/4-free-one-color.webp" alt="Free 1 Color Printing">
+    </div>
+    <div class="acb-feature-item">
+        <img decoding="async" src="https://americacustomboxes.com/wp-content/uploads/2026/07/3-free-design.webp" alt="Free Design Support">
+    </div>
+    <div class="acb-feature-item">
+        <img decoding="async" src="https://americacustomboxes.com/wp-content/upload
+
+
+=== BANNER AREA ===
+
+    height: 100%;
+    animation: acbSlide 12s ease-in-out infinite;
+}
+
+.acb-slider-track img {
+    width: 25%;
+    height: 100%;
+    flex-shrink: 0;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Slides: 1 -> 2 -> 3 -> back to 1 (4th image is a duplicate of the 1st for a seamless loop) */
+@keyframes acbSlide {
+    0%      { transform: translateX(0%); }
+    28.3%   { transform: translateX(0%); }
+    33.3%   { transform: translateX(-25%); }
+    61.7%   { transform: translateX(-25%); }
+    66.7%   { transform: translateX(-50%); }
+    95%     { transform: translateX(-50%); }
+    100%    { transform: translateX(-75%); }
+}
+
+@media (max-width: 767px) {
+    .acb-banner-section {
+        aspect-ratio: 12 / 5;
+    }
+}
+</style>
+
+<section class="acb-banner-section">
+    <div class="acb-slider-track">
+        <img decoding="async" src="https://americacustomboxes.com/wp-content/uploads/2026/07/ACB-Banner-1.webp" alt="America Custom Boxes Banner 1">
+        <img decoding="async" src="https://americacustomboxes.com/wp-content/uploads/2026/07/ACB-Banner-2.webp" alt="America Custom Boxes Banner 2">
+        <img decoding="async" src="https://americacustomboxes.com/wp-content/uploads/2026/07/ACB-Banner-3.webp" alt="America Custom Boxes Banner 3">
+        <img decoding="async" src="https://americacustomboxes.com/wp-content/uploads/2026/07/ACB-Banner-1.webp" alt="America Custom Boxes Banner 1 repeat">
+    </div>
+</section>				</div>
+				</div>
+		<div class="elementor-element elementor-element-67255c0 e-con-full e-flex e-con e-parent" data-id="67255c0" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-cbbb7ef elementor-widget elementor-widget-html" data-id="cbbb7ef" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
+					<style>
+/* =========================
+   AMERICA CUSTOM BOXES FEATURES
+========================= */
+.acb-features{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:18px;
+    padding:20px 10px;
+    width:100%;
+    box-sizing:border-box;
+    flex-wrap:wrap;
+}
+.acb-feature-item{
+    text-align:center;
+    width:100px;
+}
+.acb-feature-item img{
+    width:90px;
+    height:auto;
+    display:block;
+    margin:0 auto;
+    transition:transform .3s ease;
+}
+.acb-feature-item:hover img{
+    transform:translateY(-3px);
+}
+/* Tablet */
+@media (max-width:1024px){
+    .acb-features{
+        gap:14px;
+    }
+    .acb-feature-item{
+        width:85px;
+    }
+    .a

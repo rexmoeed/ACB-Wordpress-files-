@@ -1,0 +1,263 @@
+[
+  {
+    "id": 43,
+    "name": "By Industry",
+    "slug": "by-industry",
+    "parent": "\u2014",
+    "products": 0,
+    "content": "empty",
+    "in_4_docs_json": false
+  },
+  {
+    "id": 23,
+    "name": "Hot Products",
+    "slug": "hot-products",
+    "parent": "\u2014",
+    "products": 83,
+    "content": "empty",
+    "in_4_docs_json": false
+  },
+  {
+    "id": 21,
+    "name": "Uncategorized",
+    "slug": "uncategorized",
+    "parent": "\u2014",
+    "products": 0,
+    "content": "empty",
+    "in_4_docs_json": false
+  },
+  {
+    "id": 27,
+    "name": "Bakery Boxes",
+    "slug": "bakery-boxes",
+    "parent": "Hot Products",
+    "products": 7,
+    "content": "styled_v2",
+    "in_4_docs_json": true
+  },
+  {
+    "id": 24,
+    "name": "Candle Boxes",
+    "slug": "candle-boxes",
+    "parent": "Hot Products",
+    "products": 4,
+    "content": "styled_v2",
+    "in_4_docs_json": true
+  },
+  {
+    "id": 41,
+    "name": "Cardboard Boxes",
+    "slug": "cardboard-boxes",
+    "parent": "Hot Products",
+    "products": 3,
+    "content": "empty",
+    "in_4_docs_json": false
+  },
+  {
+    "id": 25,
+    "name": "CBD Boxes",
+    "slug": "cbd-boxes",
+    "parent": "Hot Products",
+    "products": 10,
+    "content": "empty",
+    "in_4_docs_json": false
+  },
+  {
+    "id": 34,
+    "name": "Chocolate Packaging",
+    "slug": "chocolate-packaging",
+    "parent": "Hot Products",
+    "products": 2,
+    "content": "empty",
+    "in_4_docs_json": false
+  },
+  {
+    "id": 55,
+    "name": "Cosmetics",
+    "slug": "cosmetics",
+    "parent": "Hot Products",
+    "products": 0,
+    "content": "styled_v2",
+    "in_4_docs_json": true
+  },
+  {
+    "id": 31,
+    "name": "Custom Mylar Bags",
+    "slug": "custom-mylar-bags",
+    "parent": "Hot Products",
+    "products": 3,
+    "content": "empty",
+    "in_4_docs_json": false
+  },
+  {
+    "id": 29,
+    "name": "Display Boxes",
+    "slug": "display-boxes",
+    "parent": "Hot Products",
+    "products": 5,
+    "content": "empty",
+    "in_4_docs_json": false
+  },
+  {
+    "id": 40,
+    "name": "Event Boxes",
+    "slug": "event-boxes",
+    "parent": "Hot Products",
+    "products": 3,
+    "content": "styled_v2",
+    "in_4_docs_json": true
+  },
+  {
+    "id": 56,
+    "name": "Food Boxes",
+    "slug": "food",
+    "parent": "Hot Products",
+    "products": 0,
+    "content": "styled_v2",
+    "in_4_docs_json": true
+  },
+  {
+    "id": 28,
+    "name": "Kraft Boxes",
+    "slug": "kraft-boxes",
+    "parent": "Hot Products",
+    "products": 5,
+    "content": "empty",
+    "in_4_docs_json": false
+  },
+  {
+    "id": 35,
+    "name": "Labels &amp; Stickers",
+    "slug": "labels-stickers",
+    "parent": "Hot Products",
+    "products": 8,
+    "content": "empty",
+    "in_4_docs_json": false
+  },
+  {
+    "id": 26,
+    "name": "Mailer Boxes",
+    "slug": "mailer-boxes",
+    "parent": "Hot Products",
+    "products": 5,
+    "content": "styled_v2",
+    "in_4_docs_json": true
+  },
+  {
+    "id": 33,
+    "name": "Pet Boxes",
+    "slug": "pet-boxes",
+    "parent": "Hot Products",
+    "products": 4,
+    "content": "styled_v2",
+    "in_4_docs_json": true
+  },
+  {
+    "id": 59,
+    "name": "Pharmaceutical Boxes",
+    "slug": "pharmaceutical-boxes",
+    "parent": "Hot Products",
+    "products": 0,
+    "content": "styled_v2",
+    "in_4_docs_json": true
+  },
+  {
+    "id": 36,
+    "name": "Pizza Boxes",
+    "slug": "pizza-boxes",
+    "parent": "Hot Products",
+    "products": 2,
+    "content": "empty",
+    "in_4_docs_json": false
+  },
+  {
+    "id": 58,
+    "name": "POD Boxes",
+    "slug": "pod-boxes",
+    "parent": "Hot Products",
+    "products": 0,
+    "content": "styled_v2",
+    "in_4_docs_json": true
+  },
+  {
+    "id": 38,
+    "name": "Popcorn Boxes",
+    "slug": "popcorn-boxes",
+    "parent": "Hot Products",
+    "products": 2,
+    "content": "styled_v2",
+    "in_4_docs_json": true
+  },
+  {
+    "id": 57,
+    "name": "Product Boxes",
+    "slug": "product-boxes",
+    "parent": "Hot Products",
+    "products": 0,
+    "content": "styled_v2",
+    "in_4_docs_json": true
+  },
+  {
+    "id": 32,
+    "name": "Rigid Boxes",
+    "slug": "rigid-boxes",
+    "parent": "Hot Products",
+    "products": 4,
+    "content": "empty",
+    "in_4_docs_json": false
+  },
+  {
+    "id": 30,
+    "name": "Stand-Up Pouches",
+    "slug": "stand-up-pouches",
+    "parent": "Hot Products",
+    "products": 6,
+    "content": "empty",
+    "in_4_docs_json": false
+  },
+  {
+    "id": 39,
+    "name": "Tuck Boxes",
+    "slug": "tuck-boxes",
+    "parent": "Hot Products",
+    "products": 9,
+    "content": "styled_v2",
+    "in_4_docs_json": true
+  },
+  {
+    "id": 37,
+    "name": "Wine Packaging",
+    "slug": "wine-packaging",
+    "parent": "Hot Products",
+    "products": 2,
+    "content": "empty",
+    "in_4_docs_json": false
+  },
+  {
+    "id": 44,
+    "name": "Bakery",
+    "slug": "bakery",
+    "parent": "By Industry",
+    "products": 0,
+    "content": "empty",
+    "in_4_docs_json": false
+  },
+  {
+    "id": 45,
+    "name": "Candles",
+    "slug": "candles",
+    "parent": "By Industry",
+    "products": 0,
+    "content": "empty",
+    "in_4_docs_json": false
+  },
+  {
+    "id": 46,
+    "name": "CBD",
+    "slug": "cbd",
+    "parent": "By Industry",
+    "products": 0,
+    "content": "empty",
+    "in_4_docs_json": false
+  }
+]

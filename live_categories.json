@@ -1,0 +1,170 @@
+﻿[
+    {
+        "id":  44,
+        "name":  "Bakery",
+        "slug":  "bakery",
+        "description":  "",
+        "parent":  43
+    },
+    {
+        "id":  27,
+        "name":  "Bakery Boxes",
+        "slug":  "bakery-boxes",
+        "description":  "",
+        "parent":  23
+    },
+    {
+        "id":  43,
+        "name":  "By Industry",
+        "slug":  "by-industry",
+        "description":  "",
+        "parent":  0
+    },
+    {
+        "id":  24,
+        "name":  "Candle Boxes",
+        "slug":  "candle-boxes",
+        "description":  "",
+        "parent":  23
+    },
+    {
+        "id":  45,
+        "name":  "Candles",
+        "slug":  "candles",
+        "description":  "",
+        "parent":  43
+    },
+    {
+        "id":  41,
+        "name":  "Cardboard Boxes",
+        "slug":  "cardboard-boxes",
+        "description":  "",
+        "parent":  23
+    },
+    {
+        "id":  46,
+        "name":  "CBD",
+        "slug":  "cbd",
+        "description":  "",
+        "parent":  43
+    },
+    {
+        "id":  25,
+        "name":  "CBD Boxes",
+        "slug":  "cbd-boxes",
+        "description":  "",
+        "parent":  23
+    },
+    {
+        "id":  34,
+        "name":  "Chocolate Packaging",
+        "slug":  "chocolate-packaging",
+        "description":  "",
+        "parent":  23
+    },
+    {
+        "id":  31,
+        "name":  "Custom Mylar Bags",
+        "slug":  "custom-mylar-bags",
+        "description":  "",
+        "parent":  23
+    },
+    {
+        "id":  29,
+        "name":  "Display Boxes",
+        "slug":  "display-boxes",
+        "description":  "",
+        "parent":  23
+    },
+    {
+        "id":  40,
+        "name":  "Event Boxes",
+        "slug":  "event-boxes",
+        "description":  "",
+        "parent":  23
+    },
+    {
+        "id":  23,
+        "name":  "Hot Products",
+        "slug":  "hot-products",
+        "description":  "",
+        "parent":  0
+    },
+    {
+        "id":  28,
+        "name":  "Kraft Boxes",
+        "slug":  "kraft-boxes",
+        "description":  "",
+        "parent":  23
+    },
+    {
+        "id":  35,
+        "name":  "Labels \u0026amp; Stickers",
+        "slug":  "labels-stickers",
+        "description":  "",
+        "parent":  23
+    },
+    {
+        "id":  26,
+        "name":  "Mailer Boxes",
+        "slug":  "mailer-boxes",
+        "description":  "",
+        "parent":  23
+    },
+    {
+        "id":  33,
+        "name":  "Pet Boxes",
+        "slug":  "pet-boxes",
+        "description":  "",
+        "parent":  23
+    },
+    {
+        "id":  36,
+        "name":  "Pizza Boxes",
+        "slug":  "pizza-boxes",
+        "description":  "",
+        "parent":  23
+    },
+    {
+        "id":  38,
+        "name":  "Popcorn Boxes",
+        "slug":  "popcorn-boxes",
+        "description":  "",
+        "parent":  23
+    },
+    {
+        "id":  32,
+        "name":  "Rigid Boxes",
+        "slug":  "rigid-boxes",
+        "description":  "",
+        "parent":  23
+    },
+    {
+        "id":  30,
+        "name":  "Stand-Up Pouches",
+        "slug":  "stand-up-pouches",
+        "description":  "",
+        "parent":  23
+    },
+    {
+        "id":  39,
+        "name":  "Tuck Boxes",
+        "slug":  "tuck-boxes",
+        "description":  "",
+        "parent":  23
+    },
+    {
+        "id":  21,
+        "name":  "Uncategorized",
+        "slug":  "uncategorized",
+        "description":  "",
+        "parent":  0
+    },
+    {
+        "id":  37,
+        "name":  "Wine Packaging",
+        "slug":  "wine-packaging",
+        "description":  "",
+        "parent":  23
+    }
+]

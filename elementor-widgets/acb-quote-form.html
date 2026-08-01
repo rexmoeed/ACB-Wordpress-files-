@@ -1,0 +1,540 @@
+<style>
+.acb-quote-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+    gap: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 16px;
+    font-family: 'Titillium Web', sans-serif;
+    box-sizing: border-box;
+}
+.acb-quote-section *,
+.acb-quote-section *::before,
+.acb-quote-section *::after {
+    box-sizing: border-box;
+}
+.acb-quote-form-col {
+    display: flex;
+    height: 100%;
+}
+.acb-quote-image-col {
+    position: relative;
+    height: 100%;
+    min-height: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 12px 40px rgba(0, 73, 233, 0.1);
+}
+.acb-quote-image-col img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.acb-qf-wrap {
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 36px 32px 28px;
+    max-width: 620px;
+    margin: 0 auto;
+    box-shadow: 0 8px 32px rgba(0, 73, 233, 0.08);
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(0, 73, 233, 0.08);
+}
+.acb-qf-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #111827;
+    margin: 0 0 4px;
+    letter-spacing: -0.3px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.acb-qf-title span {
+    color: #FF2E2E;
+}
+.acb-qf-bar {
+    width: 56px;
+    height: 4px;
+    background: #FF2E2E;
+    border-radius: 2px;
+    margin: 10px 0 12px;
+}
+.acb-qf-sub {
+    color: #6b7280;
+    font-size: 14px;
+    margin: 0 0 22px;
+    line-height: 1.5;
+}
+.acb-qf-field {
+    display: flex;
+    align-items: center;
+    border: 1.5px solid #e5e7eb;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    background: #fff;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.acb-qf-field:focus-within {
+    border-color: #0049E9;
+    box-shadow: 0 0 0 3px rgba(0, 73, 233, 0.1);
+}
+.acb-qf-icon {
+    width: 50px;
+    min-width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1.5px solid #e5e7eb;
+    height: 50px;
+    color: #FF2E2E;
+}
+.acb-qf-field input,
+.acb-qf-field select,
+.acb-qf-field textarea {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #111827;
+    background: transparent;
+    padding: 0 14px;
+    height: 50px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.acb-qf-field textarea {
+    height: 80px;
+    padding: 14px;
+    resize: none;
+}
+.acb-qf-field select {
+    appearance: none;
+    cursor: pointer;
+}
+.acb-qf-field select option {
+    color: #111827;
+}
+.acb-qf-chevron {
+    width: 40px;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9ca3af;
+    pointer-events: none;
+}
+.acb-qf-file-row {
+    display: flex;
+    align-items: center;
+    border: 1.5px solid #e5e7eb;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    background: #fff;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    overflow: hidden;
+}
+.acb-qf-file-row:focus-within {
+    border-color: #0049E9;
+    box-shadow: 0 0 0 3px rgba(0, 73, 233, 0.1);
+}
+.acb-qf-file-label {
+    flex: 1;
+    font-size: 14px;
+    color: #9ca3af;
+    padding: 0 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.acb-qf-file-btn {
+    background: #f3f4f6;
+    border: none;
+    border-left: 1.5px solid #e5e7eb;
+    color: #111827;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0 18px;
+    height: 50px;
+    cursor: pointer;
+    font-family: 'Titillium Web', sans-serif;
+    transition: background 0.2s ease, color 0.2s ease;
+    white-space: nowrap;
+}
+.acb-qf-file-btn:hover {
+    background: rgba(255, 46, 46, 0.08);
+    color: #FF2E2E;
+}
+.acb-qf-file-input {
+    display: none;
+}
+.acb-qf-submit {
+    all: unset;
+    box-sizing: border-box;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    background: #FF2E2E !important;
+    color: #fff !important;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    border: none !important;
+    border-radius: 10px;
+    height: 54px;
+    cursor: pointer;
+    margin-top: 6px;
+    transition: background 0.2s ease, transform 0.2s ease;
+    font-family: 'Titillium Web', sans-serif !important;
+    text-transform: uppercase;
+}
+.acb-qf-submit:hover {
+    background: #FF5757 !important;
+    transform: translateY(-1px);
+}
+.acb-qf-submit:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    transform: none;
+}
+.acb-qf-submit svg {
+    width: 20px;
+    height: 20px;
+    stroke: #fff;
+    fill: none;
+    stroke-width: 2.2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.acb-qf-badges {
+    display: flex;
+    gap: 0;
+    margin-top: 24px;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+.acb-qf-badge {
+    flex: 1;
+    min-width: 120px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 10px;
+    border-right: 1px solid #e8eaf0;
+}
+.acb-qf-badge:last-child {
+    border-right: none;
+}
+.acb-qf-badge-icon {
+    color: #0049E9;
+    flex-shrink: 0;
+}
+.acb-qf-badge-text strong {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    color: #111827;
+    letter-spacing: 0.2px;
+}
+.acb-qf-badge-text span {
+    font-size: 11px;
+    color: #6b7280;
+}
+.acb-qf-msg {
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-bottom: 14px;
+    display: none;
+}
+.acb-qf-msg.success {
+    background: rgba(0, 73, 233, 0.08);
+    color: #0049E9;
+    display: block;
+}
+.acb-qf-msg.error {
+    background: rgba(255, 46, 46, 0.08);
+    color: #FF2E2E;
+    display: block;
+}
+
+@media (max-width: 991px) {
+    .acb-quote-section {
+        grid-template-columns: 1fr;
+        padding: 28px 12px;
+        gap: 24px;
+    }
+    .acb-quote-form-col {
+        order: 1;
+    }
+    .acb-quote-image-col {
+        order: 2;
+        min-height: 300px;
+    }
+}
+
+@media (max-width: 600px) {
+    .acb-qf-wrap {
+        padding: 24px 16px 20px;
+    }
+    .acb-qf-badges {
+        gap: 14px;
+    }
+    .acb-qf-badge {
+        border-right: none;
+        min-width: 46%;
+    }
+    .acb-qf-title {
+        font-size: 24px;
+    }
+    .acb-quote-image-col {
+        min-height: 240px;
+        border-radius: 12px;
+    }
+}
+</style>
+
+<div class="acb-quote-section" id="quote-form">
+
+    <div class="acb-quote-form-col">
+
+        <div class="acb-qf-wrap">
+            <h2 class="acb-qf-title">Get an <span>Instant Quote</span></h2>
+            <div class="acb-qf-bar"></div>
+            <p class="acb-qf-sub">Fill out the form below and our team at America Custom Boxes will get back to you shortly.</p>
+
+            <div class="acb-qf-msg" id="acbQfMsg" role="alert" aria-live="polite"></div>
+
+            <form id="acbQfForm" novalidate>
+
+                <div class="acb-qf-field">
+                    <div class="acb-qf-icon">
+                        <svg width="20" height="20" fill="none" stroke="#FF2E2E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+                    </div>
+                    <input type="text" id="acb_qf_full_name" name="full_name" placeholder="Full Name" required>
+                </div>
+
+                <div class="acb-qf-field">
+                    <div class="acb-qf-icon">
+                        <svg width="20" height="20" fill="none" stroke="#FF2E2E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+                    </div>
+                    <input type="email" id="acb_qf_email" name="email" placeholder="Email Address" required>
+                </div>
+
+                <div class="acb-qf-field">
+                    <div class="acb-qf-icon">
+                        <svg width="20" height="20" fill="none" stroke="#FF2E2E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.86 19.86 0 0 1 3.09 5.18 2 2 0 0 1 5.09 3h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.71 2.81a2 2 0 0 1-.45 2.11L9.09 11a16 16 0 0 0 5.91 5.91l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.58 2.81.71A2 2 0 0 1 22 16.92z"/></svg>
+                    </div>
+                    <input type="tel" id="acb_qf_phone" name="phone" placeholder="Phone Number">
+                </div>
+
+                <div class="acb-qf-field">
+                    <div class="acb-qf-icon">
+                        <svg width="20" height="20" fill="none" stroke="#FF2E2E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 0 0-1-1.73L13 2.27a2 2 0 0 0-2 0L4 6.27A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73L11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+                    </div>
+                    <select id="acb_qf_quantity" name="quantity">
+                        <option value="" disabled selected>Select Quantity</option>
+                        <option>100–499</option>
+                        <option>500–999</option>
+                        <option>1,000–4,999</option>
+                        <option>5,000–9,999</option>
+                        <option>10,000+</option>
+                    </select>
+                    <div class="acb-qf-chevron">
+                        <svg width="16" height="16" fill="none" stroke="#888" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg>
+                    </div>
+                </div>
+
+                <div class="acb-qf-file-row">
+                    <div class="acb-qf-icon" style="border-right:1.5px solid #e5e7eb">
+                        <svg width="20" height="20" fill="none" stroke="#FF2E2E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polyline points="16 16 12 12 8 16"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"/></svg>
+                    </div>
+                    <span class="acb-qf-file-label" id="acbQfFileLabel">Upload Artwork (Optional)</span>
+                    <input type="file" class="acb-qf-file-input" id="acb_qf_artwork" name="artwork_file" accept=".jpg,.jpeg,.png,.pdf,.ai,.eps">
+                    <button type="button" class="acb-qf-file-btn" id="acbQfFileBtn">Choose File</button>
+                </div>
+
+                <div class="acb-qf-field" style="align-items:flex-start">
+                    <div class="acb-qf-icon" style="height:80px">
+                        <svg width="20" height="20" fill="none" stroke="#FF2E2E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+                    </div>
+                    <textarea id="acb_qf_message" name="message" placeholder="Additional Details / Message (Optional)"></textarea>
+                </div>
+
+                <button type="submit" class="acb-qf-submit" id="acbQfSubmitBtn">
+                    <span id="acbQfSubmitLabel">Get Instant Quote</span>
+                    <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </button>
+
+            </form>
+
+            <div class="acb-qf-badges">
+                <div class="acb-qf-badge">
+                    <div class="acb-qf-badge-icon">
+                        <svg width="22" height="22" fill="none" stroke="#0049E9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z"/></svg>
+                    </div>
+                    <div class="acb-qf-badge-text"><strong>Free Design</strong><span>Support</span></div>
+                </div>
+                <div class="acb-qf-badge">
+                    <div class="acb-qf-badge-icon">
+                        <svg width="22" height="22" fill="none" stroke="#0049E9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13" rx="1"/><path d="M16 8h4l3 5v3h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+                    </div>
+                    <div class="acb-qf-badge-text"><strong>Free Shipping</strong><span>All US States</span></div>
+                </div>
+                <div class="acb-qf-badge">
+                    <div class="acb-qf-badge-icon">
+                        <svg width="22" height="22" fill="none" stroke="#0049E9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 0 0-1-1.73L13 2.27a2 2 0 0 0-2 0L4 6.27A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73L11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+                    </div>
+                    <div class="acb-qf-badge-text"><strong>MOQ</strong><span>100 Boxes</span></div>
+                </div>
+                <div class="acb-qf-badge">
+                    <div class="acb-qf-badge-icon">
+                        <svg width="22" height="22" fill="none" stroke="#0049E9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.86 19.86 0 0 1 1.61 3.39 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8a16 16 0 0 0 5.91 5.91l.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.58 2.81.71A2 2 0 0 1 22 16.92z"/></svg>
+                    </div>
+                    <div class="acb-qf-badge-text"><strong>24/7 Support</strong><span>Online</span></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="acb-quote-image-col">
+        <img src="http://localhost:10004/wp-content/uploads/2026/07/Quote.webp" alt="Get a quote - America Custom Boxes">
+    </div>
+
+</div>
+
+<script>
+(function () {
+    'use strict';
+
+    if (window.acbQuoteFormInit) return;
+    window.acbQuoteFormInit = true;
+
+    var form        = document.getElementById('acbQfForm');
+    var msg         = document.getElementById('acbQfMsg');
+    var submitBtn   = document.getElementById('acbQfSubmitBtn');
+    var submitLabel = document.getElementById('acbQfSubmitLabel');
+    var fileInput   = document.getElementById('acb_qf_artwork');
+    var fileLabel   = document.getElementById('acbQfFileLabel');
+    var fileBtn     = document.getElementById('acbQfFileBtn');
+
+    if (!form) return;
+
+    var DEFAULT_FILE_LABEL = 'Upload Artwork (Optional)';
+    var isSubmitting = false;
+
+    fileBtn.addEventListener('click', function () {
+        fileInput.click();
+    });
+
+    fileInput.addEventListener('change', function () {
+        fileLabel.textContent = this.files.length ? this.files[0].name : DEFAULT_FILE_LABEL;
+    });
+
+    function hideMessage() {
+        msg.className = 'acb-qf-msg';
+        msg.textContent = '';
+    }
+
+    function showMessage(text, type) {
+        msg.textContent = text;
+        msg.className = 'acb-qf-msg ' + type;
+    }
+
+    function setSubmitting(state) {
+        isSubmitting = state;
+        submitBtn.disabled = state;
+        submitLabel.textContent = state ? 'Sending…' : 'Get Instant Quote';
+    }
+
+    function resetForm() {
+        form.reset();
+        fileLabel.textContent = DEFAULT_FILE_LABEL;
+    }
+
+    function validate() {
+        var name  = document.getElementById('acb_qf_full_name').value.trim();
+        var email = document.getElementById('acb_qf_email').value.trim();
+
+        if (!name || !email) {
+            return 'Please fill in your full name and email address.';
+        }
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+            return 'Please enter a valid email address.';
+        }
+        return null;
+    }
+
+    form.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        if (isSubmitting) return;
+
+        hideMessage();
+
+        var validationError = validate();
+        if (validationError) {
+            showMessage(validationError, 'error');
+            return;
+        }
+
+        /* PHP backend will be connected later — ready for admin-ajax.php */
+        var data = new FormData();
+        data.append('action', 'acb_submit_instant_quote');
+        data.append('quote_nonce', (typeof acbQuoteFormNonce !== 'undefined' && acbQuoteFormNonce) ? acbQuoteFormNonce : ((typeof acbQuoteFormConfig !== 'undefined' && acbQuoteFormConfig.nonce) ? acbQuoteFormConfig.nonce : ''));
+        data.append('full_name', document.getElementById('acb_qf_full_name').value.trim());
+        data.append('email', document.getElementById('acb_qf_email').value.trim());
+        data.append('phone', document.getElementById('acb_qf_phone').value.trim());
+        data.append('quantity', document.getElementById('acb_qf_quantity').value);
+        data.append('message', document.getElementById('acb_qf_message').value.trim());
+
+        if (fileInput.files.length) {
+            data.append('artwork_file', fileInput.files[0]);
+        }
+
+        var ajaxUrl = typeof acbQuoteFormAjax !== 'undefined' ? acbQuoteFormAjax : '/wp-admin/admin-ajax.php';
+
+        setSubmitting(true);
+
+        fetch(ajaxUrl, {
+            method: 'POST',
+            body: data,
+            credentials: 'same-origin'
+        })
+            .then(function (response) {
+                if (!response.ok) {
+                    throw new Error('HTTP error ' + response.status);
+                }
+                return response.json().catch(function () {
+                    throw new Error('Invalid JSON response from server');
+                });
+            })
+            .then(function (res) {
+                if (res && res.success) {
+                    showMessage(
+                        (res.data && res.data.message) || 'Thank you! Your quote request has been sent. We will get back to you shortly.',
+                        'success'
+                    );
+                    resetForm();
+                } else {
+                    var errMsg = (res && res.data && res.data.message) ? res.data.message : 'Something went wrong. Please try again.';
+                    showMessage(errMsg, 'error');
+                }
+            })
+            .catch(function () {
+                showMessage('Form backend is not connected yet. PHP will be added soon.', 'error');
+            })
+            .finally(function () {
+                setSubmitting(false);
+            });
+    });
+})();
+</script>

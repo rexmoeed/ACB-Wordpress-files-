@@ -1,0 +1,302 @@
+<style>
+.acb-order-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    box-sizing: border-box;
+}
+.acb-order-section *,
+.acb-order-section *::before,
+.acb-order-section *::after {
+    box-sizing: border-box;
+}
+.acb-order-wrap {
+    background: #000000;
+    border-radius: 15px;
+    padding: 44px 40px;
+    overflow: hidden;
+}
+.acb-order-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 36px;
+    align-items: center;
+}
+.acb-order-grid-top {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    margin-bottom: 14px;
+}
+.acb-order-grid-bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    max-width: calc(66.666% + 7px);
+    margin: 0 auto;
+}
+.acb-order-card {
+    background: #ffffff;
+    border: 2px solid #FF2E2E;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.acb-order-card-img {
+    position: relative;
+    flex: 1;
+    min-height: 130px;
+    padding: 14px 12px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+.acb-order-card-img img {
+    width: 100%;
+    height: 100%;
+    max-height: 120px;
+    object-fit: contain;
+    display: block;
+}
+.acb-order-step-num {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 26px;
+    height: 26px;
+    background: #FF2E2E;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    z-index: 1;
+}
+.acb-order-card-label {
+    background: #FF2E2E;
+    color: #ffffff;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: italic;
+    padding: 9px 8px;
+    letter-spacing: 0.2px;
+    margin: 0;
+}
+.acb-order-content {
+    color: #ffffff;
+}
+.acb-order-heading {
+    color: #FF2E2E;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.15;
+    margin: 0 0 20px;
+    letter-spacing: -0.2px;
+}
+.acb-order-intro {
+    font-size: 15px;
+    line-height: 1.75;
+    color: #ffffff;
+    margin: 0 0 18px;
+}
+.acb-order-intro strong {
+    font-weight: 700;
+    color: #ffffff;
+}
+.acb-order-step-line {
+    font-size: 15px;
+    line-height: 1.75;
+    color: #ffffff;
+    margin: 0 0 14px;
+}
+.acb-order-step-line strong {
+    font-weight: 700;
+    color: #ffffff;
+}
+.acb-order-steps {
+    list-style: none;
+    margin: 0 0 18px;
+    padding: 0;
+    counter-reset: acb-order-counter 0;
+}
+.acb-order-steps li {
+    font-size: 15px;
+    line-height: 1.75;
+    color: #ffffff;
+    margin-bottom: 10px;
+    padding-left: 0;
+    counter-increment: acb-order-counter;
+}
+.acb-order-steps li::before {
+    content: counter(acb-order-counter) ". ";
+    font-weight: 700;
+    color: #ffffff;
+}
+.acb-order-steps li strong {
+    font-weight: 700;
+    color: #ffffff;
+}
+.acb-order-outro {
+    font-size: 15px;
+    line-height: 1.75;
+    color: #ffffff;
+    margin: 0;
+}
+
+@media (max-width: 991px) {
+    .acb-order-wrap {
+        padding: 32px 22px;
+    }
+    .acb-order-layout {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .acb-order-content {
+        order: 1;
+    }
+    .acb-order-visual {
+        order: 2;
+    }
+    .acb-order-heading {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 680px) {
+    .acb-order-section {
+        padding: 10px;
+    }
+    .acb-order-wrap {
+        padding: 24px 16px;
+        border-radius: 15px;
+    }
+    .acb-order-grid-top {
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 10px;
+    }
+    .acb-order-grid-top .acb-order-card:last-child {
+        grid-column: 1 / -1;
+        max-width: 220px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .acb-order-grid-bottom {
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+        gap: 10px;
+    }
+    .acb-order-heading {
+        font-size: 26px;
+    }
+    .acb-order-intro,
+    .acb-order-step-line,
+    .acb-order-steps li,
+    .acb-order-outro {
+        font-size: 14px;
+    }
+    .acb-order-card-img {
+        min-height: 110px;
+        padding: 12px 10px 8px;
+    }
+    .acb-order-card-img img {
+        max-height: 100px;
+    }
+    .acb-order-card-label {
+        font-size: 11px;
+        padding: 8px 6px;
+    }
+    .acb-order-step-num {
+        width: 22px;
+        height: 22px;
+        font-size: 11px;
+    }
+}
+</style>
+
+<div class="acb-order-section">
+    <div class="acb-order-wrap">
+        <div class="acb-order-layout">
+
+            <div class="acb-order-visual">
+                <div class="acb-order-grid-top">
+
+                    <div class="acb-order-card">
+                        <div class="acb-order-card-img">
+                            <span class="acb-order-step-num">1</span>
+                            <img src="http://localhost:10004/wp-content/uploads/2026/07/Production-Planning.webp" alt="Production Planning">
+                        </div>
+                        <p class="acb-order-card-label">Production Planning</p>
+                    </div>
+
+                    <div class="acb-order-card">
+                        <div class="acb-order-card-img">
+                            <span class="acb-order-step-num">2</span>
+                            <img src="http://localhost:10004/wp-content/uploads/2026/07/Material-Selection.webp" alt="Material Selection">
+                        </div>
+                        <p class="acb-order-card-label">Material Selection</p>
+                    </div>
+
+                    <div class="acb-order-card">
+                        <div class="acb-order-card-img">
+                            <span class="acb-order-step-num">3</span>
+                            <img src="http://localhost:10004/wp-content/uploads/2026/07/Printing.webp" alt="Printing">
+                        </div>
+                        <p class="acb-order-card-label">Printing</p>
+                    </div>
+
+                </div>
+
+                <div class="acb-order-grid-bottom">
+
+                    <div class="acb-order-card">
+                        <div class="acb-order-card-img">
+                            <span class="acb-order-step-num">4</span>
+                            <img src="http://localhost:10004/wp-content/uploads/2026/07/Quality-Assurance.webp" alt="Quality Assurance">
+                        </div>
+                        <p class="acb-order-card-label">Quality Assurance</p>
+                    </div>
+
+                    <div class="acb-order-card">
+                        <div class="acb-order-card-img">
+                            <span class="acb-order-step-num">5</span>
+                            <img src="http://localhost:10004/wp-content/uploads/2026/07/Mass-Production.webp" alt="Mass Production">
+                        </div>
+                        <p class="acb-order-card-label">Mass Production</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="acb-order-content">
+                <h2 class="acb-order-heading">Simple Four-Step Ordering Process</h2>
+
+                <p class="acb-order-intro">It's never been easier to get <strong>custom retail packaging!</strong> Our four-step process makes it easy to get your packaging designed, printed, and delivered with no fuss.</p>
+
+                <p class="acb-order-step-line"><strong>Request a Quote:</strong> Fill out our online form with your packaging requirements.</p>
+
+                <ol class="acb-order-steps">
+                    <li><strong>Confirm and Pay:</strong> Receive a detailed quote and make the payment.</li>
+                    <li><strong>Design Approval:</strong> Review the digital proof of your packaging before production.</li>
+                    <li><strong>Fast Delivery:</strong> Get your boxes delivered to your doorstep on time.</li>
+                </ol>
+
+                <p class="acb-order-outro">We don't cut any corners when it comes to packing or shipping your order, so we've got you covered with a streamlined ordering system that makes for a smooth and efficient experience.</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script>
+(function () {
+    if (window.acbOrderProcessInit) return;
+    window.acbOrderProcessInit = true;
+})();
+</script>
