@@ -1,0 +1,126 @@
+AMERICA CUSTOM BOXES
+About America Custom Boxes
+About Us  ·  americacustomboxes.com/about-us
+SEO Title
+About America Custom Boxes | Custom Packaging Co.  (49 chars)
+Meta Description
+Learn about America Custom Boxes, a custom packaging manufacturer offering free design, free die & plate setup, eco-friendly materials and free US shipping.  (156 chars)
+URL Slug
+/about-us  *(footer link is currently # — create this page)*
+Primary Keyword
+custom packaging manufacturer
+Secondary Keywords
+custom box company, custom printed packaging, packaging supplier USA, custom boxes with logo
+Schema
+Organization + AboutPage + FAQPage + BreadcrumbList
+ABOUT US
+A Custom Packaging Partner Built Around Your Brand
+America Custom Boxes is a custom packaging box manufacturer. We develop, produce, and deliver high-quality printed boxes designed around your product — for food, cosmetics, retail, CBD, and e-commerce brands across the United States.
+Hero CTA:  Let’s build packaging that fits your brand.  →  Get a Quote
+Who We Are
+For high-quality, custom-printed packaging, America Custom Boxes is your trusted partner. As a manufacturer — not just a reseller — we control the process from design and material selection through printing, quality assurance, and delivery. That means your artwork comes off the press the way you approved it, and your deadline is ours to protect.
+Whatever you’re packaging — cupcakes, candles, supplements, apparel, or a subscription kit — our team builds custom retail packaging that protects your product and elevates your brand.
+What We Believe
+Our Mission
+To make premium custom packaging simple and accessible — by removing setup fees, high minimums, and design costs that hold growing brands back.
+Our Approach
+We don’t just sell boxes; we build brand identities. Every box is a chance to make a customer’s first impression a memorable one, and we treat it that way.
+Our Values
+Craftsmanship — clean printing, accurate die-cuts, and finishes that feel premium.
+Transparency — flexible, itemized pricing with no surprise setup charges.
+Partnership — your growth is the outcome we care about.
+Responsibility — eco-friendly and sustainable materials offered as standard.
+What Makes Us Different
+Plenty of companies print boxes. Here’s where we stand apart from the typical supplier.
+The Typical Supplier
+America Custom Boxes
+Die & plate setup billed to you
+Free die & plate setup
+Printing surcharges from the start
+Free 1-color printing
+Paid or outsourced design
+Free professional design support
+High minimum order quantities
+Low minimum — just 100 boxes
+Shipping charged on top
+Free shipping to all US states
+Eco materials as a paid upgrade
+Eco-friendly materials as standard
+Industries We Serve
+Different products ask different questions of their packaging. We answer them across many categories:
+Industry
+What We Package
+Food & Bakery
+Bakery boxes, pizza & popcorn boxes, chocolate & food-safe cartons
+Cosmetics & Candles
+Rigid boxes, candle boxes, retail beauty packaging
+CBD & Cannabis
+Compliant CBD boxes, tuck boxes, Mylar bags
+Retail & E-Commerce
+Mailer boxes, display boxes, product sleeves
+Electronics & Pet
+Protective retail packaging, pet product boxes
+Our Packaging Expertise
+Materials
+Kraft, cardboard, corrugated, and rigid stocks
+Biodegradable, recyclable, and sustainable options
+Food-safe board for bakery and food packaging
+Printing & Customization
+Offset, digital, and screen printing
+Full CMYK plus custom spot colors
+Custom sizes, styles, windows, and finishes
+How We Work
+Request a quote with your packaging requirements.
+Confirm & pay against a detailed, itemized quote.
+Approve your design from a digital proof before production.
+Receive fast delivery to your door, shipped free across the US.
+Quality You Can Count On
+Every order moves through a five-stage production process — planning, material selection, printing, quality assurance, and mass production — so the first box and the ten-thousandth meet the same standard. We provide sample proofs before full runs, so you approve exactly what you’ll receive.
+“We don’t just sell boxes — we build brand identities.”
+— America Custom Boxes
+Sustainability
+Eco-friendly packaging shouldn’t cost more or perform worse. We offer biodegradable, recyclable, and sustainable materials across our catalog, and we’ll help you choose stocks that match your brand’s environmental goals without sacrificing print quality.
+Why Businesses Trust Us
+A true manufacturer — we control design, print, and quality in-house
+Free design, free die & plate setup, and free 1-color printing
+Low 100-box minimum and 20% off your first order
+Secure, PCI-DSS-compliant payments through PayPal
+Free US shipping and 24/7 support
+For your team — strengthen EEAT here
+This page is written on verifiable capability only. If America Custom Boxes has real numbers — years in operation, orders delivered, brands served, factory location — add them here and to Organization schema. Concrete, true numbers are the single biggest EEAT lift for a newer site, but only use figures you can stand behind.
+About Us FAQs
+What does America Custom Boxes do?
+We’re a custom packaging manufacturer. We design, print, and deliver custom boxes for food, cosmetics, retail, CBD, and e-commerce brands across the US.
+Do you really not charge for setup?
+Correct — die and plate setup is free, and 1-color printing is free too. Professional design support is also included at no cost.
+What is your minimum order?
+Our minimum is 100 boxes, so you can order what your brand actually needs rather than committing to huge runs.
+Do you offer eco-friendly packaging?
+Yes — biodegradable, recyclable, and sustainable materials are available across our product range.
+Let’s Build Your Packaging
+Ready to see your brand on a box that sells? Send us your details for an instant quote — free design, free setup, and free US shipping included.
+Footer CTA:  Start with a free quote today.  →  Get a Quote  |  WhatsApp Us
+On-Page SEO Assets
+Suggested Internal Links
+Anchor Text
+Destination
+custom bakery boxes
+/product-category/hot-products/bakery-boxes/
+CBD packaging
+/product-category/hot-products/cbd-boxes/
+mailer boxes
+/product-category/hot-products/mailer-boxes/
+all hot products
+/product-category/hot-products/
+packaging by industry
+/product-category/by-industry/
+get an instant quote
+/get-quote/
+contact our team
+/contact-us/
+Schema Recommendation
+Use Organization + AboutPage + BreadcrumbList, plus FAQPage for the FAQ block. Add `foundingDate`, `location`, and any award/membership entities once confirmed to strengthen the brand entity.
+Suggested Images (alt text + filename)
+Hero: production floor / branded boxes.  ·  alt: “America Custom Boxes custom packaging manufacturer”  ·  file: about-acb-manufacturer.webp
+Values: designer working on a dieline.  ·  alt: “Free custom packaging design support”  ·  file: about-free-design.webp
+Sustainability: kraft eco boxes.  ·  alt: “Eco-friendly recyclable kraft packaging”  ·  file: about-eco-packaging.webp
