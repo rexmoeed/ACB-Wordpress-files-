@@ -35,11 +35,27 @@ add_action(
 			|| ( function_exists( 'is_product' ) && is_product() )
 			|| ( function_exists( 'is_product_taxonomy' ) && is_product_taxonomy() )
 			|| ( function_exists( 'is_shop' ) && is_shop() )
-			|| ( function_exists( 'is_page' ) && ( is_page( 'contact-us' ) || is_page( 'get-quote' ) || is_page( 88 ) ) );
+			|| ( function_exists( 'is_page' ) && ( is_page( 'contact-us' ) || is_page( 'get-quote' ) || is_page( 'about-us' ) || is_page( 88 ) || is_page( 82 ) ) );
 		if ( ! $needs_form ) {
 			return;
 		}
-		wp_register_script( 'acb-quote-form-globals', false, array(), '1.0.2', true );
+		$is_about = function_exists( 'is_page' ) && ( is_page( 'about-us' ) || is_page( 82 ) );
+		if ( ! $is_about ) {
+			wp_enqueue_style(
+				'acb-quote-form-css',
+				content_url( 'mu-plugins/acb-quote-form.css' ),
+				array(),
+				'1.0.4'
+			);
+		}
+		wp_enqueue_script(
+			'acb-quote-form-js',
+			content_url( 'mu-plugins/acb-quote-form.js' ),
+			array(),
+			'1.0.4',
+			true
+		);
+		wp_register_script( 'acb-quote-form-globals', false, array( 'acb-quote-form-js' ), '1.0.2', true );
 		wp_enqueue_script( 'acb-quote-form-globals' );
 		$inline = 'window.acbQuoteFormNonce=' . wp_json_encode( wp_create_nonce( 'acb_instant_quote' ) ) . ';'
 			. 'window.acbQuoteFormAjax=' . wp_json_encode( admin_url( 'admin-ajax.php' ) ) . ';'

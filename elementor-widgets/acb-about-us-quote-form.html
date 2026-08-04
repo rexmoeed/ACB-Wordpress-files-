@@ -1,0 +1,109 @@
+<div class="acb-quote-section" id="quote-form">
+
+    <div class="acb-quote-form-col">
+
+        <div class="acb-qf-wrap">
+            <h2 class="acb-qf-title">Get an <span>Instant Quote</span></h2>
+            <div class="acb-qf-bar"></div>
+            <p class="acb-qf-sub">Fill out the form below and our team at America Custom Boxes will get back to you shortly.</p>
+
+            <div class="acb-qf-msg" id="acbQfMsg" role="alert" aria-live="polite"></div>
+
+            <form id="acbQfForm" novalidate>
+
+                <div class="acb-qf-field">
+                    <div class="acb-qf-icon">
+                        <svg width="20" height="20" fill="none" stroke="#FF2E2E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+                    </div>
+                    <input type="text" id="acb_qf_full_name" name="full_name" placeholder="Full Name" required>
+                </div>
+
+                <div class="acb-qf-field">
+                    <div class="acb-qf-icon">
+                        <svg width="20" height="20" fill="none" stroke="#FF2E2E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+                    </div>
+                    <input type="email" id="acb_qf_email" name="email" placeholder="Email Address" required>
+                </div>
+
+                <div class="acb-qf-field">
+                    <div class="acb-qf-icon">
+                        <svg width="20" height="20" fill="none" stroke="#FF2E2E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.86 19.86 0 0 1 3.09 5.18 2 2 0 0 1 5.09 3h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.71 2.81a2 2 0 0 1-.45 2.11L9.09 11a16 16 0 0 0 5.91 5.91l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.58 2.81.71A2 2 0 0 1 22 16.92z"/></svg>
+                    </div>
+                    <input type="tel" id="acb_qf_phone" name="phone" placeholder="Phone Number">
+                </div>
+
+                <div class="acb-qf-field">
+                    <div class="acb-qf-icon">
+                        <svg width="20" height="20" fill="none" stroke="#FF2E2E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 0 0-1-1.73L13 2.27a2 2 0 0 0-2 0L4 6.27A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73L11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+                    </div>
+                    <select id="acb_qf_quantity" name="quantity">
+                        <option value="" disabled selected>Select Quantity</option>
+                        <option>100–499</option>
+                        <option>500–999</option>
+                        <option>1,000–4,999</option>
+                        <option>5,000–9,999</option>
+                        <option>10,000+</option>
+                    </select>
+                    <div class="acb-qf-chevron">
+                        <svg width="16" height="16" fill="none" stroke="#888" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg>
+                    </div>
+                </div>
+
+                <div class="acb-qf-file-row">
+                    <div class="acb-qf-icon" style="border-right:1.5px solid #e5e7eb">
+                        <svg width="20" height="20" fill="none" stroke="#FF2E2E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><polyline points="16 16 12 12 8 16"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"/></svg>
+                    </div>
+                    <span class="acb-qf-file-label" id="acbQfFileLabel">Upload Artwork (Optional)</span>
+                    <input type="file" class="acb-qf-file-input" id="acb_qf_artwork" name="artwork_file" accept=".jpg,.jpeg,.png,.pdf,.ai,.eps">
+                    <button type="button" class="acb-qf-file-btn" id="acbQfFileBtn">Choose File</button>
+                </div>
+
+                <div class="acb-qf-field" style="align-items:flex-start">
+                    <div class="acb-qf-icon" style="height:80px">
+                        <svg width="20" height="20" fill="none" stroke="#FF2E2E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+                    </div>
+                    <textarea id="acb_qf_message" name="message" placeholder="Additional Details / Message (Optional)"></textarea>
+                </div>
+
+                <button type="submit" class="acb-qf-submit" id="acbQfSubmitBtn">
+                    <span id="acbQfSubmitLabel">Get Instant Quote</span>
+                    <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </button>
+
+            </form>
+
+            <div class="acb-qf-badges">
+                <div class="acb-qf-badge">
+                    <div class="acb-qf-badge-icon">
+                        <svg width="22" height="22" fill="none" stroke="#0049E9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z"/></svg>
+                    </div>
+                    <div class="acb-qf-badge-text"><strong>Free Design</strong><span>Support</span></div>
+                </div>
+                <div class="acb-qf-badge">
+                    <div class="acb-qf-badge-icon">
+                        <svg width="22" height="22" fill="none" stroke="#0049E9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13" rx="1"/><path d="M16 8h4l3 5v3h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+                    </div>
+                    <div class="acb-qf-badge-text"><strong>Free Shipping</strong><span>All US States</span></div>
+                </div>
+                <div class="acb-qf-badge">
+                    <div class="acb-qf-badge-icon">
+                        <svg width="22" height="22" fill="none" stroke="#0049E9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 0 0-1-1.73L13 2.27a2 2 0 0 0-2 0L4 6.27A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73L11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+                    </div>
+                    <div class="acb-qf-badge-text"><strong>MOQ</strong><span>100 Boxes</span></div>
+                </div>
+                <div class="acb-qf-badge">
+                    <div class="acb-qf-badge-icon">
+                        <svg width="22" height="22" fill="none" stroke="#0049E9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.86 19.86 0 0 1 1.61 3.39 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8a16 16 0 0 0 5.91 5.91l.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.58 2.81.71A2 2 0 0 1 22 16.92z"/></svg>
+                    </div>
+                    <div class="acb-qf-badge-text"><strong>24/7 Support</strong><span>Online</span></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="acb-quote-image-col">
+        <img src="https://americacustomboxes.com/wp-content/uploads/2026/07/Quote.webp" alt="Get a quote - America Custom Boxes">
+    </div>
+
+</div>

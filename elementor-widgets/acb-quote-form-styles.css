@@ -1,0 +1,300 @@
+.acb-quote-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+    gap: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 16px;
+    font-family: 'Titillium Web', sans-serif;
+    box-sizing: border-box;
+}
+.acb-quote-section *,
+.acb-quote-section *::before,
+.acb-quote-section *::after {
+    box-sizing: border-box;
+}
+.acb-quote-form-col {
+    display: flex;
+    height: 100%;
+}
+.acb-quote-image-col {
+    position: relative;
+    height: 100%;
+    min-height: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 12px 40px rgba(0, 73, 233, 0.1);
+}
+.acb-quote-image-col img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.acb-qf-wrap {
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 36px 32px 28px;
+    max-width: 620px;
+    margin: 0 auto;
+    box-shadow: 0 8px 32px rgba(0, 73, 233, 0.08);
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(0, 73, 233, 0.08);
+}
+.acb-qf-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #111827;
+    margin: 0 0 4px;
+    letter-spacing: -0.3px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.acb-qf-title span {
+    color: #FF2E2E;
+}
+.acb-qf-bar {
+    width: 56px;
+    height: 4px;
+    background: #FF2E2E;
+    border-radius: 2px;
+    margin: 10px 0 12px;
+}
+.acb-qf-sub {
+    color: #6b7280;
+    font-size: 14px;
+    margin: 0 0 22px;
+    line-height: 1.5;
+}
+.acb-qf-field {
+    display: flex;
+    align-items: center;
+    border: 1.5px solid #e5e7eb;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    background: #fff;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.acb-qf-field:focus-within {
+    border-color: #0049E9;
+    box-shadow: 0 0 0 3px rgba(0, 73, 233, 0.1);
+}
+.acb-qf-icon {
+    width: 50px;
+    min-width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1.5px solid #e5e7eb;
+    height: 50px;
+    color: #FF2E2E;
+}
+.acb-qf-field input,
+.acb-qf-field select,
+.acb-qf-field textarea {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #111827;
+    background: transparent;
+    padding: 0 14px;
+    height: 50px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.acb-qf-field textarea {
+    height: 80px;
+    padding: 14px;
+    resize: none;
+}
+.acb-qf-field select {
+    appearance: none;
+    cursor: pointer;
+}
+.acb-qf-field select option {
+    color: #111827;
+}
+.acb-qf-chevron {
+    width: 40px;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9ca3af;
+    pointer-events: none;
+}
+.acb-qf-file-row {
+    display: flex;
+    align-items: center;
+    border: 1.5px solid #e5e7eb;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    background: #fff;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    overflow: hidden;
+}
+.acb-qf-file-row:focus-within {
+    border-color: #0049E9;
+    box-shadow: 0 0 0 3px rgba(0, 73, 233, 0.1);
+}
+.acb-qf-file-label {
+    flex: 1;
+    font-size: 14px;
+    color: #9ca3af;
+    padding: 0 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.acb-qf-file-btn {
+    background: #f3f4f6;
+    border: none;
+    border-left: 1.5px solid #e5e7eb;
+    color: #111827;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0 18px;
+    height: 50px;
+    cursor: pointer;
+    font-family: 'Titillium Web', sans-serif;
+    transition: background 0.2s ease, color 0.2s ease;
+    white-space: nowrap;
+}
+.acb-qf-file-btn:hover {
+    background: rgba(255, 46, 46, 0.08);
+    color: #FF2E2E;
+}
+.acb-qf-file-input {
+    display: none;
+}
+.acb-qf-submit {
+    all: unset;
+    box-sizing: border-box;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    background: #FF2E2E !important;
+    color: #fff !important;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    border: none !important;
+    border-radius: 10px;
+    height: 54px;
+    cursor: pointer;
+    margin-top: 6px;
+    transition: background 0.2s ease, transform 0.2s ease;
+    font-family: 'Titillium Web', sans-serif !important;
+    text-transform: uppercase;
+}
+.acb-qf-submit:hover {
+    background: #FF5757 !important;
+    transform: translateY(-1px);
+}
+.acb-qf-submit:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    transform: none;
+}
+.acb-qf-submit svg {
+    width: 20px;
+    height: 20px;
+    stroke: #fff;
+    fill: none;
+    stroke-width: 2.2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.acb-qf-badges {
+    display: flex;
+    gap: 0;
+    margin-top: 24px;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+.acb-qf-badge {
+    flex: 1;
+    min-width: 120px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 10px;
+    border-right: 1px solid #e8eaf0;
+}
+.acb-qf-badge:last-child {
+    border-right: none;
+}
+.acb-qf-badge-icon {
+    color: #0049E9;
+    flex-shrink: 0;
+}
+.acb-qf-badge-text strong {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    color: #111827;
+    letter-spacing: 0.2px;
+}
+.acb-qf-badge-text span {
+    font-size: 11px;
+    color: #6b7280;
+}
+.acb-qf-msg {
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-bottom: 14px;
+    display: none;
+}
+.acb-qf-msg.success {
+    background: rgba(0, 73, 233, 0.08);
+    color: #0049E9;
+    display: block;
+}
+.acb-qf-msg.error {
+    background: rgba(255, 46, 46, 0.08);
+    color: #FF2E2E;
+    display: block;
+}
+
+@media (max-width: 991px) {
+    .acb-quote-section {
+        grid-template-columns: 1fr;
+        padding: 28px 12px;
+        gap: 24px;
+    }
+    .acb-quote-form-col {
+        order: 1;
+    }
+    .acb-quote-image-col {
+        order: 2;
+        min-height: 300px;
+    }
+}
+
+@media (max-width: 600px) {
+    .acb-qf-wrap {
+        padding: 24px 16px 20px;
+    }
+    .acb-qf-badges {
+        gap: 14px;
+    }
+    .acb-qf-badge {
+        border-right: none;
+        min-width: 46%;
+    }
+    .acb-qf-title {
+        font-size: 24px;
+    }
+    .acb-quote-image-col {
+        min-height: 240px;
+        border-radius: 12px;
+    }
+}
