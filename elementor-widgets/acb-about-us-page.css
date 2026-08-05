@@ -99,6 +99,19 @@
 	border-radius: 12px;
 	display: block;
 }
+.acb-about-split--who .acb-about-split-media,
+.acb-about-split--expertise .acb-about-split-media {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.acb-about-split--who .acb-about-split-media img,
+.acb-about-split--expertise .acb-about-split-media img {
+	width: 100%;
+	max-width: 320px;
+	margin: 0 auto;
+	box-shadow: 0 12px 36px rgba(0, 0, 0, 0.35);
+}
 .acb-about-grid-3 {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);

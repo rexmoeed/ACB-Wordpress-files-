@@ -1,406 +1,4 @@
 {
-  "cosmetics": {
-    "meta": {
-      "title": "Custom Cosmetic Boxes | Wholesale Beauty Packaging USA",
-      "description": "Custom cosmetic boxes for U.S. beauty brands — skincare, makeup & serum packaging with foil, rigid & window options. Free die setup, free design & shipping.",
-      "focuskw": "custom cosmetic boxes"
-    },
-    "intro": [
-      "In beauty, the box is part of the product. Shoppers decide whether a serum feels clinical, a cream feels indulgent, or a lipstick feels luxe from the packaging before they ever touch the formula. For cosmetic brands, the carton sets the price expectation, carries the brand story, and turns a first purchase into a repeat one through an unboxing worth sharing.",
-      "America Custom Boxes manufactures custom cosmetic boxes that make beauty brands look every bit as premium as they are. From soft-touch rigid boxes for prestige skincare to printed tuck cartons for makeup and serums, we build packaging in the exact structure, finish, and feel your brand demands — with foil, embossing, and spot UV that read as pure luxury. And because we charge nothing for die-cutting or plate setup, you can customize freely without setup fees eating into your budget.",
-      "Designed and printed for the U.S. market and priced for real businesses, our cosmetic packaging suits indie launches, prestige positioning, and e-commerce unboxing alike. With free design support, free 3D mockups, and free shipping, America Custom Boxes makes premium beauty packaging accessible from your very first order."
-    ],
-    "why_title": "Why Choose Custom Cosmetic Boxes",
-    "why_items": [
-      {
-        "label": "Premium presentation",
-        "text": "Quality stock and finishes justify a premium price point."
-      },
-      {
-        "label": "Shelf and screen standout",
-        "text": "Distinct structure and print win the pick-up and the scroll."
-      },
-      {
-        "label": "Protection for delicate products",
-        "text": "Snug inserts keep glass jars, bottles, and pumps safe."
-      },
-      {
-        "label": "Brand storytelling",
-        "text": "Full print real estate for your identity, claims, and ritual."
-      },
-      {
-        "label": "Unboxing that earns shares",
-        "text": "Tactile, gift-worthy reveals that drive UGC and loyalty."
-      },
-      {
-        "label": "No setup fees",
-        "text": "Free die and plate setup means full customization without hidden costs."
-      }
-    ],
-    "styles": [
-      {
-        "title": "Reverse & straight tuck-end cartons",
-        "description": "The everyday standard for creams, serums, and makeup."
-      },
-      {
-        "title": "Two-piece rigid boxes",
-        "description": "Substantial, luxury structure for prestige sets and gifting."
-      },
-      {
-        "title": "Sleeve & drawer boxes",
-        "description": "A premium slide-out reveal for high-end lines."
-      },
-      {
-        "title": "Magnetic-closure boxes",
-        "description": "An elevated, keepsake-quality open."
-      },
-      {
-        "title": "Window boxes",
-        "description": "Fiber or recyclable windows to show jars and bottles."
-      },
-      {
-        "title": "Pillow & gable boxes",
-        "description": "Playful formats for samples, gifts, and minis."
-      }
-    ],
-    "customization": [
-      {
-        "label": "Materials",
-        "content": "Smooth, bright board for vivid beauty printing. Clean-beauty, organic, and eco-forward positioning. Prestige weight for luxury boxes. Protective structure for kits and e-commerce."
-      },
-      {
-        "label": "Printing",
-        "content": "we deliver it consistently: Exceptional color fidelity for full-color beauty artwork. Cost-effective for indie runs and multiple shades/SKUs. Bold, solid single-color effects and specialty applications."
-      },
-      {
-        "label": "Finishes",
-        "content": "A velvety, prestige tactile finish. Modern-soft or high-shine protection. Glossy highlights against matte for logos and motifs. Gold, silver, rose gold, copper, and holographic brilliance."
-      },
-      {
-        "label": "Add-ons",
-        "content": "Secure jars, bottles, droppers, and palettes. Reveal the product on shelf. Keepsake-quality gifting touches. Trust and freshness cues."
-      }
-    ],
-    "sustainability": "sustainability is built in: Curbside-recyclable kraft, cardboard, and corrugated stocks. Fiber-based materials that break down or get reused. Post-consumer recycled board where your specification allows. Low-VOC, eco-safe inks and water-based adhesives. Natural, eco-forward materials with minimal treatment.",
-    "faq": [
-      {
-        "question": "What are custom cosmetic boxes?",
-        "answer": "Custom cosmetic boxes are branded, made-to-measure secondary packaging for beauty and personal-care products — skincare, makeup, serums, and fragrance — engineered to your exact jars and bottles and printed to reflect your brand. They protect delicate products, merchandise them on shelf, and create a premium unboxing experience."
-      },
-      {
-        "question": "Do you charge for die-cutting or plate setup?",
-        "answer": "No. Die-cutting and plate setup are completely free at America Custom Boxes, so you can fully customize your cosmetic packaging without setup fees adding to your cost."
-      },
-      {
-        "question": "What materials are best for luxury skincare packaging?",
-        "answer": "Rigid chipboard (roughly 1.5–3mm) is the industry standard for prestige skincare — its weight signals quality and supports foil, embossing, and soft-touch finishes. SBS paperboard suits vivid folding cartons, while kraft is ideal for clean-beauty and organic positioning."
-      },
-      {
-        "question": "Can you help with MoCRA label requirements?",
-        "answer": "Yes. We design cartons with clean, legible space for INCI ingredient listings and responsible-person contact information in line with the Modernization of Cosmetics Regulation Act. Final label content and regulatory validation rest with your brand; we lay it out clearly."
-      },
-      {
-        "question": "Can you match my exact brand colors across shades and SKUs?",
-        "answer": "Yes. We use PMS/spot-color matching with locked color values so your brand stays consistent across every shade, SKU, and reorder."
-      },
-      {
-        "question": "Do you offer eco-friendly cosmetic packaging?",
-        "answer": "Yes. We provide recyclable, recycled-content, and kraft options with soy-based and water-based inks for conscious beauty brands."
-      },
-      {
-        "question": "Can you make packaging for a full skincare or makeup line?",
-        "answer": "Yes. We produce coordinated packaging across an entire line — cleanser, toner, serum, moisturizer, and color cosmetics — so your brand looks unified on shelf and online."
-      },
-      {
-        "question": "Do you provide inserts to protect glass jars and bottles?",
-        "answer": "Yes. We engineer die-cut, molded-pulp, and foam-alternative inserts sized to your exact products so glass and pumps stay secure in transit."
-      },
-      {
-        "question": "What finishes make cosmetic boxes look premium?",
-        "answer": "Soft-touch lamination, foil stamping, spot UV, embossing, and holographic effects are the highest-impact upgrades for prestige beauty packaging — often combined for a signature look."
-      },
-      {
-        "question": "Do you offer free design and 3D mockups?",
-        "answer": "Yes. Free design and dieline support plus a free flat and 3D digital mockup are included so you can perfect and approve your box before production."
-      },
-      {
-        "question": "How fast can I get my cosmetic boxes?",
-        "answer": "Standard turnaround is 10–12 business days after proof approval, with expedited options for launches and seasonal drops. U.S. shipping is free."
-      },
-      {
-        "question": "Do you serve beauty brands nationwide?",
-        "answer": "Yes. We manufacture for the U.S. market and ship free to beauty brands in all 50 states, from indie startups to established prestige lines."
-      }
-    ]
-  },
-  "food": {
-    "meta": {
-      "title": "Custom Food Boxes | Food-Grade Packaging Wholesale USA",
-      "description": "Custom food boxes & packaging — FDA food-grade, grease-resistant boxes for restaurants, fast food & food brands. Free die setup, free design & shipping.",
-      "focuskw": "custom food boxes"
-    },
-    "intro": [
-      "Food packaging has two jobs that can't be compromised: it has to be safe against the product, and it has to sell it. Customers judge freshness, quality, and value from the box before the first bite, while food-grade safety and grease resistance are non-negotiable. The right partner delivers both — appetite appeal and food-contact safety — in one custom box.",
-      "America Custom Boxes manufactures custom food boxes on FDA food-grade, grease-resistant materials with food-safe inks. From burger and fried-chicken boxes to takeout cartons, bakery boxes, and beverage carriers, we engineer packaging that holds up to moisture, oil, and heat while showcasing your brand in full color. Recyclable, compostable, and kraft options let you meet food-safety and sustainability expectations at once — and with free die and plate setup, customizing your packaging never carries hidden fees.",
-      "Built for real foodservice — high volumes, tight margins, delivery-ready durability — our food packaging comes with free design, free 3D mockups, and free U.S. shipping, so independent restaurants and national food brands alike can look as good as their food tastes."
-    ],
-    "why_title": "Why Choose Custom Food Boxes",
-    "why_items": [
-      {
-        "label": "Food-contact safety",
-        "text": "FDA food-grade materials and food-safe inks and coatings."
-      },
-      {
-        "label": "Grease & moisture resistance",
-        "text": "Keeps boxes intact and food fresh through delivery."
-      },
-      {
-        "label": "Appetite appeal",
-        "text": "Full-color print and windows that make food look irresistible."
-      },
-      {
-        "label": "Brand every order",
-        "text": "Turn takeout and delivery into brand impressions."
-      },
-      {
-        "label": "Sustainability",
-        "text": "Recyclable, compostable, and kraft options customers reward."
-      },
-      {
-        "label": "No setup fees",
-        "text": "Free die and plate setup means full customization without hidden costs."
-      }
-    ],
-    "styles": [
-      {
-        "title": "Burger & sandwich boxes",
-        "description": "Clamshell and tuck styles for handheld foods."
-      },
-      {
-        "title": "Fried chicken & snack boxes",
-        "description": "Grease-resistant cartons for fried and oily foods."
-      },
-      {
-        "title": "Takeout & meal boxes",
-        "description": "Sturdy, leak-aware cartons for delivery."
-      },
-      {
-        "title": "Food & fry cartons",
-        "description": "Open-top cartons and scoops for sides."
-      },
-      {
-        "title": "Bakery & dessert boxes",
-        "description": "Windowed and ventilated for baked goods."
-      },
-      {
-        "title": "Beverage carriers",
-        "description": "Multi-pack carriers for cups, bottles, and cans."
-      }
-    ],
-    "customization": [
-      {
-        "label": "Materials",
-        "content": "Safe for direct and indirect food contact. Greaseproof performance for oily and fried foods. Natural, recyclable, on-trend foodservice stock. Structure for delivery and multi-item orders."
-      },
-      {
-        "label": "Printing",
-        "content": "High-fidelity food photography and branding at volume. Economical for short runs and seasonal menus. Bold single-color branding on kraft and corrugated. Exact, appetizing brand colors."
-      },
-      {
-        "label": "Finishes",
-        "content": "Protective, premium finishes (food-safe placement). Barriers against oil and moisture. Fast-drying, recyclable protection. Selective highlights for branding."
-      },
-      {
-        "label": "Add-ons",
-        "content": "Show off baked and prepared foods. Keep hot and crisp foods fresh. Easy, branded transport. Interior protection against oil."
-      }
-    ],
-    "sustainability": "and we make it food-safe: Curbside-recyclable kraft, cardboard, and corrugated stocks. Fiber-based materials that break down or get reused. Post-consumer recycled board where your specification allows. Low-VOC, eco-safe inks and water-based adhesives. Natural, eco-forward materials with minimal treatment.",
-    "faq": [
-      {
-        "question": "What are custom food boxes?",
-        "answer": "Custom food boxes are branded, made-to-measure packaging built on FDA food-grade materials for food products — burger boxes, fried-chicken boxes, takeout cartons, bakery boxes, and beverage carriers. They keep food safe and fresh, resist grease and moisture, and merchandise your brand in full color."
-      },
-      {
-        "question": "Do you charge for die-cutting or plate setup?",
-        "answer": "No. Die-cutting and plate setup are free at America Custom Boxes, so you can fully customize your food packaging without setup fees adding to your cost."
-      },
-      {
-        "question": "Is your packaging FDA food-grade?",
-        "answer": "Yes. We use FDA food-grade materials suitable for direct and indirect food contact, with food-safe inks and coatings kept appropriate to food-contact zones."
-      },
-      {
-        "question": "Can you make grease-resistant boxes for fried and oily foods?",
-        "answer": "Absolutely. We engineer grease-resistant board and liners for burgers, fried chicken, fries, and pizza, so boxes stay intact and clean through delivery."
-      },
-      {
-        "question": "Do you offer compostable or recyclable food packaging?",
-        "answer": "Yes. We provide recyclable, compostable, and kraft options so you can meet customer and municipal sustainability expectations."
-      },
-      {
-        "question": "Can you add windows and ventilation?",
-        "answer": "Yes. Fiber or recyclable windows show off baked and prepared foods, and ventilation or steam holes keep hot and crisp items fresh — both popular for bakeries and takeout."
-      },
-      {
-        "question": "Can you print my logo and brand colors?",
-        "answer": "Yes. We print vivid, appetizing full-color food photography and match exact PMS brand colors, with locked color for consistent reorders."
-      },
-      {
-        "question": "Do you package beverages too?",
-        "answer": "Yes. We produce beverage carriers and cartons for cups, bottles, and cans, plus sleeves and wraps for cups and bars."
-      },
-      {
-        "question": "Do you offer free design and 3D mockups?",
-        "answer": "Yes. Free design and dieline support plus a free flat and 3D digital mockup are included so you can approve your packaging before printing."
-      },
-      {
-        "question": "What is the minimum order quantity?",
-        "answer": "We welcome both small and bulk orders, so independent restaurants and food brands can order affordably, with wholesale price tiers as volume grows."
-      },
-      {
-        "question": "How fast is production?",
-        "answer": "Standard turnaround is 10–12 business days after proof approval, with expedited options available. U.S. shipping is free."
-      },
-      {
-        "question": "Do you serve food businesses nationwide?",
-        "answer": "Yes. We manufacture for the U.S. market and ship free to restaurants, fast-food outlets, and food brands in all 50 states."
-      }
-    ]
-  },
-  "popcorn-boxes": {
-    "meta": {
-      "title": "Custom Popcorn Boxes | Wholesale Popcorn Packaging USA",
-      "description": "Custom popcorn boxes — theater buckets, gourmet & retail popcorn packaging, food-grade & grease-resistant. Free die setup, free design & U.S. shipping.",
-      "focuskw": "custom popcorn boxes"
-    },
-    "intro": [
-      "Popcorn is impulse, nostalgia, and gift all at once — and its packaging carries all three. A striped theater bucket signals movie-night fun; a matte-black gable box with foil says gourmet; a window carton lets caramel and cheese sell themselves. Whatever the position, the box has to look right and hold up to butter and oil without staining or going soft.",
-      "America Custom Boxes manufactures custom popcorn boxes for every corner of the category — cinemas and concessions, gourmet and flavored popcorn brands, event and party favors, and retail snack lines. We build theater buckets, gable boxes, window cartons, tubs, and retail boxes in food-grade, grease-resistant stock, printed in vivid full color, with free die and plate setup so customization never carries hidden fees.",
-      "Built for real snack businesses — concession volumes, gourmet margins, and seasonal spikes — our popcorn packaging comes with free design, free 3D mockups, and free U.S. shipping, so from a single popcorn shop to a national brand, you get packaging that looks premium and performs."
-    ],
-    "why_title": "Why Choose Custom Popcorn Boxes",
-    "why_items": [
-      {
-        "label": "Instant appetite appeal",
-        "text": "Full-color print and windows that make popcorn irresistible."
-      },
-      {
-        "label": "Grease resistance",
-        "text": "Boxes stay clean against butter, oil, and caramel."
-      },
-      {
-        "label": "Food-contact safety",
-        "text": "FDA food-grade board and food-safe inks."
-      },
-      {
-        "label": "Position for any tier",
-        "text": "Theater fun, gourmet luxury, or retail snack, one supplier."
-      },
-      {
-        "label": "Brand every serving",
-        "text": "Turn concessions and gifting into brand impressions."
-      },
-      {
-        "label": "No setup fees",
-        "text": "Free die and plate setup means full customization without hidden costs."
-      }
-    ],
-    "styles": [
-      {
-        "title": "Theater popcorn buckets",
-        "description": "Classic tapered buckets and tubs for concessions."
-      },
-      {
-        "title": "Gable boxes",
-        "description": "Handled boxes for gourmet and grab-and-go."
-      },
-      {
-        "title": "Window boxes",
-        "description": "Show caramel, cheese, and gourmet flavors through a window."
-      },
-      {
-        "title": "Tuck-end retail cartons",
-        "description": "Shelf-ready boxes for retail snack lines."
-      },
-      {
-        "title": "Scoop & open-top boxes",
-        "description": "Concession-style serving cartons."
-      },
-      {
-        "title": "Pillow & favor boxes",
-        "description": "Small boxes for party and wedding favors."
-      }
-    ],
-    "customization": [
-      {
-        "label": "Materials",
-        "content": "Safe for direct popcorn contact. Greaseproof against butter, oil, and caramel. Natural, recyclable, artisan-forward. Bright stock for vivid theater and gourmet branding."
-      },
-      {
-        "label": "Printing",
-        "content": "High-fidelity theater stripes and gourmet branding at volume. Economical for short runs and seasonal flavors. Bold single-color branding on kraft. Exact, appetizing brand colors."
-      },
-      {
-        "label": "Finishes",
-        "content": "Protective finishes (food-safe placement). Barriers against butter and oil. Fast-drying, recyclable protection. Selective highlights for logos."
-      },
-      {
-        "label": "Add-ons",
-        "content": "Show off gourmet and caramel popcorn. Easy, branded carry for gable boxes and buckets. Interior protection against oil. Party and wedding favor finishing."
-      }
-    ],
-    "sustainability": "and we make it food-safe: Curbside-recyclable kraft, cardboard, and corrugated stocks. Fiber-based materials that break down or get reused. Post-consumer recycled board where your specification allows. Low-VOC, eco-safe inks and water-based adhesives. Natural, eco-forward materials with minimal treatment.",
-    "faq": [
-      {
-        "question": "What are custom popcorn boxes?",
-        "answer": "Custom popcorn boxes are branded, food-grade packaging for popcorn — theater buckets, gable boxes, window cartons, tubs, and retail boxes. They're grease-resistant to stay clean against butter and oil, printed to your brand, and built for concessions, gourmet retail, or party favors."
-      },
-      {
-        "question": "Do you charge for die-cutting or plate setup?",
-        "answer": "No. Die-cutting and plate setup are free at America Custom Boxes, so you can fully customize your popcorn packaging without setup fees adding to your cost."
-      },
-      {
-        "question": "Are your popcorn boxes food-safe and grease-resistant?",
-        "answer": "Yes. We use FDA food-grade materials with grease-resistant board and food-safe inks, so boxes stay clean against butter, oil, and caramel and are safe in direct popcorn contact."
-      },
-      {
-        "question": "What popcorn box styles do you offer?",
-        "answer": "Theater buckets and tubs, gable boxes with handles, window cartons, tuck-end retail cartons, scoop/open-top concession boxes, and small favor boxes — all fully customizable."
-      },
-      {
-        "question": "Can I get a window to show gourmet popcorn?",
-        "answer": "Yes. Fiber or recyclable windows let customers see caramel, cheese, and gourmet flavors — a proven way to boost retail and gift sales."
-      },
-      {
-        "question": "Can you print theater stripes or gourmet branding?",
-        "answer": "Yes. We print vivid full-color designs — classic theater stripes, gourmet matte-and-foil looks, or playful party art — and match exact PMS brand colors."
-      },
-      {
-        "question": "Do you offer kraft and recyclable options?",
-        "answer": "Yes. Kraft gives a natural, artisan look, and we offer recyclable and compostable stocks for eco-conscious snack brands."
-      },
-      {
-        "question": "Do you make popcorn favor boxes for events?",
-        "answer": "Yes. We produce small popcorn favor and gift boxes for weddings, parties, and events, with ribbon and personalization options."
-      },
-      {
-        "question": "Do you provide free design and 3D mockups?",
-        "answer": "Yes. Free design and dieline support plus a free flat and 3D digital mockup are included so you can approve your box before printing."
-      },
-      {
-        "question": "What is the minimum order quantity?",
-        "answer": "We welcome both small and bulk orders, so single popcorn shops and national brands can order affordably, with wholesale price tiers as volume grows."
-      },
-      {
-        "question": "How fast is production?",
-        "answer": "Standard turnaround is 10–12 business days after proof approval, with expedited options available. U.S. shipping is free."
-      },
-      {
-        "question": "Do you serve popcorn brands nationwide?",
-        "answer": "Yes. We manufacture for the U.S. market and ship free to popcorn and snack brands in all 50 states."
-      }
-    ]
-  },
   "bakery-boxes": {
     "meta": {
       "title": "Custom Bakery Boxes | Food-Grade Cake & Pastry Boxes USA",
@@ -815,38 +413,38 @@
       }
     ]
   },
-  "mailer-boxes": {
+  "cosmetics": {
     "meta": {
-      "title": "Custom Mailer Boxes | E-Commerce Shipping Boxes USA",
-      "description": "Custom mailer boxes — corrugated e-commerce shipping boxes with a premium unboxing, printed inside & out. Free die setup, free design & shipping.",
-      "focuskw": "custom mailer boxes"
+      "title": "Custom Cosmetic Boxes | Wholesale Beauty Packaging USA",
+      "description": "Custom cosmetic boxes for U.S. beauty brands — skincare, makeup & serum packaging with foil, rigid & window options. Free die setup, free design & shipping.",
+      "focuskw": "custom cosmetic boxes"
     },
     "intro": [
-      "For an online brand, the mailer box is the only physical touchpoint you get — and it arrives after the sale, when the customer is primed to be delighted. A plain brown carton says “shipment”; a right-sized, branded mailer with an inside-printed message says “brand.” In a channel where you can't control the shelf, the doorstep unboxing is your storefront, your first impression, and your most shared marketing asset all at once.",
-      "America Custom Boxes manufactures custom mailer boxes engineered for both jobs: surviving the carrier and delighting the customer. We build self-locking corrugated mailers — the roll-end tuck-front style favored by subscription and DTC brands — in E-flute for a smooth print surface or B-flute and double-wall for heavier goods, with edge-crush strength matched to your product weight. Full-color printing inside and out, tear strips for easy opening, and right-sized dimensions that lower dimensional weight all come standard, and with free die and plate setup, none of it carries setup fees.",
-      "From a first Shopify order to a national subscription program, our mailers are built for real e-commerce — carrier abuse, return-worthy presentation, and dimensional-weight economics — and backed by free design, free 3D mockups, and free U.S. shipping. Ship safe, unbox premium, and put your brand in every customer's hands."
+      "In beauty, the box is part of the product. Shoppers decide whether a serum feels clinical, a cream feels indulgent, or a lipstick feels luxe from the packaging before they ever touch the formula. For cosmetic brands, the carton sets the price expectation, carries the brand story, and turns a first purchase into a repeat one through an unboxing worth sharing.",
+      "America Custom Boxes manufactures custom cosmetic boxes that make beauty brands look every bit as premium as they are. From soft-touch rigid boxes for prestige skincare to printed tuck cartons for makeup and serums, we build packaging in the exact structure, finish, and feel your brand demands — with foil, embossing, and spot UV that read as pure luxury. And because we charge nothing for die-cutting or plate setup, you can customize freely without setup fees eating into your budget.",
+      "Designed and printed for the U.S. market and priced for real businesses, our cosmetic packaging suits indie launches, prestige positioning, and e-commerce unboxing alike. With free design support, free 3D mockups, and free shipping, America Custom Boxes makes premium beauty packaging accessible from your very first order."
     ],
-    "why_title": "Why Choose Custom Mailer Boxes",
+    "why_title": "Why Choose Custom Cosmetic Boxes",
     "why_items": [
       {
-        "label": "Carrier-tough construction",
-        "text": "Corrugated strength matched to product weight for damage-free delivery."
+        "label": "Premium presentation",
+        "text": "Quality stock and finishes justify a premium price point."
       },
       {
-        "label": "Premium unboxing",
-        "text": "Inside-and-out printing turns delivery into a branded moment."
+        "label": "Shelf and screen standout",
+        "text": "Distinct structure and print win the pick-up and the scroll."
       },
       {
-        "label": "Tool-free assembly",
-        "text": "Self-locking roll-end-tuck mailers fold up fast, no tape needed."
+        "label": "Protection for delicate products",
+        "text": "Snug inserts keep glass jars, bottles, and pumps safe."
       },
       {
-        "label": "Right-sized economics",
-        "text": "Custom dimensions cut dimensional weight and shipping cost."
+        "label": "Brand storytelling",
+        "text": "Full print real estate for your identity, claims, and ritual."
       },
       {
-        "label": "Return-worthy presentation",
-        "text": "Sturdy enough to reuse for returns and exchanges."
+        "label": "Unboxing that earns shares",
+        "text": "Tactile, gift-worthy reveals that drive UGC and loyalty."
       },
       {
         "label": "No setup fees",
@@ -855,219 +453,349 @@
     ],
     "styles": [
       {
-        "title": "Roll-end tuck-front (RETT) mailers",
-        "description": "The self-locking e-commerce standard with a clean front lock."
+        "title": "Reverse & straight tuck-end cartons",
+        "description": "The everyday standard for creams, serums, and makeup."
       },
       {
-        "title": "Roll-end tuck-top mailers",
-        "description": "A tuck-top variant for a slightly different open."
+        "title": "Two-piece rigid boxes",
+        "description": "Substantial, luxury structure for prestige sets and gifting."
       },
       {
-        "title": "Self-locking mailers",
-        "description": "Fast, tape-free assembly for high-volume fulfillment."
+        "title": "Sleeve & drawer boxes",
+        "description": "A premium slide-out reveal for high-end lines."
       },
       {
-        "title": "Book wrap / tab-lock mailers",
-        "description": "Snug protection for books, prints, and flat goods."
-      },
-      {
-        "title": "Double-wall mailers",
-        "description": "Extra strength for heavier or fragile products."
-      },
-      {
-        "title": "Die-cut mailers with inserts",
-        "description": "Fitted cradles for a premium, protected reveal."
-      }
-    ],
-    "customization": [
-      {
-        "label": "Materials",
-        "content": "Thin, rigid, and the smoothest surface for high-resolution print. Added crush resistance for heavier products. Maximum protection for heavy or fragile goods. Natural, recyclable, on-trend for eco brands."
-      },
-      {
-        "label": "Printing",
-        "content": "Offset-quality full-color print laminated to corrugated for premium mailers. No plate fees; ideal for short runs and multi-SKU brands. Cost-effective direct printing for bold, fewer-color designs at volume. Branded interiors for the unboxing reveal."
-      },
-      {
-        "label": "Finishes",
-        "content": "Premium protective finish on litho-laminated mailers. A velvety, luxury feel for prestige unboxing. Glossy highlights against matte. The most recyclable, eco-forward finish."
-      },
-      {
-        "label": "Add-ons",
-        "content": "Easy-open convenience customers love. Fitted cradles for protection and premium presentation. Elevate the reveal, plastic-free. Seal and brand in one step."
-      }
-    ],
-    "sustainability": "our mailers lean into it: Curbside-recyclable kraft, cardboard, and corrugated stocks. Fiber-based materials that break down or get reused. Post-consumer recycled board where your specification allows. Low-VOC, eco-safe inks and water-based adhesives. Natural, eco-forward materials with minimal treatment.",
-    "faq": [
-      {
-        "question": "What are custom mailer boxes?",
-        "answer": "Custom mailer boxes are branded corrugated shipping boxes built for e-commerce — typically a self-locking roll-end tuck-front style that folds up without tape. They protect the product in transit and, with inside-and-out printing, turn the doorstep delivery into a branded unboxing experience."
-      },
-      {
-        "question": "Do you charge for die-cutting or plate setup?",
-        "answer": "No. Die-cutting and plate setup are free at America Custom Boxes, so custom sizes, die-cut inserts, and inside printing don't carry setup fees."
-      },
-      {
-        "question": "What flute should I choose for my mailer?",
-        "answer": "E-flute (~1.5 mm) is the most popular — rigid, lightweight, and the best surface for high-resolution print, ideal for apparel, cosmetics, and light goods. B-flute (~3 mm) adds crush resistance for heavier items, and double-wall is for heavy or fragile products. We'll recommend the right flute for your product weight."
-      },
-      {
-        "question": "Can you print the inside of the mailer?",
-        "answer": "Yes — and you should. Inside printing rewards the customer at the moment they open the box and drives social sharing. A pattern, thank-you message, or discount code inside is one of the highest-impact, lowest-cost unboxing upgrades."
-      },
-      {
-        "question": "How do custom mailers save on shipping?",
-        "answer": "Carriers bill on dimensional weight — based on box volume, not just actual weight. A mailer right-sized to your product cuts dim weight, reduces void fill, and lowers damage rates, so the customization often pays for itself in shipping savings."
-      },
-      {
-        "question": "Are your mailer boxes recyclable?",
-        "answer": "Yes. Corrugated is one of the most recycled materials in the USA. We offer kraft, recycled-content, and recyclable mailers with water-based and soy inks."
-      },
-      {
-        "question": "Can you add inserts to protect the product?",
-        "answer": "Yes. We engineer die-cut corrugated and paperboard inserts, plus molded pulp trays and paper void fill, to immobilize the product and create a premium, protected reveal."
-      },
-      {
-        "question": "Do you make mailers for subscription boxes?",
-        "answer": "Yes. Self-locking E-flute mailers with inside printing and die-cut inserts are the subscription-box standard — premium, protective, and shareable."
-      },
-      {
-        "question": "Can mailers be designed for easy returns?",
-        "answer": "Yes. We can add double tear strips or resealable closures so customers can reuse the same box for returns and exchanges, which improves the post-purchase experience."
-      },
-      {
-        "question": "Do you provide free design and 3D mockups?",
-        "answer": "Yes. Free design and dieline support plus a free flat and 3D digital mockup are included so you can approve your mailer before printing."
-      },
-      {
-        "question": "What is the minimum order quantity?",
-        "answer": "We welcome both small and bulk orders, so Shopify startups and national brands can order affordably, with wholesale price tiers as volume grows."
-      },
-      {
-        "question": "How fast is production and do you ship free?",
-        "answer": "Standard turnaround is 10–12 business days after proof approval, with expedited options available, and U.S. shipping is free to all 50 states."
-      }
-    ]
-  },
-  "product-boxes": {
-    "meta": {
-      "title": "Custom Product Boxes | Retail Packaging & Cartons USA",
-      "description": "Custom product boxes — retail-ready folding cartons, display, window & rigid boxes for any product. Free die & plate setup, free design & free U.S. shipping.",
-      "focuskw": "custom product boxes"
-    },
-    "intro": [
-      "On a retail shelf, your product box has a heartbeat's worth of time to win the pick-up; in an e-commerce order, it's the entire brand experience arriving at the door. Product packaging — the folding carton, the display box, the rigid setup box — does three jobs at once: it protects the product, it merchandises it against competitors, and it markets your brand every time it's seen or held. Get it right and an ordinary product looks premium; get it wrong and even a great product looks generic.",
-      "America Custom Boxes manufactures custom product boxes for brands that refuse to blend in. From tuck-end and auto-lock folding cartons to window boxes, retail display units, and rigid setup boxes, we build packaging sized precisely to your product and printed to retail-grade standards — with the finishes (foil, soft-touch, spot UV, embossing) that let you command a stronger price point. Because die-cutting and plate setup are free, you can specify exactly the structure and print your product needs without setup fees eating your margin.",
-      "From a startup's first retail launch to an enterprise product line, our packaging is built for real business — shelf standout, shipping durability, and reorder consistency — and backed by free design, free 3D mockups, and free U.S. shipping. Retail-ready packaging that makes your product the obvious choice."
-    ],
-    "why_title": "Why Choose Custom Product Boxes",
-    "why_items": [
-      {
-        "label": "Shelf standout",
-        "text": "Distinct structure, color, and print win the pick-up against competitors."
-      },
-      {
-        "label": "Higher perceived value",
-        "text": "Premium materials and finishes justify a stronger price."
-      },
-      {
-        "label": "Protection that prevents returns",
-        "text": "Right-sized structure and inserts keep products intact."
-      },
-      {
-        "label": "Retail compliance built in",
-        "text": "Space for UPC/barcodes, panels, and shelf-ready formats."
-      },
-      {
-        "label": "A marketing asset",
-        "text": "Every box carries your logo, story, and QR code to the customer."
-      },
-      {
-        "label": "No setup fees",
-        "text": "Free die and plate setup means full customization without hidden costs."
-      }
-    ],
-    "styles": [
-      {
-        "title": "Tuck-end folding cartons",
-        "description": "The retail workhorse: economical, printable, versatile."
-      },
-      {
-        "title": "Auto-lock (1-2-3) bottom cartons",
-        "description": "Pre-glued locking base for heavier products."
-      },
-      {
-        "title": "Display / PDQ boxes",
-        "description": "Open-front trays that merchandise on the shelf or counter."
+        "title": "Magnetic-closure boxes",
+        "description": "An elevated, keepsake-quality open."
       },
       {
         "title": "Window boxes",
-        "description": "Fiber or recyclable windows to show the product."
+        "description": "Fiber or recyclable windows to show jars and bottles."
       },
       {
-        "title": "Gable boxes",
-        "description": "Handled boxes for gifting and grab-and-go."
-      },
-      {
-        "title": "Sleeve & tray boxes",
-        "description": "A slide-out reveal for kits and multipacks."
+        "title": "Pillow & gable boxes",
+        "description": "Playful formats for samples, gifts, and minis."
       }
     ],
     "customization": [
       {
         "label": "Materials",
-        "content": "Smooth, bright stock for vivid retail printing. Earthy, eco-forward, and recyclable. Shipping-grade strength for displays and tough retail boxes. A luxury, substantial hand for premium boxes."
+        "content": "Smooth, bright board for vivid beauty printing. Clean-beauty, organic, and eco-forward positioning. Prestige weight for luxury boxes. Protective structure for kits and e-commerce."
       },
       {
         "label": "Printing",
-        "content": "Best color fidelity and value at volume. Fast and economical for short runs and multiple SKUs. Bold, solid single-color effects and specialty applications. Exact, repeatable brand colors."
+        "content": "we deliver it consistently: Exceptional color fidelity for full-color beauty artwork. Cost-effective for indie runs and multiple shades/SKUs. Bold, solid single-color effects and specialty applications."
       },
       {
         "label": "Finishes",
-        "content": "and shape how the product feels in hand: Protective, premium surface finishes. A velvety, luxury tactile feel. Glossy highlights on a matte base."
+        "content": "A velvety, prestige tactile finish. Modern-soft or high-shine protection. Glossy highlights against matte for logos and motifs. Gold, silver, rose gold, copper, and holographic brilliance."
       },
       {
         "label": "Add-ons",
-        "content": "Hold and present products securely. Show the product on shelf. Peg-ready retail display. Premium, gift-worthy touches."
+        "content": "Secure jars, bottles, droppers, and palettes. Reveal the product on shelf. Keepsake-quality gifting touches. Trust and freshness cues."
       }
     ],
-    "sustainability": "Curbside-recyclable kraft, cardboard, and corrugated stocks. Fiber-based materials that break down or get reused. Post-consumer recycled board where your specification allows. Low-VOC, eco-safe inks and water-based adhesives. Natural, eco-forward materials with minimal treatment. Custom dimensions that cut material use and shipping weight.",
+    "sustainability": "sustainability is built in: Curbside-recyclable kraft, cardboard, and corrugated stocks. Fiber-based materials that break down or get reused. Post-consumer recycled board where your specification allows. Low-VOC, eco-safe inks and water-based adhesives. Natural, eco-forward materials with minimal treatment.",
     "faq": [
       {
-        "question": "What are custom product boxes?",
-        "answer": "Custom product boxes are branded, made-to-measure retail packaging — folding cartons, display boxes, window boxes, and rigid setup boxes — built to your exact product and printed to your brand. They protect the product, merchandise it on shelf, and deliver a branded experience in e-commerce."
+        "question": "What are custom cosmetic boxes?",
+        "answer": "Custom cosmetic boxes are branded, made-to-measure secondary packaging for beauty and personal-care products — skincare, makeup, serums, and fragrance — engineered to your exact jars and bottles and printed to reflect your brand. They protect delicate products, merchandise them on shelf, and create a premium unboxing experience."
       },
       {
         "question": "Do you charge for die-cutting or plate setup?",
-        "answer": "No. Die-cutting and plate setup are free at America Custom Boxes, so you can fully customize your product packaging — structure, finishes, and print — without setup fees adding to your cost."
+        "answer": "No. Die-cutting and plate setup are completely free at America Custom Boxes, so you can fully customize your cosmetic packaging without setup fees adding to your cost."
       },
       {
-        "question": "Which box style is right for my product?",
-        "answer": "Lightweight retail products suit tuck-end folding cartons; heavier products use auto-lock bottom cartons; shelf merchandising uses display/PDQ boxes; products you want to show use window boxes; and premium or gift positioning uses rigid setup boxes. We'll recommend the best fit for your product and channel."
+        "question": "What materials are best for luxury skincare packaging?",
+        "answer": "Rigid chipboard (roughly 1.5–3mm) is the industry standard for prestige skincare — its weight signals quality and supports foil, embossing, and soft-touch finishes. SBS paperboard suits vivid folding cartons, while kraft is ideal for clean-beauty and organic positioning."
       },
       {
-        "question": "What board should I use for retail product boxes?",
-        "answer": "SBS paperboard (14–24 pt) is the retail standard — bright and smooth for vivid printing. Kraft suits natural positioning, rigid greyboard (1.5–3 mm) is wrapped for luxury boxes, and corrugated adds strength for displays and shipping-tough retail boxes."
+        "question": "Can you help with MoCRA label requirements?",
+        "answer": "Yes. We design cartons with clean, legible space for INCI ingredient listings and responsible-person contact information in line with the Modernization of Cosmetics Regulation Act. Final label content and regulatory validation rest with your brand; we lay it out clearly."
       },
       {
-        "question": "Can you make retail-ready and shelf-ready packaging?",
-        "answer": "Yes. We design in UPC/barcode zones, required information panels, and shelf-ready, hang-tab, and display formats so your packaging meets retail requirements and merchandises cleanly."
+        "question": "Can you match my exact brand colors across shades and SKUs?",
+        "answer": "Yes. We use PMS/spot-color matching with locked color values so your brand stays consistent across every shade, SKU, and reorder."
       },
       {
-        "question": "What finishes make product boxes look premium?",
-        "answer": "Soft-touch lamination, foil stamping, spot UV, and embossing are the highest-impact upgrades — they add a tactile, expensive feel that supports a higher price point, and with free setup they add no setup cost."
+        "question": "Do you offer eco-friendly cosmetic packaging?",
+        "answer": "Yes. We provide recyclable, recycled-content, and kraft options with soy-based and water-based inks for conscious beauty brands."
       },
       {
-        "question": "Do you provide inserts to protect the product?",
-        "answer": "Yes. We engineer die-cut, corrugated, molded-pulp, and foam-alternative inserts sized to your exact product so it stays secure in transit and presentation stays tight."
+        "question": "Can you make packaging for a full skincare or makeup line?",
+        "answer": "Yes. We produce coordinated packaging across an entire line — cleanser, toner, serum, moisturizer, and color cosmetics — so your brand looks unified on shelf and online."
       },
       {
-        "question": "Can I get packaging for both retail shelves and e-commerce?",
-        "answer": "Yes. We design omni-channel packaging with shelf impact in-store and shipping durability online, or coordinated primary and mailer packaging so your brand looks consistent across both channels."
+        "question": "Do you provide inserts to protect glass jars and bottles?",
+        "answer": "Yes. We engineer die-cut, molded-pulp, and foam-alternative inserts sized to your exact products so glass and pumps stay secure in transit."
       },
       {
-        "question": "Do you offer eco-friendly product packaging?",
-        "answer": "Yes. Every structure can be produced in recyclable, recycled-content, and kraft materials with soy and water-based inks."
+        "question": "What finishes make cosmetic boxes look premium?",
+        "answer": "Soft-touch lamination, foil stamping, spot UV, embossing, and holographic effects are the highest-impact upgrades for prestige beauty packaging — often combined for a signature look."
+      },
+      {
+        "question": "Do you offer free design and 3D mockups?",
+        "answer": "Yes. Free design and dieline support plus a free flat and 3D digital mockup are included so you can perfect and approve your box before production."
+      },
+      {
+        "question": "How fast can I get my cosmetic boxes?",
+        "answer": "Standard turnaround is 10–12 business days after proof approval, with expedited options for launches and seasonal drops. U.S. shipping is free."
+      },
+      {
+        "question": "Do you serve beauty brands nationwide?",
+        "answer": "Yes. We manufacture for the U.S. market and ship free to beauty brands in all 50 states, from indie startups to established prestige lines."
+      }
+    ]
+  },
+  "food": {
+    "meta": {
+      "title": "Custom Food Boxes | Food-Grade Packaging Wholesale USA",
+      "description": "Custom food boxes & packaging — FDA food-grade, grease-resistant boxes for restaurants, fast food & food brands. Free die setup, free design & shipping.",
+      "focuskw": "custom food boxes"
+    },
+    "intro": [
+      "Food packaging has two jobs that can't be compromised: it has to be safe against the product, and it has to sell it. Customers judge freshness, quality, and value from the box before the first bite, while food-grade safety and grease resistance are non-negotiable. The right partner delivers both — appetite appeal and food-contact safety — in one custom box.",
+      "America Custom Boxes manufactures custom food boxes on FDA food-grade, grease-resistant materials with food-safe inks. From burger and fried-chicken boxes to takeout cartons, bakery boxes, and beverage carriers, we engineer packaging that holds up to moisture, oil, and heat while showcasing your brand in full color. Recyclable, compostable, and kraft options let you meet food-safety and sustainability expectations at once — and with free die and plate setup, customizing your packaging never carries hidden fees.",
+      "Built for real foodservice — high volumes, tight margins, delivery-ready durability — our food packaging comes with free design, free 3D mockups, and free U.S. shipping, so independent restaurants and national food brands alike can look as good as their food tastes."
+    ],
+    "why_title": "Why Choose Custom Food Boxes",
+    "why_items": [
+      {
+        "label": "Food-contact safety",
+        "text": "FDA food-grade materials and food-safe inks and coatings."
+      },
+      {
+        "label": "Grease & moisture resistance",
+        "text": "Keeps boxes intact and food fresh through delivery."
+      },
+      {
+        "label": "Appetite appeal",
+        "text": "Full-color print and windows that make food look irresistible."
+      },
+      {
+        "label": "Brand every order",
+        "text": "Turn takeout and delivery into brand impressions."
+      },
+      {
+        "label": "Sustainability",
+        "text": "Recyclable, compostable, and kraft options customers reward."
+      },
+      {
+        "label": "No setup fees",
+        "text": "Free die and plate setup means full customization without hidden costs."
+      }
+    ],
+    "styles": [
+      {
+        "title": "Burger & sandwich boxes",
+        "description": "Clamshell and tuck styles for handheld foods."
+      },
+      {
+        "title": "Fried chicken & snack boxes",
+        "description": "Grease-resistant cartons for fried and oily foods."
+      },
+      {
+        "title": "Takeout & meal boxes",
+        "description": "Sturdy, leak-aware cartons for delivery."
+      },
+      {
+        "title": "Food & fry cartons",
+        "description": "Open-top cartons and scoops for sides."
+      },
+      {
+        "title": "Bakery & dessert boxes",
+        "description": "Windowed and ventilated for baked goods."
+      },
+      {
+        "title": "Beverage carriers",
+        "description": "Multi-pack carriers for cups, bottles, and cans."
+      }
+    ],
+    "customization": [
+      {
+        "label": "Materials",
+        "content": "Safe for direct and indirect food contact. Greaseproof performance for oily and fried foods. Natural, recyclable, on-trend foodservice stock. Structure for delivery and multi-item orders."
+      },
+      {
+        "label": "Printing",
+        "content": "High-fidelity food photography and branding at volume. Economical for short runs and seasonal menus. Bold single-color branding on kraft and corrugated. Exact, appetizing brand colors."
+      },
+      {
+        "label": "Finishes",
+        "content": "Protective, premium finishes (food-safe placement). Barriers against oil and moisture. Fast-drying, recyclable protection. Selective highlights for branding."
+      },
+      {
+        "label": "Add-ons",
+        "content": "Show off baked and prepared foods. Keep hot and crisp foods fresh. Easy, branded transport. Interior protection against oil."
+      }
+    ],
+    "sustainability": "and we make it food-safe: Curbside-recyclable kraft, cardboard, and corrugated stocks. Fiber-based materials that break down or get reused. Post-consumer recycled board where your specification allows. Low-VOC, eco-safe inks and water-based adhesives. Natural, eco-forward materials with minimal treatment.",
+    "faq": [
+      {
+        "question": "What are custom food boxes?",
+        "answer": "Custom food boxes are branded, made-to-measure packaging built on FDA food-grade materials for food products — burger boxes, fried-chicken boxes, takeout cartons, bakery boxes, and beverage carriers. They keep food safe and fresh, resist grease and moisture, and merchandise your brand in full color."
+      },
+      {
+        "question": "Do you charge for die-cutting or plate setup?",
+        "answer": "No. Die-cutting and plate setup are free at America Custom Boxes, so you can fully customize your food packaging without setup fees adding to your cost."
+      },
+      {
+        "question": "Is your packaging FDA food-grade?",
+        "answer": "Yes. We use FDA food-grade materials suitable for direct and indirect food contact, with food-safe inks and coatings kept appropriate to food-contact zones."
+      },
+      {
+        "question": "Can you make grease-resistant boxes for fried and oily foods?",
+        "answer": "Absolutely. We engineer grease-resistant board and liners for burgers, fried chicken, fries, and pizza, so boxes stay intact and clean through delivery."
+      },
+      {
+        "question": "Do you offer compostable or recyclable food packaging?",
+        "answer": "Yes. We provide recyclable, compostable, and kraft options so you can meet customer and municipal sustainability expectations."
+      },
+      {
+        "question": "Can you add windows and ventilation?",
+        "answer": "Yes. Fiber or recyclable windows show off baked and prepared foods, and ventilation or steam holes keep hot and crisp items fresh — both popular for bakeries and takeout."
+      },
+      {
+        "question": "Can you print my logo and brand colors?",
+        "answer": "Yes. We print vivid, appetizing full-color food photography and match exact PMS brand colors, with locked color for consistent reorders."
+      },
+      {
+        "question": "Do you package beverages too?",
+        "answer": "Yes. We produce beverage carriers and cartons for cups, bottles, and cans, plus sleeves and wraps for cups and bars."
+      },
+      {
+        "question": "Do you offer free design and 3D mockups?",
+        "answer": "Yes. Free design and dieline support plus a free flat and 3D digital mockup are included so you can approve your packaging before printing."
+      },
+      {
+        "question": "What is the minimum order quantity?",
+        "answer": "We welcome both small and bulk orders, so independent restaurants and food brands can order affordably, with wholesale price tiers as volume grows."
+      },
+      {
+        "question": "How fast is production?",
+        "answer": "Standard turnaround is 10–12 business days after proof approval, with expedited options available. U.S. shipping is free."
+      },
+      {
+        "question": "Do you serve food businesses nationwide?",
+        "answer": "Yes. We manufacture for the U.S. market and ship free to restaurants, fast-food outlets, and food brands in all 50 states."
+      }
+    ]
+  },
+  "popcorn-boxes": {
+    "meta": {
+      "title": "Custom Popcorn Boxes | Wholesale Popcorn Packaging USA",
+      "description": "Custom popcorn boxes — theater buckets, gourmet & retail popcorn packaging, food-grade & grease-resistant. Free die setup, free design & U.S. shipping.",
+      "focuskw": "custom popcorn boxes"
+    },
+    "intro": [
+      "Popcorn is impulse, nostalgia, and gift all at once — and its packaging carries all three. A striped theater bucket signals movie-night fun; a matte-black gable box with foil says gourmet; a window carton lets caramel and cheese sell themselves. Whatever the position, the box has to look right and hold up to butter and oil without staining or going soft.",
+      "America Custom Boxes manufactures custom popcorn boxes for every corner of the category — cinemas and concessions, gourmet and flavored popcorn brands, event and party favors, and retail snack lines. We build theater buckets, gable boxes, window cartons, tubs, and retail boxes in food-grade, grease-resistant stock, printed in vivid full color, with free die and plate setup so customization never carries hidden fees.",
+      "Built for real snack businesses — concession volumes, gourmet margins, and seasonal spikes — our popcorn packaging comes with free design, free 3D mockups, and free U.S. shipping, so from a single popcorn shop to a national brand, you get packaging that looks premium and performs."
+    ],
+    "why_title": "Why Choose Custom Popcorn Boxes",
+    "why_items": [
+      {
+        "label": "Instant appetite appeal",
+        "text": "Full-color print and windows that make popcorn irresistible."
+      },
+      {
+        "label": "Grease resistance",
+        "text": "Boxes stay clean against butter, oil, and caramel."
+      },
+      {
+        "label": "Food-contact safety",
+        "text": "FDA food-grade board and food-safe inks."
+      },
+      {
+        "label": "Position for any tier",
+        "text": "Theater fun, gourmet luxury, or retail snack, one supplier."
+      },
+      {
+        "label": "Brand every serving",
+        "text": "Turn concessions and gifting into brand impressions."
+      },
+      {
+        "label": "No setup fees",
+        "text": "Free die and plate setup means full customization without hidden costs."
+      }
+    ],
+    "styles": [
+      {
+        "title": "Theater popcorn buckets",
+        "description": "Classic tapered buckets and tubs for concessions."
+      },
+      {
+        "title": "Gable boxes",
+        "description": "Handled boxes for gourmet and grab-and-go."
+      },
+      {
+        "title": "Window boxes",
+        "description": "Show caramel, cheese, and gourmet flavors through a window."
+      },
+      {
+        "title": "Tuck-end retail cartons",
+        "description": "Shelf-ready boxes for retail snack lines."
+      },
+      {
+        "title": "Scoop & open-top boxes",
+        "description": "Concession-style serving cartons."
+      },
+      {
+        "title": "Pillow & favor boxes",
+        "description": "Small boxes for party and wedding favors."
+      }
+    ],
+    "customization": [
+      {
+        "label": "Materials",
+        "content": "Safe for direct popcorn contact. Greaseproof against butter, oil, and caramel. Natural, recyclable, artisan-forward. Bright stock for vivid theater and gourmet branding."
+      },
+      {
+        "label": "Printing",
+        "content": "High-fidelity theater stripes and gourmet branding at volume. Economical for short runs and seasonal flavors. Bold single-color branding on kraft. Exact, appetizing brand colors."
+      },
+      {
+        "label": "Finishes",
+        "content": "Protective finishes (food-safe placement). Barriers against butter and oil. Fast-drying, recyclable protection. Selective highlights for logos."
+      },
+      {
+        "label": "Add-ons",
+        "content": "Show off gourmet and caramel popcorn. Easy, branded carry for gable boxes and buckets. Interior protection against oil. Party and wedding favor finishing."
+      }
+    ],
+    "sustainability": "and we make it food-safe: Curbside-recyclable kraft, cardboard, and corrugated stocks. Fiber-based materials that break down or get reused. Post-consumer recycled board where your specification allows. Low-VOC, eco-safe inks and water-based adhesives. Natural, eco-forward materials with minimal treatment.",
+    "faq": [
+      {
+        "question": "What are custom popcorn boxes?",
+        "answer": "Custom popcorn boxes are branded, food-grade packaging for popcorn — theater buckets, gable boxes, window cartons, tubs, and retail boxes. They're grease-resistant to stay clean against butter and oil, printed to your brand, and built for concessions, gourmet retail, or party favors."
+      },
+      {
+        "question": "Do you charge for die-cutting or plate setup?",
+        "answer": "No. Die-cutting and plate setup are free at America Custom Boxes, so you can fully customize your popcorn packaging without setup fees adding to your cost."
+      },
+      {
+        "question": "Are your popcorn boxes food-safe and grease-resistant?",
+        "answer": "Yes. We use FDA food-grade materials with grease-resistant board and food-safe inks, so boxes stay clean against butter, oil, and caramel and are safe in direct popcorn contact."
+      },
+      {
+        "question": "What popcorn box styles do you offer?",
+        "answer": "Theater buckets and tubs, gable boxes with handles, window cartons, tuck-end retail cartons, scoop/open-top concession boxes, and small favor boxes — all fully customizable."
+      },
+      {
+        "question": "Can I get a window to show gourmet popcorn?",
+        "answer": "Yes. Fiber or recyclable windows let customers see caramel, cheese, and gourmet flavors — a proven way to boost retail and gift sales."
+      },
+      {
+        "question": "Can you print theater stripes or gourmet branding?",
+        "answer": "Yes. We print vivid full-color designs — classic theater stripes, gourmet matte-and-foil looks, or playful party art — and match exact PMS brand colors."
+      },
+      {
+        "question": "Do you offer kraft and recyclable options?",
+        "answer": "Yes. Kraft gives a natural, artisan look, and we offer recyclable and compostable stocks for eco-conscious snack brands."
+      },
+      {
+        "question": "Do you make popcorn favor boxes for events?",
+        "answer": "Yes. We produce small popcorn favor and gift boxes for weddings, parties, and events, with ribbon and personalization options."
       },
       {
         "question": "Do you provide free design and 3D mockups?",
@@ -1075,145 +803,15 @@
       },
       {
         "question": "What is the minimum order quantity?",
-        "answer": "We welcome both small and bulk orders, so startups and enterprises can order affordably, with wholesale price tiers as volume grows."
+        "answer": "We welcome both small and bulk orders, so single popcorn shops and national brands can order affordably, with wholesale price tiers as volume grows."
       },
       {
-        "question": "How fast is production and do you ship free?",
-        "answer": "Standard turnaround is 10–12 business days after proof approval, with expedited options, and U.S. shipping is free to all 50 states."
-      }
-    ]
-  },
-  "tuck-boxes": {
-    "meta": {
-      "title": "Custom Tuck Boxes | Tuck End Boxes & Cartons USA",
-      "description": "Custom tuck boxes — straight & reverse tuck end, auto-lock bottom & tuck-top cartons, fully printed. Free die & plate setup, free design & free U.S. shipping.",
-      "focuskw": "custom tuck boxes"
-    },
-    "intro": [
-      "The tuck box is the workhorse of the packaging world — the folding carton behind everything from cosmetics and supplements to snacks, electronics accessories, and retail products. Its tuck-in flaps make it fast to assemble and easy to close without tape, it ships flat to save on freight and storage, and it offers a clean, printable canvas on every panel. Simple, economical, and infinitely brandable, it's the format most products should start with.",
-      "America Custom Boxes manufactures custom tuck boxes in every style and size, engineered to your exact product and printed to retail-grade standards. Whether you need a quick reverse tuck end for a lightweight item, a sturdier auto-lock bottom for something with weight, or a premium tuck-top with soft-touch and foil, we build the right structure — with precision die-cutting and locked color that keep your brand consistent from first order to reorder. And because die-cutting and plate setup are free, specifying the exact carton you need never carries setup fees.",
-      "From a startup's first 100 cartons to a recurring enterprise run, our tuck boxes give an affordable, professional launch and a reliable, repeatable carton you can scale — backed by free design, free 3D mockups, and free U.S. shipping."
-    ],
-    "why_title": "Why Choose Custom Tuck Boxes",
-    "why_items": [
-      {
-        "label": "Cost-effective",
-        "text": "Efficient material use and simple construction keep unit costs low."
+        "question": "How fast is production?",
+        "answer": "Standard turnaround is 10–12 business days after proof approval, with expedited options available. U.S. shipping is free."
       },
       {
-        "label": "Fast, tool-free assembly",
-        "text": "Tuck flaps close securely without tape or glue."
-      },
-      {
-        "label": "Ships & stores flat",
-        "text": "Lower freight and warehouse footprint."
-      },
-      {
-        "label": "Fully brandable",
-        "text": "Print every panel edge-to-edge, inside and out."
-      },
-      {
-        "label": "Versatile fit",
-        "text": "Works across cosmetics, food, supplements, retail, and e-commerce."
-      },
-      {
-        "label": "No setup fees",
-        "text": "Free die and plate setup means full customization without hidden costs."
-      }
-    ],
-    "styles": [
-      {
-        "title": "Reverse tuck end (RTE)",
-        "description": "Flaps open from opposite directions; the economical everyday standard."
-      },
-      {
-        "title": "Straight tuck end (STE)",
-        "description": "Flaps open from the same (back) side for a cleaner front face."
-      },
-      {
-        "title": "Auto-lock bottom (1-2-3 / snap-lock)",
-        "description": "A pre-glued locking base for fast assembly and heavier products."
-      },
-      {
-        "title": "Tuck-top auto-bottom",
-        "description": "Snap-together base with a tuck-top lid for weight and speed."
-      },
-      {
-        "title": "Tuck-end with hang tab",
-        "description": "Peg-ready retail display."
-      },
-      {
-        "title": "Tuck box with window",
-        "description": "Show the product through a fiber or recyclable window."
-      }
-    ],
-    "customization": [
-      {
-        "label": "Materials",
-        "content": "Smooth, bright board for vivid printing. Eco-forward, natural, recyclable cartons. The versatile folding-carton standard. Added strength for heavier or fragile products."
-      },
-      {
-        "label": "Printing",
-        "content": "Best color fidelity and value at volume. Fast and economical for short runs and multi-SKU. Bold, solid single-color effects on kraft. Exact, repeatable brand colors."
-      },
-      {
-        "label": "Finishes",
-        "content": "finishing decides which: Protective, premium surface finishes. A velvety, luxury tactile feel. Glossy highlights on a matte base."
-      },
-      {
-        "label": "Add-ons",
-        "content": "Reveal the product on shelf. Peg-ready retail display. Secure and organize contents. Easy opening and dispensing."
-      }
-    ],
-    "sustainability": "Curbside-recyclable kraft, cardboard, and corrugated stocks. Fiber-based materials that break down or get reused. Post-consumer recycled board where your specification allows. Low-VOC, eco-safe inks and water-based adhesives. Natural, eco-forward materials with minimal treatment. Custom dimensions that cut material use and shipping weight.",
-    "faq": [
-      {
-        "question": "What is a tuck box?",
-        "answer": "A tuck box is a folding carton with tuck-in flaps that close the top and bottom without tape or glue. It ships flat, assembles fast, and provides a fully printable surface — making it the most common and versatile packaging carton across cosmetics, food, supplements, and retail."
-      },
-      {
-        "question": "What's the difference between a reverse tuck end and a straight tuck end box?",
-        "answer": "On a reverse tuck end (RTE), the top and bottom flaps open from opposite directions, which is the most economical layout. On a straight tuck end (STE), both flaps tuck in from the same back edge, giving a cleaner, uninterrupted front panel for premium branding. Choose RTE for economy, STE for a flawless front face."
-      },
-      {
-        "question": "What is an auto-lock bottom tuck box?",
-        "answer": "An auto-lock (1-2-3 or snap-lock) bottom carton has a pre-glued base that snaps into a locked position during assembly, giving it far more load strength than a plain tuck bottom. It's ideal for heavier products like bottles, jars, and supplements."
-      },
-      {
-        "question": "Do you charge for die-cutting or plate setup?",
-        "answer": "No. Die-cutting and plate setup are free at America Custom Boxes, so you can fully customize your tuck cartons — style, window, finishes — without setup fees adding to your cost."
-      },
-      {
-        "question": "Can tuck boxes be made premium?",
-        "answer": "Absolutely. The same tuck structure can be elevated with soft-touch lamination, foil stamping, spot UV, and embossing for a luxury look at a folding-carton price."
-      },
-      {
-        "question": "Can I add a window to a tuck box?",
-        "answer": "Yes. We add fiber or recyclable windows so customers can see the product — popular for food, cosmetics, and gift items — as well as hang tabs for peg-ready retail display."
-      },
-      {
-        "question": "What products are tuck boxes good for?",
-        "answer": "Cosmetics, supplements, food and snacks, health products, electronics accessories, retail goods, and e-commerce products — essentially any lightweight-to-medium product that needs a professional, printable carton."
-      },
-      {
-        "question": "Can tuck boxes be made eco-friendly?",
-        "answer": "Yes — tuck boxes are among the easiest packaging to make fully sustainable. We offer recyclable, recycled-content, and kraft stocks with soy and water-based inks."
-      },
-      {
-        "question": "Do you print my logo and brand colors?",
-        "answer": "Yes. We print full-color CMYK or exact PMS spot colors on every panel, inside and out, with locked color matching for consistency across reorders."
-      },
-      {
-        "question": "Do you provide free design and 3D mockups?",
-        "answer": "Yes. Free dieline and design support plus a free flat and 3D digital mockup are included so you can approve your carton before printing."
-      },
-      {
-        "question": "What is the minimum order quantity?",
-        "answer": "We welcome both small and bulk orders, so startups can launch affordably and enterprises can scale, with wholesale price tiers as volume grows."
-      },
-      {
-        "question": "How fast is production and do you ship free?",
-        "answer": "Standard turnaround is 10–12 business days after proof approval, with expedited options, and U.S. shipping is free to all 50 states."
+        "question": "Do you serve popcorn brands nationwide?",
+        "answer": "Yes. We manufacture for the U.S. market and ship free to popcorn and snack brands in all 50 states."
       }
     ]
   },
@@ -1620,6 +1218,408 @@
       {
         "question": "What is the MOQ, and how fast is production?",
         "answer": "We welcome small and bulk orders with wholesale tiers as volume grows. Standard turnaround is 10–12 business days after proof approval, with expedited options, and U.S. shipping is free to all 50 states."
+      }
+    ]
+  },
+  "mailer-boxes": {
+    "meta": {
+      "title": "Custom Mailer Boxes | E-Commerce Shipping Boxes USA",
+      "description": "Custom mailer boxes — corrugated e-commerce shipping boxes with a premium unboxing, printed inside & out. Free die setup, free design & shipping.",
+      "focuskw": "custom mailer boxes"
+    },
+    "intro": [
+      "For an online brand, the mailer box is the only physical touchpoint you get — and it arrives after the sale, when the customer is primed to be delighted. A plain brown carton says “shipment”; a right-sized, branded mailer with an inside-printed message says “brand.” In a channel where you can't control the shelf, the doorstep unboxing is your storefront, your first impression, and your most shared marketing asset all at once.",
+      "America Custom Boxes manufactures custom mailer boxes engineered for both jobs: surviving the carrier and delighting the customer. We build self-locking corrugated mailers — the roll-end tuck-front style favored by subscription and DTC brands — in E-flute for a smooth print surface or B-flute and double-wall for heavier goods, with edge-crush strength matched to your product weight. Full-color printing inside and out, tear strips for easy opening, and right-sized dimensions that lower dimensional weight all come standard, and with free die and plate setup, none of it carries setup fees.",
+      "From a first Shopify order to a national subscription program, our mailers are built for real e-commerce — carrier abuse, return-worthy presentation, and dimensional-weight economics — and backed by free design, free 3D mockups, and free U.S. shipping. Ship safe, unbox premium, and put your brand in every customer's hands."
+    ],
+    "why_title": "Why Choose Custom Mailer Boxes",
+    "why_items": [
+      {
+        "label": "Carrier-tough construction",
+        "text": "Corrugated strength matched to product weight for damage-free delivery."
+      },
+      {
+        "label": "Premium unboxing",
+        "text": "Inside-and-out printing turns delivery into a branded moment."
+      },
+      {
+        "label": "Tool-free assembly",
+        "text": "Self-locking roll-end-tuck mailers fold up fast, no tape needed."
+      },
+      {
+        "label": "Right-sized economics",
+        "text": "Custom dimensions cut dimensional weight and shipping cost."
+      },
+      {
+        "label": "Return-worthy presentation",
+        "text": "Sturdy enough to reuse for returns and exchanges."
+      },
+      {
+        "label": "No setup fees",
+        "text": "Free die and plate setup means full customization without hidden costs."
+      }
+    ],
+    "styles": [
+      {
+        "title": "Roll-end tuck-front (RETT) mailers",
+        "description": "The self-locking e-commerce standard with a clean front lock."
+      },
+      {
+        "title": "Roll-end tuck-top mailers",
+        "description": "A tuck-top variant for a slightly different open."
+      },
+      {
+        "title": "Self-locking mailers",
+        "description": "Fast, tape-free assembly for high-volume fulfillment."
+      },
+      {
+        "title": "Book wrap / tab-lock mailers",
+        "description": "Snug protection for books, prints, and flat goods."
+      },
+      {
+        "title": "Double-wall mailers",
+        "description": "Extra strength for heavier or fragile products."
+      },
+      {
+        "title": "Die-cut mailers with inserts",
+        "description": "Fitted cradles for a premium, protected reveal."
+      }
+    ],
+    "customization": [
+      {
+        "label": "Materials",
+        "content": "Thin, rigid, and the smoothest surface for high-resolution print. Added crush resistance for heavier products. Maximum protection for heavy or fragile goods. Natural, recyclable, on-trend for eco brands."
+      },
+      {
+        "label": "Printing",
+        "content": "Offset-quality full-color print laminated to corrugated for premium mailers. No plate fees; ideal for short runs and multi-SKU brands. Cost-effective direct printing for bold, fewer-color designs at volume. Branded interiors for the unboxing reveal."
+      },
+      {
+        "label": "Finishes",
+        "content": "Premium protective finish on litho-laminated mailers. A velvety, luxury feel for prestige unboxing. Glossy highlights against matte. The most recyclable, eco-forward finish."
+      },
+      {
+        "label": "Add-ons",
+        "content": "Easy-open convenience customers love. Fitted cradles for protection and premium presentation. Elevate the reveal, plastic-free. Seal and brand in one step."
+      }
+    ],
+    "sustainability": "our mailers lean into it: Curbside-recyclable kraft, cardboard, and corrugated stocks. Fiber-based materials that break down or get reused. Post-consumer recycled board where your specification allows. Low-VOC, eco-safe inks and water-based adhesives. Natural, eco-forward materials with minimal treatment.",
+    "faq": [
+      {
+        "question": "What are custom mailer boxes?",
+        "answer": "Custom mailer boxes are branded corrugated shipping boxes built for e-commerce — typically a self-locking roll-end tuck-front style that folds up without tape. They protect the product in transit and, with inside-and-out printing, turn the doorstep delivery into a branded unboxing experience."
+      },
+      {
+        "question": "Do you charge for die-cutting or plate setup?",
+        "answer": "No. Die-cutting and plate setup are free at America Custom Boxes, so custom sizes, die-cut inserts, and inside printing don't carry setup fees."
+      },
+      {
+        "question": "What flute should I choose for my mailer?",
+        "answer": "E-flute (~1.5 mm) is the most popular — rigid, lightweight, and the best surface for high-resolution print, ideal for apparel, cosmetics, and light goods. B-flute (~3 mm) adds crush resistance for heavier items, and double-wall is for heavy or fragile products. We'll recommend the right flute for your product weight."
+      },
+      {
+        "question": "Can you print the inside of the mailer?",
+        "answer": "Yes — and you should. Inside printing rewards the customer at the moment they open the box and drives social sharing. A pattern, thank-you message, or discount code inside is one of the highest-impact, lowest-cost unboxing upgrades."
+      },
+      {
+        "question": "How do custom mailers save on shipping?",
+        "answer": "Carriers bill on dimensional weight — based on box volume, not just actual weight. A mailer right-sized to your product cuts dim weight, reduces void fill, and lowers damage rates, so the customization often pays for itself in shipping savings."
+      },
+      {
+        "question": "Are your mailer boxes recyclable?",
+        "answer": "Yes. Corrugated is one of the most recycled materials in the USA. We offer kraft, recycled-content, and recyclable mailers with water-based and soy inks."
+      },
+      {
+        "question": "Can you add inserts to protect the product?",
+        "answer": "Yes. We engineer die-cut corrugated and paperboard inserts, plus molded pulp trays and paper void fill, to immobilize the product and create a premium, protected reveal."
+      },
+      {
+        "question": "Do you make mailers for subscription boxes?",
+        "answer": "Yes. Self-locking E-flute mailers with inside printing and die-cut inserts are the subscription-box standard — premium, protective, and shareable."
+      },
+      {
+        "question": "Can mailers be designed for easy returns?",
+        "answer": "Yes. We can add double tear strips or resealable closures so customers can reuse the same box for returns and exchanges, which improves the post-purchase experience."
+      },
+      {
+        "question": "Do you provide free design and 3D mockups?",
+        "answer": "Yes. Free design and dieline support plus a free flat and 3D digital mockup are included so you can approve your mailer before printing."
+      },
+      {
+        "question": "What is the minimum order quantity?",
+        "answer": "We welcome both small and bulk orders, so Shopify startups and national brands can order affordably, with wholesale price tiers as volume grows."
+      },
+      {
+        "question": "How fast is production and do you ship free?",
+        "answer": "Standard turnaround is 10–12 business days after proof approval, with expedited options available, and U.S. shipping is free to all 50 states."
+      }
+    ]
+  },
+  "product-boxes": {
+    "meta": {
+      "title": "Custom Product Boxes | Retail Packaging & Cartons USA",
+      "description": "Custom product boxes — retail-ready folding cartons, display, window & rigid boxes for any product. Free die & plate setup, free design & free U.S. shipping.",
+      "focuskw": "custom product boxes"
+    },
+    "intro": [
+      "On a retail shelf, your product box has a heartbeat's worth of time to win the pick-up; in an e-commerce order, it's the entire brand experience arriving at the door. Product packaging — the folding carton, the display box, the rigid setup box — does three jobs at once: it protects the product, it merchandises it against competitors, and it markets your brand every time it's seen or held. Get it right and an ordinary product looks premium; get it wrong and even a great product looks generic.",
+      "America Custom Boxes manufactures custom product boxes for brands that refuse to blend in. From tuck-end and auto-lock folding cartons to window boxes, retail display units, and rigid setup boxes, we build packaging sized precisely to your product and printed to retail-grade standards — with the finishes (foil, soft-touch, spot UV, embossing) that let you command a stronger price point. Because die-cutting and plate setup are free, you can specify exactly the structure and print your product needs without setup fees eating your margin.",
+      "From a startup's first retail launch to an enterprise product line, our packaging is built for real business — shelf standout, shipping durability, and reorder consistency — and backed by free design, free 3D mockups, and free U.S. shipping. Retail-ready packaging that makes your product the obvious choice."
+    ],
+    "why_title": "Why Choose Custom Product Boxes",
+    "why_items": [
+      {
+        "label": "Shelf standout",
+        "text": "Distinct structure, color, and print win the pick-up against competitors."
+      },
+      {
+        "label": "Higher perceived value",
+        "text": "Premium materials and finishes justify a stronger price."
+      },
+      {
+        "label": "Protection that prevents returns",
+        "text": "Right-sized structure and inserts keep products intact."
+      },
+      {
+        "label": "Retail compliance built in",
+        "text": "Space for UPC/barcodes, panels, and shelf-ready formats."
+      },
+      {
+        "label": "A marketing asset",
+        "text": "Every box carries your logo, story, and QR code to the customer."
+      },
+      {
+        "label": "No setup fees",
+        "text": "Free die and plate setup means full customization without hidden costs."
+      }
+    ],
+    "styles": [
+      {
+        "title": "Tuck-end folding cartons",
+        "description": "The retail workhorse: economical, printable, versatile."
+      },
+      {
+        "title": "Auto-lock (1-2-3) bottom cartons",
+        "description": "Pre-glued locking base for heavier products."
+      },
+      {
+        "title": "Display / PDQ boxes",
+        "description": "Open-front trays that merchandise on the shelf or counter."
+      },
+      {
+        "title": "Window boxes",
+        "description": "Fiber or recyclable windows to show the product."
+      },
+      {
+        "title": "Gable boxes",
+        "description": "Handled boxes for gifting and grab-and-go."
+      },
+      {
+        "title": "Sleeve & tray boxes",
+        "description": "A slide-out reveal for kits and multipacks."
+      }
+    ],
+    "customization": [
+      {
+        "label": "Materials",
+        "content": "Smooth, bright stock for vivid retail printing. Earthy, eco-forward, and recyclable. Shipping-grade strength for displays and tough retail boxes. A luxury, substantial hand for premium boxes."
+      },
+      {
+        "label": "Printing",
+        "content": "Best color fidelity and value at volume. Fast and economical for short runs and multiple SKUs. Bold, solid single-color effects and specialty applications. Exact, repeatable brand colors."
+      },
+      {
+        "label": "Finishes",
+        "content": "and shape how the product feels in hand: Protective, premium surface finishes. A velvety, luxury tactile feel. Glossy highlights on a matte base."
+      },
+      {
+        "label": "Add-ons",
+        "content": "Hold and present products securely. Show the product on shelf. Peg-ready retail display. Premium, gift-worthy touches."
+      }
+    ],
+    "sustainability": "Curbside-recyclable kraft, cardboard, and corrugated stocks. Fiber-based materials that break down or get reused. Post-consumer recycled board where your specification allows. Low-VOC, eco-safe inks and water-based adhesives. Natural, eco-forward materials with minimal treatment. Custom dimensions that cut material use and shipping weight.",
+    "faq": [
+      {
+        "question": "What are custom product boxes?",
+        "answer": "Custom product boxes are branded, made-to-measure retail packaging — folding cartons, display boxes, window boxes, and rigid setup boxes — built to your exact product and printed to your brand. They protect the product, merchandise it on shelf, and deliver a branded experience in e-commerce."
+      },
+      {
+        "question": "Do you charge for die-cutting or plate setup?",
+        "answer": "No. Die-cutting and plate setup are free at America Custom Boxes, so you can fully customize your product packaging — structure, finishes, and print — without setup fees adding to your cost."
+      },
+      {
+        "question": "Which box style is right for my product?",
+        "answer": "Lightweight retail products suit tuck-end folding cartons; heavier products use auto-lock bottom cartons; shelf merchandising uses display/PDQ boxes; products you want to show use window boxes; and premium or gift positioning uses rigid setup boxes. We'll recommend the best fit for your product and channel."
+      },
+      {
+        "question": "What board should I use for retail product boxes?",
+        "answer": "SBS paperboard (14–24 pt) is the retail standard — bright and smooth for vivid printing. Kraft suits natural positioning, rigid greyboard (1.5–3 mm) is wrapped for luxury boxes, and corrugated adds strength for displays and shipping-tough retail boxes."
+      },
+      {
+        "question": "Can you make retail-ready and shelf-ready packaging?",
+        "answer": "Yes. We design in UPC/barcode zones, required information panels, and shelf-ready, hang-tab, and display formats so your packaging meets retail requirements and merchandises cleanly."
+      },
+      {
+        "question": "What finishes make product boxes look premium?",
+        "answer": "Soft-touch lamination, foil stamping, spot UV, and embossing are the highest-impact upgrades — they add a tactile, expensive feel that supports a higher price point, and with free setup they add no setup cost."
+      },
+      {
+        "question": "Do you provide inserts to protect the product?",
+        "answer": "Yes. We engineer die-cut, corrugated, molded-pulp, and foam-alternative inserts sized to your exact product so it stays secure in transit and presentation stays tight."
+      },
+      {
+        "question": "Can I get packaging for both retail shelves and e-commerce?",
+        "answer": "Yes. We design omni-channel packaging with shelf impact in-store and shipping durability online, or coordinated primary and mailer packaging so your brand looks consistent across both channels."
+      },
+      {
+        "question": "Do you offer eco-friendly product packaging?",
+        "answer": "Yes. Every structure can be produced in recyclable, recycled-content, and kraft materials with soy and water-based inks."
+      },
+      {
+        "question": "Do you provide free design and 3D mockups?",
+        "answer": "Yes. Free design and dieline support plus a free flat and 3D digital mockup are included so you can approve your box before printing."
+      },
+      {
+        "question": "What is the minimum order quantity?",
+        "answer": "We welcome both small and bulk orders, so startups and enterprises can order affordably, with wholesale price tiers as volume grows."
+      },
+      {
+        "question": "How fast is production and do you ship free?",
+        "answer": "Standard turnaround is 10–12 business days after proof approval, with expedited options, and U.S. shipping is free to all 50 states."
+      }
+    ]
+  },
+  "tuck-boxes": {
+    "meta": {
+      "title": "Custom Tuck Boxes | Tuck End Boxes & Cartons USA",
+      "description": "Custom tuck boxes — straight & reverse tuck end, auto-lock bottom & tuck-top cartons, fully printed. Free die & plate setup, free design & free U.S. shipping.",
+      "focuskw": "custom tuck boxes"
+    },
+    "intro": [
+      "The tuck box is the workhorse of the packaging world — the folding carton behind everything from cosmetics and supplements to snacks, electronics accessories, and retail products. Its tuck-in flaps make it fast to assemble and easy to close without tape, it ships flat to save on freight and storage, and it offers a clean, printable canvas on every panel. Simple, economical, and infinitely brandable, it's the format most products should start with.",
+      "America Custom Boxes manufactures custom tuck boxes in every style and size, engineered to your exact product and printed to retail-grade standards. Whether you need a quick reverse tuck end for a lightweight item, a sturdier auto-lock bottom for something with weight, or a premium tuck-top with soft-touch and foil, we build the right structure — with precision die-cutting and locked color that keep your brand consistent from first order to reorder. And because die-cutting and plate setup are free, specifying the exact carton you need never carries setup fees.",
+      "From a startup's first 100 cartons to a recurring enterprise run, our tuck boxes give an affordable, professional launch and a reliable, repeatable carton you can scale — backed by free design, free 3D mockups, and free U.S. shipping."
+    ],
+    "why_title": "Why Choose Custom Tuck Boxes",
+    "why_items": [
+      {
+        "label": "Cost-effective",
+        "text": "Efficient material use and simple construction keep unit costs low."
+      },
+      {
+        "label": "Fast, tool-free assembly",
+        "text": "Tuck flaps close securely without tape or glue."
+      },
+      {
+        "label": "Ships & stores flat",
+        "text": "Lower freight and warehouse footprint."
+      },
+      {
+        "label": "Fully brandable",
+        "text": "Print every panel edge-to-edge, inside and out."
+      },
+      {
+        "label": "Versatile fit",
+        "text": "Works across cosmetics, food, supplements, retail, and e-commerce."
+      },
+      {
+        "label": "No setup fees",
+        "text": "Free die and plate setup means full customization without hidden costs."
+      }
+    ],
+    "styles": [
+      {
+        "title": "Reverse tuck end (RTE)",
+        "description": "Flaps open from opposite directions; the economical everyday standard."
+      },
+      {
+        "title": "Straight tuck end (STE)",
+        "description": "Flaps open from the same (back) side for a cleaner front face."
+      },
+      {
+        "title": "Auto-lock bottom (1-2-3 / snap-lock)",
+        "description": "A pre-glued locking base for fast assembly and heavier products."
+      },
+      {
+        "title": "Tuck-top auto-bottom",
+        "description": "Snap-together base with a tuck-top lid for weight and speed."
+      },
+      {
+        "title": "Tuck-end with hang tab",
+        "description": "Peg-ready retail display."
+      },
+      {
+        "title": "Tuck box with window",
+        "description": "Show the product through a fiber or recyclable window."
+      }
+    ],
+    "customization": [
+      {
+        "label": "Materials",
+        "content": "Smooth, bright board for vivid printing. Eco-forward, natural, recyclable cartons. The versatile folding-carton standard. Added strength for heavier or fragile products."
+      },
+      {
+        "label": "Printing",
+        "content": "Best color fidelity and value at volume. Fast and economical for short runs and multi-SKU. Bold, solid single-color effects on kraft. Exact, repeatable brand colors."
+      },
+      {
+        "label": "Finishes",
+        "content": "finishing decides which: Protective, premium surface finishes. A velvety, luxury tactile feel. Glossy highlights on a matte base."
+      },
+      {
+        "label": "Add-ons",
+        "content": "Reveal the product on shelf. Peg-ready retail display. Secure and organize contents. Easy opening and dispensing."
+      }
+    ],
+    "sustainability": "Curbside-recyclable kraft, cardboard, and corrugated stocks. Fiber-based materials that break down or get reused. Post-consumer recycled board where your specification allows. Low-VOC, eco-safe inks and water-based adhesives. Natural, eco-forward materials with minimal treatment. Custom dimensions that cut material use and shipping weight.",
+    "faq": [
+      {
+        "question": "What is a tuck box?",
+        "answer": "A tuck box is a folding carton with tuck-in flaps that close the top and bottom without tape or glue. It ships flat, assembles fast, and provides a fully printable surface — making it the most common and versatile packaging carton across cosmetics, food, supplements, and retail."
+      },
+      {
+        "question": "What's the difference between a reverse tuck end and a straight tuck end box?",
+        "answer": "On a reverse tuck end (RTE), the top and bottom flaps open from opposite directions, which is the most economical layout. On a straight tuck end (STE), both flaps tuck in from the same back edge, giving a cleaner, uninterrupted front panel for premium branding. Choose RTE for economy, STE for a flawless front face."
+      },
+      {
+        "question": "What is an auto-lock bottom tuck box?",
+        "answer": "An auto-lock (1-2-3 or snap-lock) bottom carton has a pre-glued base that snaps into a locked position during assembly, giving it far more load strength than a plain tuck bottom. It's ideal for heavier products like bottles, jars, and supplements."
+      },
+      {
+        "question": "Do you charge for die-cutting or plate setup?",
+        "answer": "No. Die-cutting and plate setup are free at America Custom Boxes, so you can fully customize your tuck cartons — style, window, finishes — without setup fees adding to your cost."
+      },
+      {
+        "question": "Can tuck boxes be made premium?",
+        "answer": "Absolutely. The same tuck structure can be elevated with soft-touch lamination, foil stamping, spot UV, and embossing for a luxury look at a folding-carton price."
+      },
+      {
+        "question": "Can I add a window to a tuck box?",
+        "answer": "Yes. We add fiber or recyclable windows so customers can see the product — popular for food, cosmetics, and gift items — as well as hang tabs for peg-ready retail display."
+      },
+      {
+        "question": "What products are tuck boxes good for?",
+        "answer": "Cosmetics, supplements, food and snacks, health products, electronics accessories, retail goods, and e-commerce products — essentially any lightweight-to-medium product that needs a professional, printable carton."
+      },
+      {
+        "question": "Can tuck boxes be made eco-friendly?",
+        "answer": "Yes — tuck boxes are among the easiest packaging to make fully sustainable. We offer recyclable, recycled-content, and kraft stocks with soy and water-based inks."
+      },
+      {
+        "question": "Do you print my logo and brand colors?",
+        "answer": "Yes. We print full-color CMYK or exact PMS spot colors on every panel, inside and out, with locked color matching for consistency across reorders."
+      },
+      {
+        "question": "Do you provide free design and 3D mockups?",
+        "answer": "Yes. Free dieline and design support plus a free flat and 3D digital mockup are included so you can approve your carton before printing."
+      },
+      {
+        "question": "What is the minimum order quantity?",
+        "answer": "We welcome both small and bulk orders, so startups can launch affordably and enterprises can scale, with wholesale price tiers as volume grows."
+      },
+      {
+        "question": "How fast is production and do you ship free?",
+        "answer": "Standard turnaround is 10–12 business days after proof approval, with expedited options, and U.S. shipping is free to all 50 states."
       }
     ]
   }

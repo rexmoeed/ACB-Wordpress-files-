@@ -29,6 +29,20 @@
       "desc_len": 7496
     },
     {
+      "slug": "cosmetics",
+      "id": 55,
+      "status": "updated",
+      "sections": {
+        "intro": 3,
+        "why": 6,
+        "styles": 6,
+        "customization": 4,
+        "sustainability": 1,
+        "faq": 12
+      },
+      "desc_len": 7119
+    },
+    {
       "slug": "event-boxes",
       "id": 40,
       "status": "updated",
@@ -41,6 +55,20 @@
         "faq": 13
       },
       "desc_len": 7281
+    },
+    {
+      "slug": "food",
+      "id": 56,
+      "status": "updated",
+      "sections": {
+        "intro": 3,
+        "why": 6,
+        "styles": 6,
+        "customization": 4,
+        "sustainability": 1,
+        "faq": 12
+      },
+      "desc_len": 6482
     },
     {
       "slug": "mailer-boxes",
@@ -71,6 +99,34 @@
       "desc_len": 7288
     },
     {
+      "slug": "pharmaceutical-boxes",
+      "id": 59,
+      "status": "updated",
+      "sections": {
+        "intro": 3,
+        "why": 6,
+        "styles": 6,
+        "customization": 4,
+        "sustainability": 1,
+        "faq": 13
+      },
+      "desc_len": 8311
+    },
+    {
+      "slug": "pod-boxes",
+      "id": 58,
+      "status": "updated",
+      "sections": {
+        "intro": 3,
+        "why": 6,
+        "styles": 6,
+        "customization": 4,
+        "sustainability": 1,
+        "faq": 12
+      },
+      "desc_len": 7119
+    },
+    {
       "slug": "popcorn-boxes",
       "id": 38,
       "status": "updated",
@@ -83,6 +139,20 @@
         "faq": 12
       },
       "desc_len": 6376
+    },
+    {
+      "slug": "product-boxes",
+      "id": 57,
+      "status": "updated",
+      "sections": {
+        "intro": 3,
+        "why": 6,
+        "styles": 6,
+        "customization": 4,
+        "sustainability": 1,
+        "faq": 12
+      },
+      "desc_len": 7325
     },
     {
       "slug": "tuck-boxes",
@@ -99,66 +169,5 @@
       "desc_len": 7080
     }
   ],
-  "unmatched": [
-    {
-      "slug": "cosmetics",
-      "status": "unmatched",
-      "sections": {
-        "intro": 3,
-        "why": 6,
-        "styles": 6,
-        "customization": 4,
-        "sustainability": 1,
-        "faq": 12
-      }
-    },
-    {
-      "slug": "food",
-      "status": "unmatched",
-      "sections": {
-        "intro": 3,
-        "why": 6,
-        "styles": 6,
-        "customization": 4,
-        "sustainability": 1,
-        "faq": 12
-      }
-    },
-    {
-      "slug": "pharmaceutical-boxes",
-      "status": "unmatched",
-      "sections": {
-        "intro": 3,
-        "why": 6,
-        "styles": 6,
-        "customization": 4,
-        "sustainability": 1,
-        "faq": 13
-      }
-    },
-    {
-      "slug": "pod-boxes",
-      "status": "unmatched",
-      "sections": {
-        "intro": 3,
-        "why": 6,
-        "styles": 6,
-        "customization": 4,
-        "sustainability": 1,
-        "faq": 12
-      }
-    },
-    {
-      "slug": "product-boxes",
-      "status": "unmatched",
-      "sections": {
-        "intro": 3,
-        "why": 6,
-        "styles": 6,
-        "customization": 4,
-        "sustainability": 1,
-        "faq": 12
-      }
-    }
-  ]
+  "unmatched": []
 }

@@ -1,0 +1,208 @@
+<style>
+.acb-products-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+.acb-products-heading {
+    color: #FF2E2E;
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 1.1;
+    margin: 0 0 20px;
+    letter-spacing: 0.5px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.acb-products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+.acb-product-card {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    border: 2px solid #ffffff;
+}
+.acb-product-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+.acb-product-card:hover img {
+    transform: scale(1.08);
+}
+.acb-product-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px 10px 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.acb-product-title {
+    margin: 0;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    font-family: 'Titillium Web', sans-serif;
+}
+.acb-quote-btn {
+    display: inline-block;
+    background-color: #FF2E2E;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    padding: 7px 18px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-family: 'Titillium Web', sans-serif;
+}
+.acb-quote-btn:hover {
+    background-color: #FF5757;
+    transform: translateY(-3px);
+    color: #ffffff;
+}
+
+@media (max-width: 991px) {
+    .acb-products-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    .acb-products-heading {
+        font-size: 32px;
+    }
+    .acb-products-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+    .acb-product-overlay {
+        padding: 8px;
+        gap: 4px;
+    }
+    .acb-product-title {
+        font-size: 12px;
+    }
+    .acb-quote-btn {
+        font-size: 11px;
+        padding: 6px 14px;
+    }
+}
+</style>
+
+<div class="acb-products-wrapper" id="acb-best-selling-products">
+    <h2 class="acb-products-heading">Our Best Selling Products</h2>
+    <div class="acb-products-grid">
+
+        <div class="acb-product-card">
+            <img src="https://americacustomboxes.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-15-2026-04_59_18-PM.webp" alt="Christmas Boxes" loading="lazy">
+            <div class="acb-product-overlay">
+                <h3 class="acb-product-title">Christmas Boxes</h3>
+                <a href="https://americacustomboxes.com/get-quote/" class="acb-quote-btn">Get Quote</a>
+            </div>
+        </div>
+
+        <div class="acb-product-card">
+            <img src="https://americacustomboxes.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-15-2026-04_51_10-PM.webp" alt="Mailer Boxes" loading="lazy">
+            <div class="acb-product-overlay">
+                <h3 class="acb-product-title">Mailer Boxes</h3>
+                <a href="https://americacustomboxes.com/get-quote/" class="acb-quote-btn">Get Quote</a>
+            </div>
+        </div>
+
+        <div class="acb-product-card">
+            <img src="https://americacustomboxes.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-15-2026-02_51_12-AM.webp" alt="Pet Boxes" loading="lazy">
+            <div class="acb-product-overlay">
+                <h3 class="acb-product-title">Pet Boxes</h3>
+                <a href="https://americacustomboxes.com/get-quote/" class="acb-quote-btn">Get Quote</a>
+            </div>
+        </div>
+
+        <div class="acb-product-card">
+            <img src="https://americacustomboxes.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-15-2026-01_44_16-AM.webp" alt="Pizza Boxes" loading="lazy">
+            <div class="acb-product-overlay">
+                <h3 class="acb-product-title">Pizza Boxes</h3>
+                <a href="https://americacustomboxes.com/get-quote/" class="acb-quote-btn">Get Quote</a>
+            </div>
+        </div>
+
+        <div class="acb-product-card">
+            <img src="https://americacustomboxes.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-15-2026-01_11_30-AM.webp" alt="PopCorn Boxes" loading="lazy">
+            <div class="acb-product-overlay">
+                <h3 class="acb-product-title">PopCorn Boxes</h3>
+                <a href="https://americacustomboxes.com/get-quote/" class="acb-quote-btn">Get Quote</a>
+            </div>
+        </div>
+
+        <div class="acb-product-card">
+            <img src="https://americacustomboxes.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-13-2026-08_13_26-PM.webp" alt="Rigid Boxes" loading="lazy">
+            <div class="acb-product-overlay">
+                <h3 class="acb-product-title">Rigid Boxes</h3>
+                <a href="https://americacustomboxes.com/get-quote/" class="acb-quote-btn">Get Quote</a>
+            </div>
+        </div>
+
+        <div class="acb-product-card">
+            <img src="https://americacustomboxes.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-13-2026-05_58_13-PM.webp" alt="Stand Up Pouches" loading="lazy">
+            <div class="acb-product-overlay">
+                <h3 class="acb-product-title">Stand Up Pouches</h3>
+                <a href="https://americacustomboxes.com/get-quote/" class="acb-quote-btn">Get Quote</a>
+            </div>
+        </div>
+
+        <div class="acb-product-card">
+            <img src="https://americacustomboxes.com/wp-content/uploads/2026/07/c8c373f1-80cc-4092-ae21-3c3ec3275558.webp" alt="Wine Packaging" loading="lazy">
+            <div class="acb-product-overlay">
+                <h3 class="acb-product-title">Wine Packaging</h3>
+                <a href="https://americacustomboxes.com/get-quote/" class="acb-quote-btn">Get Quote</a>
+            </div>
+        </div>
+
+        <div class="acb-product-card">
+            <img src="https://americacustomboxes.com/wp-content/uploads/2026/07/ChatGPT-Image-Jul-15-2026-08_56_09-PM.webp" alt="Custom Kraft Boxes" loading="lazy">
+            <div class="acb-product-overlay">
+                <h3 class="acb-product-title">Custom Kraft Boxes</h3>
+                <a href="https://americacustomboxes.com/get-quote/" class="acb-quote-btn">Get Quote</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+if (!window.acbBestSellingQuoteInit) {
+    window.acbBestSellingQuoteInit = true;
+    document.addEventListener('click', function (e) {
+        var btn = e.target.closest('#acb-best-selling-products .acb-quote-btn');
+        if (btn) {
+            var target = document.getElementById('quote-form');
+            if (target) {
+                e.preventDefault();
+                target.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    });
+}
+</script>

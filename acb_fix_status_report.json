@@ -1,11 +1,5 @@
 {
-  "created_categories": [
-    "cosmetics",
-    "food",
-    "product-boxes",
-    "pod-boxes",
-    "pharmaceutical-boxes"
-  ],
+  "created_categories": [],
   "deployed_doc_categories": [
     "bakery-boxes",
     "candle-boxes",
@@ -18,7 +12,9 @@
     "pod-boxes",
     "popcorn-boxes",
     "product-boxes",
-    "tuck-boxes"
+    "tuck-boxes",
+    "bakery<= bakery-boxes",
+    "candles<= candle-boxes"
   ],
   "skipped": [],
   "doc_total": 12

@@ -24,6 +24,12 @@ CREATE_IF_MISSING = {
     "pharmaceutical-boxes": "Pharmaceutical Boxes",
 }
 
+# By Industry menu slugs — same Batch2 copy as Hot Products siblings
+BY_INDUSTRY_ALIAS = {
+    "bakery": "bakery-boxes",
+    "candles": "candle-boxes",
+}
+
 
 def auth_header() -> dict[str, str]:
     token = base64.b64encode(f"{USER}:{APP_PASSWORD}".encode()).decode()
@@ -130,13 +136,44 @@ def main() -> int:
         deployed.append(slug)
         print(f"Deployed content+SEO: {slug}")
 
+    for target, source in BY_INDUSTRY_ALIAS.items():
+        if source not in structured or target not in live:
+            print(f"Skip alias {target} <- {source}")
+            continue
+        data = structured[source]
+        wrapped = (
+            "<!--acb-archive-v2-->"
+            + json.dumps(data, ensure_ascii=False, separators=(",", ":"))
+            + "<!--/acb-archive-v2-->"
+        )
+        cat_id = live[target]["id"]
+        api(
+            "POST",
+            f"/wp-json/wp/v2/product_cat/{cat_id}",
+            {
+                "description": wrapped,
+                "meta": {
+                    "wpseo_title": data["meta"]["title"],
+                    "wpseo_metadesc": data["meta"]["description"],
+                    "wpseo_focuskw": data["meta"]["focuskw"],
+                },
+            },
+        )
+        deployed.append(f"{target}<= {source}")
+        print(f"Deployed alias content+SEO: {target} <= {source}")
+
+    seo_structured = dict(structured)
+    for target, source in BY_INDUSTRY_ALIAS.items():
+        if source in structured:
+            seo_structured[target] = structured[source]
+
     seo16 = api("GET", "/wp-json/code-snippets/v1/snippets/16")
     api(
         "PUT",
         "/wp-json/code-snippets/v1/snippets/16",
         {
             "name": seo16.get("name", "ACB Archive Yoast SEO Meta"),
-            "code": build_seo_snippet(structured),
+            "code": build_seo_snippet(seo_structured),
             "scope": "global",
             "active": True,
             "priority": 20,

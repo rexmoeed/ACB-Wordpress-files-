@@ -20,13 +20,39 @@ function acb_snippet_archive_category_description(): string {
 	if ( ! $term instanceof WP_Term || empty( $term->description ) ) {
 		return '';
 	}
-	return acb_snippet_render_archive_content( $term->description );
+	$intro_heading = acb_snippet_archive_term_intro_heading( $term );
+	return acb_snippet_render_archive_content( $term->description, $intro_heading );
+}
+
+/**
+ * @param WP_Term $term Product category term.
+ */
+function acb_snippet_archive_term_intro_heading( WP_Term $term ): string {
+	$name = html_entity_decode( wp_strip_all_tags( $term->name ), ENT_QUOTES, 'UTF-8' );
+	if ( false !== stripos( $name, 'custom' ) ) {
+		return $name;
+	}
+	return 'Custom ' . $name;
 }
 
 /**
  * @param array<string,mixed> $data Structured archive content.
  */
-function acb_snippet_render_archive_structured( array $data ): string {
+function acb_snippet_intro_heading_from_data( array $data, string $fallback ): string {
+	if ( ! empty( $data['intro_title'] ) && is_string( $data['intro_title'] ) ) {
+		return trim( $data['intro_title'] );
+	}
+	$why = isset( $data['why_title'] ) ? trim( (string) $data['why_title'] ) : '';
+	if ( $why && preg_match( '/^Why Choose\s+(.+)$/iu', $why, $m ) ) {
+		return trim( $m[1] );
+	}
+	return $fallback;
+}
+
+/**
+ * @param array<string,mixed> $data Structured archive content.
+ */
+function acb_snippet_render_archive_structured( array $data, string $intro_heading = '' ): string {
 	$intro          = isset( $data['intro'] ) && is_array( $data['intro'] ) ? $data['intro'] : array();
 	$why_title      = isset( $data['why_title'] ) ? (string) $data['why_title'] : '';
 	$why_items      = isset( $data['why_items'] ) && is_array( $data['why_items'] ) ? $data['why_items'] : array();
@@ -40,6 +66,10 @@ function acb_snippet_render_archive_structured( array $data ): string {
 
 	if ( $intro ) {
 		echo '<section class="acb-pc-section acb-pc-intro">';
+		$h2 = acb_snippet_intro_heading_from_data( $data, $intro_heading );
+		if ( $h2 ) {
+			echo '<h2 class="acb-pc-heading acb-pc-heading--red">' . esc_html( $h2 ) . '</h2>';
+		}
 		foreach ( $intro as $paragraph ) {
 			if ( ! is_string( $paragraph ) || '' === trim( $paragraph ) ) {
 				continue;
@@ -133,10 +163,10 @@ function acb_snippet_parse_archive_json( string $raw ): ?array {
 	return null;
 }
 
-function acb_snippet_render_archive_content( string $raw ): string {
+function acb_snippet_render_archive_content( string $raw, string $intro_heading = '' ): string {
 	$structured = acb_snippet_parse_archive_json( $raw );
 	if ( is_array( $structured ) ) {
-		return acb_snippet_render_archive_structured( $structured );
+		return acb_snippet_render_archive_structured( $structured, $intro_heading );
 	}
 
 	$raw  = str_replace( array( '</p>', '<br />', '<br>', '<br/>', '</li>', '</div>' ), "\n", $raw );
@@ -183,6 +213,7 @@ function acb_snippet_render_archive_content( string $raw ): string {
 			'customization' => array(),
 			'sustainability' => '',
 			'faq'       => array(),
-		)
+		),
+		$intro_heading
 	);
 }
